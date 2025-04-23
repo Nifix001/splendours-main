@@ -251,8 +251,7 @@ const Header: React.FC = () => {
 
 
             {/* Navigation Links - For Desktop and Mobile */}
-            {
-                isMobile ? 
+            { isMobile ? 
                 <Box className={`flex w-full justify-between ${isMenuOpen ? 'block' : 'hidden'} lg:flex`}>
                     <Box className="flex items-center justify-between w-full">
                         <Box className=" text-center">

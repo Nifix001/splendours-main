@@ -125,7 +125,7 @@ export default function SplendoursOldHeader() {
         {/* Right Side Links */}
         <div className="flex space-x-[2vw] text-xs-custom leading-tight-custom items-center p-[10px] z-10">
           <Link
-            href="https://staging.splendourinstone.com.au/about/"
+            href="/about"
             className={`relative text-xs-custom leading-tight-custom text-customColor after:content-[''] after:absolute after:left-0 after:top-full after:w-full after:h-[2px] after:bg-customColor after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 ${isActive("https://staging.splendourinstone.com.au/about/") ? "after:scale-x-100 font-bold" : ""
               }`}
           >
@@ -140,7 +140,7 @@ export default function SplendoursOldHeader() {
             GALLERY
           </Link>
           <Link
-            href="https://staging.splendourinstone.com.au/contact/"
+            href="/contact"
             className={`relative text-xs-custom leading-tight-custom text-customColor after:content-[''] after:absolute after:left-0 after:top-full after:w-full after:h-[2px] after:bg-customColor after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 ${isActive("https://staging.splendourinstone.com.au/contact/") ? "after:scale-x-100 font-bold" : ""
               }`}
           >

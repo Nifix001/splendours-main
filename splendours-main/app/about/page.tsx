@@ -763,7 +763,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '60px', // Font size for large screens
+                                            lg: '45px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
@@ -819,7 +819,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '60px', // Font size for large screens
+                                            lg: '49px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
