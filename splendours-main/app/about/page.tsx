@@ -93,7 +93,7 @@ const AboutPage = () => {
         <>
             <EnquiryForm open={isEnquiryFormOpen} handleClose={handleCloseEnquiryForm} />
             
-            <Box className="flex items-center w-full top-0" sx={{ backgroundColor: isMobile ? '#283C28' : '', position: isMobile ? 'fixed' : '', zIndex: 50, height: isMobile ? '15vh' : '40vh', paddingX: isMobile ? 2 : 0 }}>
+            <Box className="flex items-center w-full top-0 " sx={{ backgroundColor: isMobile ? '#283C28' : '', position: isMobile ? 'fixed' : '', zIndex: 50, height: isMobile ? '15vh' : '28vh', paddingX: isMobile ? 2 : 0 }}>
                     <Header />
             </Box>
             <Box sx={{ marginTop: isMobile ? '15vh' : 0 }}>
@@ -198,7 +198,7 @@ const AboutPage = () => {
                     ) 
                     :
                      (
-                        <Box className="flex w-full px-10 gap-x-4 py-4">
+                        <Box className="flex w-full px-10 gap-x-4 py-4 relative scale-y-90 -mt-12">
                             <Box className="flex flex-col w-1/2 gap-y-4 justify-between">
                                 <Box className="flex w-full">
                                     <Box className="w-1/2"></Box>
@@ -212,23 +212,23 @@ const AboutPage = () => {
                                         />
                                     </Box>
                                 </Box>
-                                <Box className="w-4/5">
+                                <Box className=" w-[41%] top-[23rem] absolute">
                                     <Typography
                                         variant="h4"
                                         color="#DBC6BC"
                                         sx={{
                                             fontFamily: "Raleway",
-                                            lineHeight: "1.2",
+                                            lineHeight: "1.05",
                                             fontSize: {
                                                 xs: "18px",
                                                 sm: "24px",
                                                 md: "36px",
-                                                lg: "48px",
+                                                lg: "62px",
                                             },
-                                            fontWeight: 300,
+                                            // fontWeight: 100,
                                         }}
                                     >
-                                        Unearth the Enduring Beauty of Stone with Splendour in Stone,{" "}
+                                       <span style={{ fontWeight: 100}} >Unearth the Enduring Beauty of Stone with Splendour in Stone,{" "}</span> 
                                         <span style={{ fontWeight: 600 }}>Australia’s No. 1 High-end Stone Supplier</span>
                                     </Typography>
                                 </Box>
@@ -297,6 +297,7 @@ const AboutPage = () => {
                                     </motion.div>
                                 ))}
                                 <Typography
+                                className='pt-4'
                                     variant="h6"
                                     color="white"
                                     sx={{
@@ -389,7 +390,7 @@ const AboutPage = () => {
                         <Box className="flex w-1/2">
 
                             <Box className="flex flex-col w-full justify-center gap-y-3">
-                                <Typography variant="h2" className="mb-4 font-light" color='#283C28' sx={{
+                                <Typography variant="h2" className="mb-4" color='#283C28' sx={{
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.8',
                                     fontStyle: 'italic',
@@ -399,18 +400,19 @@ const AboutPage = () => {
                                         md: '80px', // Font size for medium screens
                                         lg: '90px', // Font size for large screens
                                     },
-                                    fontWeight: 300,
+                                    fontWeight: 20,
                                 }}>
                                     A LEGACY BUILT ON QUALITY AND EXPERTISE
                                 </Typography>
-                                <Box className="w-4/5">
-                                    <Typography variant="h5" color='#000000' sx={{
+                                <Box className="w-3/5">
+                                    <Typography variant="h5" color='#283C28' sx={{
                                         fontFamily: 'var(--font-montserrat)',
+                                        lineHeight: '1.4',
                                         fontSize: {
-                                            xs: '12px', // Font size for extra small screens
-                                            sm: '14px', // Font size for small screens
-                                            md: '16px', // Font size for medium screens
-                                            lg: '20px', // Font size for large screens
+                                            xs: '10px', // Font size for extra small screens
+                                            sm: '12px', // Font size for small screens
+                                            md: '14px', // Font size for medium screens
+                                            lg: '14px', // Font size for large screens
                                         },
                                         fontWeight: 400,
                                     }}>
@@ -807,7 +809,7 @@ const AboutPage = () => {
 
                         <Box className="flex w-full justify-between gap-10">
 
-                            <Box className="flex w-1/2 flex-col justify-center gap-y-7">
+                            <Box className="flex w-[44%] flex-col justify-center gap-y-7">
                                 <Typography
                                     variant="h4"
                                     className='font-light'
@@ -819,7 +821,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '49px', // Font size for large screens
+                                            lg: '54px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
@@ -828,15 +830,16 @@ const AboutPage = () => {
                                     HIS TRAVELS TOOK HIM TO SOUTH AMERICA, TO THE HIDDEN CITY OF THE INCAS IN MACHU PICCHU.
                                 </Typography>
                                 <Typography
+                                    className='w-[54%]'
                                     variant="h4"
                                     color='#000000'
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: {
                                             xs: '10px', // Font size for extra small screens
-                                            sm: '15px', // Font size for small screens
-                                            md: '18px', // Font size for medium screens
-                                            lg: '20px', // Font size for large screens
+                                            sm: '12px', // Font size for small screens
+                                            md: '14px', // Font size for medium screens
+                                            lg: '16px', // Font size for large screens
                                         },
                                         fontWeight: 400,
                                         textAlign: 'start',
@@ -974,8 +977,8 @@ const AboutPage = () => {
                                 </Typography>
                             </Box>
 
-                        </Box> : <Box className="flex w-full justify-between items-start px-20">
-
+                        </Box> : 
+                        <Box className="flex w-full justify-between items-start px-20 -my-20">
                             <Box className="flex w-3/5 flex-col justify-center">
                                 <Typography
                                     variant="h4"
@@ -1007,9 +1010,9 @@ const AboutPage = () => {
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: {
                                             xs: '10px', // Font size for extra small screens
-                                            sm: '15px', // Font size for small screens
-                                            md: '18px', // Font size for medium screens
-                                            lg: '18px', // Font size for large screens
+                                            sm: '12px', // Font size for small screens
+                                            md: '14px', // Font size for medium screens
+                                            lg: '16px', // Font size for large screens
                                         },
                                         lineHeight: '1.2',
                                         fontWeight: 400,
@@ -1065,9 +1068,9 @@ const AboutPage = () => {
 
                         </Box>}
 
-                    {isMobile ? <Box><FullCustomBrownDivider /></Box> : <Box className="px-20"><FullCustomBrownDivider /></Box>}
+                    {isMobile ? <Box><FullCustomBrownDivider /></Box> : <Box className="px-20 py-0 -mt-20 opacity-40"><FullCustomBrownDivider /></Box>}
 
-                    {isMobile ? <Box className="px-3"><AgriculturalMobileCarousel /></Box> : <Box className="flex w-full px-20 gap-x-6 ">
+                    {isMobile ? <Box className="px-3"><AgriculturalMobileCarousel /></Box> : <Box className="flex w-full px-20 -mt-20 gap-x-6 ">
                         <Box className="flex w-1/4">
                             <Image
                                 src="/images/About/Agricultural/image1.jpg"
@@ -1162,7 +1165,7 @@ const AboutPage = () => {
                         }}
                     >
                         <Box className="flex w-[65%] justify-center flex-col gap-y-5">
-                            <Typography variant="h2" color="#283C28" className="mb-4 font-normal" sx={{
+                            <Typography variant="h3" color="#283C28" className="mb-2" sx={{
                                 fontFamily: 'Chronicle Display',
                                 fontStyle: 'italic',
                                 lineHeight: isTablet ? '1' : '0.8',
@@ -1172,25 +1175,25 @@ const AboutPage = () => {
                                     md: '60px', // Font size for medium screens
                                     lg: '100px', // Font size for large screens
                                 },
-                                fontWeight: 300,
+                                fontWeight: 20,
                             }}>
                                 NOTABLE ACHIEVEMENTS
                             </Typography>
-                            <Box className="w-5/6">
+                            <Box className="w-[83%]">
                                 <Typography variant="h5" className="mb-8" sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     color: '#000000',
                                     fontSize: {
-                                        xs: '12px', // Font size for extra small screens
-                                        sm: '14px', // Font size for small screens
-                                        md: '16px', // Font size for medium screens
-                                        lg: '18px', // Font size for large screens
+                                        xs: '10px', // Font size for extra small screens
+                                        sm: '12px', // Font size for small screens
+                                        md: '14px', // Font size for medium screens
+                                        lg: '16px', // Font size for large screens
                                     },
                                     lineHeight: '1.2',
                                     fontWeight: 400,
                                 }}>
-                                    before his founding of Splendour in Stone include his apprenticeship in landscape construction and his work on fireplaces and feature walls using stone.
-                                    However, his passion remained in supplying stone after much-needed research, travel, and testing, leading to the birth of Slendour in Stone Pty Ltd.
+                                    before his founding of Splendour in Stone include his apprenticeship in landscape construction and his work on fireplaces and feature walls using stone.<br />
+                                    However, his passion remained in supplying stone after much-needed research, travel, and testing, leading to the birth of Slendour in Stone Pty Ltd.<br />
                                     Our journey was also fueled by a desire to bridge the gap between premium stone and accessible design solutions. Over the years, we&apos;ve fostered a team of passionate professionals with a wealth of knowledge about natural stone and its applications.
                                 </Typography>
                             </Box>
@@ -1344,7 +1347,7 @@ const AboutPage = () => {
                             </Typography>
                         </Box>
                     </Box>
-                        : <Box className="px-20">
+                        : <Box className="px-20 -mt-20">
                             <Box className="flex w-full">
                                 <Typography
                                     variant="h4"
@@ -1352,14 +1355,14 @@ const AboutPage = () => {
                                     sx={{
                                         fontFamily: 'Chronicle Display',
                                         fontStyle: 'italic',
-                                        lineHeight: '1',
+                                        lineHeight: '0.9',
                                         fontSize: {
                                             xs: '13px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '70px', // Font size for large screens
+                                            lg: '64px', // Font size for large screens
                                         },
-                                        fontWeight: 300,
+                                        fontWeight: 100,
                                         textAlign: 'start',
                                     }}
                                 >
@@ -1534,7 +1537,7 @@ const AboutPage = () => {
                                 </Typography>
                             </Box>
                         </Box>
-                    </Box> : <Box className="flex w-full justify-between px-20">
+                    </Box> : <Box className="flex w-full justify-between px-20 -mt-24">
                         <Box className="w-1/5">
                             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: 'white' }}>
                                 <li>
@@ -1735,7 +1738,7 @@ const AboutPage = () => {
                         </Box>
                     </Box>}
 
-                    {isMobile ? <StonesMobileCarousel /> : <Box className="flex w-full px-20 gap-x-20 ">
+                    {isMobile ? <StonesMobileCarousel /> : <Box className="flex w-full px-20 gap-x-20 -mt-24 ">
                         <Box className="flex w-1/4">
                             <Image
                                 src="/images/About/Stones/stone1.png"
@@ -1927,14 +1930,14 @@ const AboutPage = () => {
                                                 sx={{
                                                     fontFamily: 'Chronicle Display',
                                                     fontStyle: 'italic',
-                                                    lineHeight: '0.8',
+                                                    lineHeight: '0.9',
                                                     fontSize: {
                                                         xs: '20px', // Font size for extra small screens
                                                         sm: '25px', // Font size for small screens
                                                         md: '45px', // Font size for medium screens
-                                                        lg: '70px', // Font size for large screens
+                                                        lg: '65px', // Font size for large screens
                                                     },
-                                                    fontWeight: 100,
+                                                    fontWeight: 20,
                                                     textAlign: 'start',
                                                 }}
                                             >
@@ -1952,7 +1955,7 @@ const AboutPage = () => {
                                                         md: '45px', // Font size for medium screens
                                                         lg: '70px', // Font size for large screens
                                                     },
-                                                    fontWeight: 100,
+                                                    fontWeight: 20,
                                                     color: 'white', // Set text color
                                                     textAlign: 'start'
                                                 }}
@@ -1965,14 +1968,14 @@ const AboutPage = () => {
                                                 component="span"
                                                 sx={{
                                                     fontFamily: 'var(--font-montserrat)',
-                                                    lineHeight: '1',
+                                                    lineHeight: '0.8',
                                                     fontSize: {
                                                         xs: '7px', // Font size for extra small screens
                                                         sm: '10px', // Font size for small screens
                                                         md: '15px', // Font size for medium screens
                                                         lg: '18px', // Font size for large screens
                                                     },
-                                                    fontWeight: 300,
+                                                    fontWeight: 100,
                                                     color: 'white', // Set text color
                                                     textAlign: 'start'
                                                 }}
