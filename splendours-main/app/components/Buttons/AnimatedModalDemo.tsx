@@ -24,7 +24,7 @@ export function AnimatedModalDemo({ isMobile, label, icon }: AnimatedModalDemoPr
           {/* SVG Icon */}
 
           {/* Label */}
-          <span style={{ "fontSize": "22px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-16 text-center transition duration-500">
+          <span style={{ "fontSize": "14px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-16 text-center transition duration-500">
             {label}
 
           </span>
@@ -33,7 +33,7 @@ export function AnimatedModalDemo({ isMobile, label, icon }: AnimatedModalDemoPr
           <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-color-500 z-20">
             {icon && <Image src={icon} width={24} height={24} alt="icon" className="text-color object-contain transition duration-500" />}
           </div>
-        </ModalTrigger> : <ModalTrigger className="bg-customColor text-color flex items-center py-4 justify-center gap-2 group/modal-btn right-4">
+        </ModalTrigger> : <ModalTrigger className="bg-customColor text-color flex items-center py-2 justify-center gap-2 group/modal-btn right-4">
           {/* SVG Icon */}
 
           {/* Label */}

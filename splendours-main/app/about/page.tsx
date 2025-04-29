@@ -2063,7 +2063,8 @@ const AboutPage = () => {
 
                         </Box>
 
-                    </Box> : <Box className="flex w-full justify-between items-start px-20">
+                    </Box> : 
+                    <Box className="flex w-full justify-between items-start px-20 -mt-24">
 
                         <Box className="flex w-1/2 flex-col justify-center">
                             <Typography
@@ -2074,7 +2075,7 @@ const AboutPage = () => {
                                     lineHeight: '0.9',
                                     fontStyle: 'italic',
                                     fontSize: {
-                                        xs: '10 px', // Font size for extra small screens
+                                        xs: '10px', // Font size for extra small screens
                                         sm: '20px', // Font size for small screens
                                         md: '25px', // Font size for medium screens
                                         lg: '60px', // Font size for large screens
@@ -2098,9 +2099,9 @@ const AboutPage = () => {
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '10px', // Font size for extra small screens
-                                        sm: '15px', // Font size for small screens
-                                        md: '18px', // Font size for medium screens
-                                        lg: '18px', // Font size for large screens
+                                        sm: '12px', // Font size for small screens
+                                        md: '14px', // Font size for medium screens
+                                        lg: '17px', // Font size for large screens
                                     },
                                     fontWeight: 300,
                                     lineHeight: 1.4,
@@ -2114,7 +2115,7 @@ const AboutPage = () => {
 
                     </Box>}
 
-                    {isMobile ? <></> : <Box className="px-16"><FullCustomBrownDivider /></Box>}
+                    {isMobile ? <></> : <Box className="px-16 -my-24"><FullCustomBrownDivider /></Box>}
 
                     {isMobile ? <LivingMobileCarousel /> : isTablet ? <Box className="w-full flex justify-between gap-x-8 px-16">
                         <Box className="w-1/3">
@@ -2126,7 +2127,7 @@ const AboutPage = () => {
                         <Box className="w-1/3">
                             <StoneProductCard product_image_src='images/About/Living/image3.jpg' product_name='SUSTAINABLE CHOICE' product_subname='' />
                         </Box>
-                    </Box> : <Box className="w-full flex justify-between gap-x-8 px-16">
+                    </Box> : <Box className="w-full flex justify-between gap-x-8 px-16 -mt-20">
                         <Box className="w-1/3">
                             <StoneProductCard product_image_src='images/About/Living/image1.jpg' product_name='DURABILITY AND LONGEVITY' product_subname='Are you tired of chipped floors or walls that show every mark? Stone offers unmatched resilience, built to endure daily wear and tear, saving you time and money on replacements.' />
                         </Box>
@@ -2272,7 +2273,7 @@ const AboutPage = () => {
                         </Box>
                     </Box>
                         : <Box
-                            className="flex w-full px-20 gap-x-12"
+                            className="flex w-full px-20 pb-0  gap-x-12"
                             sx={{
                                 position: 'relative',
                                 width: '100%',
@@ -2315,9 +2316,9 @@ const AboutPage = () => {
                             />
 
                             {/* Content */}
-                            <Box className="flex flex-col w-1/2 h-full" sx={{ zIndex: 2 }}>
+                            <Box className="flex flex-col w-1/2 h-full mt-20" sx={{ zIndex: 2 }}>
                                 <Box className="flex w-full h-1/2"></Box>
-                                <Box className="flex w-full flex-col h-1/2 justify-center gap-3">
+                                <Box className="flex w-full flex-col h-1/2 justify-end gap-3">
                                     <Typography
                                         variant="h4"
                                         color="white"
@@ -2329,7 +2330,7 @@ const AboutPage = () => {
                                                 xs: '10px',
                                                 sm: '15px',
                                                 md: '25px',
-                                                lg: '60px',
+                                                lg: '58px',
                                             },
                                             fontWeight: 100,
                                             textAlign: 'start',
@@ -2339,7 +2340,7 @@ const AboutPage = () => {
                                     </Typography>
                                     <Box className="mt-5" sx={{ paddingBottom: '50px', display: "flex", alignItem: "start" }}>
                                         <AboutWhiteBtn
-                                            label={'ENQUIRE NOW!'}
+                                            label={'Enquire Now!'}
                                             icon={'/images/Vector.svg'}
                                             onClick={handleOpenEnquiryForm}
                                         />
@@ -2347,7 +2348,7 @@ const AboutPage = () => {
                                 </Box>
                             </Box>
 
-                            <Box className="flex flex-col w-1/2 h-full items-start" sx={{ zIndex: 2, paddingBottom: '50px' }}>
+                            <Box className="flex flex-col w-1/2 h-full items-start mt-20" sx={{ zIndex: 2, paddingBottom: '50px' }}>
                                 <Box className="flex w-full h-1/2"></Box>
                                 <Box className="flex w-full flex-col h-1/2 justify-center items-center">
                                     <Typography
@@ -2359,8 +2360,8 @@ const AboutPage = () => {
                                             fontSize: {
                                                 xs: '10px',
                                                 sm: '12px',
-                                                md: '20px',
-                                                lg: '28px',
+                                                md: '14px',
+                                                lg: '17px',
                                             },
                                             fontWeight: 300,
                                             textAlign: 'start',
@@ -2563,32 +2564,32 @@ const AboutPage = () => {
                                     xs: '30px', // Font size for extra small screens
                                     sm: '40px', // Font size for small screens
                                     md: '60px', // Font size for medium screens
-                                    lg: '100px', // Font size for large screens
+                                    lg: '90px', // Font size for large screens
                                 },
                                 fontWeight: 300,
                             }}>
-                                READY TO CRAFT YOUR STONE MASTERPIECE?
+                                READY TO CRAFT YOUR <span style={{fontWeight:600}}>STONE MASTERPIECE?</span> 
                             </Typography>
                             <Box className="flex w-full justify-start  gap-6">
-                                <AboutWhiteBtn label={'ENQUIRE NOW!'} icon={'/images/Vector.svg'} onClick={handleOpenEnquiryForm} />
-                                <Link href="/contact"><AboutWhiteBtn label={'CONTACT US'} icon={'/images/Vector.svg'} /></Link>
+                                <AboutWhiteBtn label={'Enquire Now!'} icon={'/images/Vector.svg'} onClick={handleOpenEnquiryForm} />
+                                <Link href="/contact"><AboutWhiteBtn label={'Contact Us'} icon={'/images/Vector.svg'} /></Link>
                             </Box>
                         </Box>
 
-                        <Box className="flex lg:w-1/4 mt-10">
-                            <Typography variant="h1" className="mb-8" sx={{
+                        <Box className="flex lg:w-1/4 -mt-2 justify-start ">
+                            <Typography variant="h1" className="mb-8 " sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 color: 'white',
+                                lineHeight: '1.4',
                                 fontSize: {
-                                    xs: '12px', // Font size for extra small screens
-                                    sm: '14px', // Font size for small screens
-                                    md: '20px', // Font size for medium screens
-                                    lg: '28px', // Font size for large screens
+                                    xs: '10px', // Font size for extra small screens
+                                    sm: '12px', // Font size for small screens
+                                    md: '14px', // Font size for medium screens
+                                    lg: '16px', // Font size for large screens
                                 },
-                                fontWeight: 300,
+                                fontWeight: 200,
                             }}>
                                 Our commitment to providing outstanding services, expert advice, and a range of natural stone for your needs is our top priority. Feel free to engage with our experts today and let us mould your ideas into reality.
-
                             </Typography>
                         </Box>
                     </Box>}

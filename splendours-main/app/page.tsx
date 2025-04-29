@@ -230,7 +230,7 @@ const HomePage = () => {
                     <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%", fontFamily: "Chronicle Display", fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>THE ART</Typography>
                     <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%", fontFamily: "Chronicle Display", fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>SHOWROOM</Typography>
                 </Box> :
-                <Box className="flex flex-col px-20">
+                <Box className="flex flex-col px-2">
                     <AnimatePresence>
                         {texts.map((item, index) => (
                             <motion.div
@@ -295,9 +295,8 @@ const HomePage = () => {
                                 color="#000000"
                                 sx={{
                                     fontWeight: 400,
-                                    textAlign: 'center',
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '24px',
+                                    fontSize: '1px',
                                 }}
                             >
                                 We believe that in a new age world filled with gadgets, noise and pace that a moment to stop, reflect and connect with something pure
@@ -313,7 +312,8 @@ const HomePage = () => {
                         <WallingRangeEmblaCarousel slides={SLIDES} options={OPTIONS} />
                     </Box>
                 </Box>
-            ) : isTablet ? (
+            ) : 
+            isTablet ? (
                 <Box
                     id="walling-tablet"
                     className="relative flex flex-col w-full px-14 py-14 gap-y-16 rounded-[30px]"
@@ -327,7 +327,7 @@ const HomePage = () => {
                     <Box className="flex flex-col items-center w-full">
                         <Typography
                             className="font-semibold text-center"
-                            variant="h3"
+                            variant="h1"
                             color="#283C28"
                             sx={{
                                 lineHeight: '1',
@@ -337,7 +337,7 @@ const HomePage = () => {
                                 fontSize: {
                                     xs: "30px",
                                     sm: "40px",
-                                    md: "50px",
+                                    md: "100px",
                                 },
                             }}
                         >
@@ -351,7 +351,7 @@ const HomePage = () => {
                                 textAlign: 'center',
                                 lineHeight: 1.4,
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '24px',
+                                fontSize: '18px',
                                 mt: 2,
                             }}
                         >
@@ -359,7 +359,7 @@ const HomePage = () => {
                         </Typography>
                         <Box className="flex justify-center mt-6">
                             <Link href={'https://www.splendourinstone.com.au/walling/'} passHref>
-                                <GreenCustomButton label={'View All'} iconSrc={'/images/icons/Vector.svg'} />
+                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -403,39 +403,37 @@ const HomePage = () => {
                     <Box className="flex items-start justify-between w-full">
                         <Box className="flex items-center w-2/3">
                             <Typography
-                                className="font-semibold"
                                 variant="h3"
                                 color="#283C28"
                                 sx={{
                                     lineHeight: '0.8',
                                     textAlign: 'start',
-                                    fontWeight: 700,
+                                    fontWeight: 500,
                                     fontFamily: 'Chronicle Display',
                                     fontSize: {
                                         xs: "25px",
                                         sm: "45px",
                                         md: "55px",
-                                        lg: "100px",
+                                        lg: "80px",
                                     },
                                 }}
                             >
                                 WALLING RANGE
                             </Typography>
                         </Box>
-                        <Box className="flex flex-col w-[20vw] gap-y-6 mt-4">
+                        <Box className="flex flex-col w-[20%] gap-y-6 mt-4">
                             <Box>
                                 <Typography
-                                    variant="h3"
                                     color="#000000"
                                     sx={{
-                                        fontWeight: 400,
+                                        fontWeight: 200,
                                         lineHeight: '1.2',
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: {
                                             xs: "8px",
                                             sm: "10px",
                                             md: "12px",
-                                            lg: "18px",
+                                            lg: "14px",
                                         },
                                     }}
                                 >
@@ -445,7 +443,7 @@ const HomePage = () => {
                             <Box className="flex justify-center ml-5 mr-8 mb-5">
                                 <Link href={'https://www.splendourinstone.com.au/walling/'} passHref>
 
-                                    <GreenAnimationButton label={'View All'} icon={'/images/icons/Vector.svg'} className="" />
+                                    <GreenAnimationButton label={'View all'} icon={'/images/icons/Vector.svg'} className="" />
                                 </Link>
                             </Box>
                         </Box>
@@ -535,26 +533,26 @@ const HomePage = () => {
                             ) : (
                                 <>
                                     <Typography
-                                        variant="h3"
+                                        variant="h2"
                                         color="#DBC6BC"
+                                        className="flex gap-2 w-3/4"
                                         sx={{
                                             textAlign: 'start',
-                                            lineHeight: '1', // Adjust line height to match the image exactly
+                                            lineHeight: '0.8', // Adjust line height to match the image exactly
                                             fontWeight: 500,
                                             fontFamily: 'Chronicle Display',
                                             fontSize: {
                                                 xs: "25px",
                                                 sm: "45px",
                                                 md: "55px",
-                                                lg: "100px",
+                                                lg: "62px",
                                             },
-                                            marginBottom: '20px', // Space between lines as shown in the image
                                         }}
                                     >
-                                        3D INTERACTIVE
+                                        <span>3D</span> <span> INTERACTIVE</span>
                                     </Typography>
                                     <Typography
-                                        variant="h3"
+                                        variant="h2"
                                         color="#DBC6BC"
                                         sx={{
                                             textAlign: 'start',
@@ -565,7 +563,7 @@ const HomePage = () => {
                                                 xs: "25px",
                                                 sm: "45px",
                                                 md: "55px",
-                                                lg: "100px",
+                                                lg: "65px",
                                             },
 
                                         }}
@@ -619,28 +617,27 @@ const HomePage = () => {
                             </Box>
                         </Box>
                     ) : (
-                        <Box className="flex flex-col justify-start w-1/4 gap-y-5 mt-5">
+                        <Box className="flex flex-col justify-center w-[28%] gap-y-5 mt-5">
                             <Typography
                                 variant="h3"
                                 color="#ffffff"
-                                style={{ textAlign: 'justify' }}
                                 sx={{
-                                    fontWeight: 400,
+                                    fontWeight: 200,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '8px',
                                         sm: '10px',
                                         md: '12px',
-                                        lg: '18px',
+                                        lg: '16px',
                                     },
                                 }}
                             >
                                 We believe that in a new age world filled with gadgets, noise, and pace that a moment to stop, reflect and
                                 connect with something pure
                             </Typography>
-                            <Box className="flex w-full justify-center  ml-10 mb-24">
+                            <Box className="flex w-full justify-center  ml-14 mb-24">
                                 <Link href={'/allvisualizers'}>
-                                    <AnimatedModalDemo label={'View All'} icon={'/images/Vector.svg'} ></AnimatedModalDemo>
+                                    <AnimatedModalDemo label={'View all'} icon={'/images/Vector.svg'} ></AnimatedModalDemo>
                                 </Link>
                             </Box>
                         </Box>
@@ -807,50 +804,49 @@ const HomePage = () => {
                     }}
                 >
                     <Box className="flex flex-col md:flex-row justify-between w-full">
-                        <Box className="flex flex-col justify-center w-full md:w-1/4 gap-3">
+                        <Box className="flex flex-col justify-center w-full md:w-[30%] gap-3">
                             <Box className="flex w-full flex-col gap-y-6 mt-4">
                                 <Typography
                                     variant="h3"
                                     color="#000000"
                                     sx={{
                                         fontWeight: 400,
-                                        textAlign: 'justify',
                                         fontFamily: 'var(--font-montserrat)',
                                         lineHeight: '1.2',
                                         fontSize: {
                                             xs: '12px',
                                             sm: '14px',
-                                            md: '16px',
-                                            lg: '20px',
+                                            md: '14px',
+                                            lg: '18px',
                                         },
                                     }}
                                 >
                                     We believe that in a new age world filled with gadgets, noise, and pace that a moment to stop, reflect, and connect with something pure.
                                 </Typography>
                             </Box>
-                            <Box className="mt-5">
+                            <Box className=" ml-20 flex items-start justify-start">
                                 <Link href={'https://www.splendourinstone.com.au/paving/'} passHref>
 
-                                    <GreenAnimationButton label={'View All'} className="px-2" icon={'/images/icons/Vector.svg'} />
+                                    <GreenAnimationButton label={'View all'} className="px-2" icon={'/images/icons/Vector.svg'} />
 
                                 </Link>
                             </Box>
                         </Box>
 
-                        <Box className="flex items-start justify-end w-full md:w-2/3">
+                        <Box className="flex items-start justify-end w-full md:w-[45%]">
                             <Typography
                                 className="font-semibold"
                                 variant="h3"
                                 color="#283C28"
                                 sx={{
                                     textAlign: 'start',
-                                    fontWeight: 700,
+                                    fontWeight: 200,
                                     fontFamily: 'Chronicle Display',
                                     fontSize: {
                                         xs: '30px',
                                         sm: '45px',
-                                        md: '60px',
-                                        lg: '100px',
+                                        md: '50px',
+                                        lg: '80px',
                                     },
                                 }}
                             >
@@ -1003,10 +999,10 @@ const HomePage = () => {
                                         fontFamily: 'var(--font-montserrat)',
                                         lineHeight: 1.4,
                                         fontSize: {
-                                            xs: '21px',
-                                            sm: '21px', // Small screens
-                                            md: '21px', // Medium screens (tablets)
-                                            lg: '21px', // Larger screens
+                                            xs: '16px',
+                                            sm: '16px', // Small screens
+                                            md: '11px', // Medium screens (tablets)
+                                            lg: '12px', // Larger screens
                                         },
                                     }}
                                 >
