@@ -44,16 +44,20 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 const PARTDATA = [
     { image: '/images/Home/Interactive_part/card1.jpg',
-        product_name: 'SHOREHAM'
+        product_name: 'SHOREHAM',
+        descr: 'Shoreham Quartz ensures that elegance and functionality coexist, enhancing any space with its vibrant patterns and resilient nature.'
      },
     { image: '/images/Home/Interactive_part/card2.jpg',
-        product_name: 'CHARLOTTE'
+        product_name: 'CHARLOTTE',
+        descr: 'Charlotte Sandstone, a premium sandstone that combines the warmth and character of nature with unparalleled strength and longevity.'
      },
     { image: '/images/Home/Interactive_part/card3.jpg',
-        product_name: 'JAMIESON'
+        product_name: 'JAMIESON',
+        descr: 'Jamieson Limestone, a premium limestone that offers unparalleled elegance and strength, ensuring your construction stands the test of time.'
      },
     { image: '/images/Home/Interactive_part/card4.jpg',
-        product_name: 'BEACHPORT'
+        product_name: 'BEACHPORT',
+        descr: 'Beachport stone, as presented by Splendour in Stone, showcases a refined elegance with its natural quartz formation in a freeform style.'
      }
 ]
 const DATA = [

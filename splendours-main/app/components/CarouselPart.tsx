@@ -13,6 +13,7 @@ const CarouselPart = ({
     data: {
         image: string;
         product_name: string;
+        descr: string;
     }[],
     autoplayInterval?: number
 }) => {
@@ -157,7 +158,7 @@ const CarouselPart = ({
                                 // width: '90%',
                                 fontWeight: 500,
                                 alignContent: 'flex-start',
-                                lineHeight: '1.6',
+                                lineHeight: '1.2',
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: {
                                     xs: "7px",
@@ -167,7 +168,8 @@ const CarouselPart = ({
                                 }
                             }}
                         >
-                            Available in our freeform style, the <span className='lowercase'>{data[currentImg]?.product_name}</span> sandstone is made up of beautiful soft hues such as cream, yellow and pink.
+                            {/* Available in our freeform style, the <span className='lowercase'>{data[currentImg]?.product_name}</span> sandstone is made up of beautiful soft hues such as cream, yellow and pink. */}
+                            {data[currentImg]?.descr}
                         </Typography>
                     </Card3DEffect>
                 </Box>
