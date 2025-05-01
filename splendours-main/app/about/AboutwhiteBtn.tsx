@@ -24,7 +24,7 @@ export function AboutWhiteBtn({
   onClick, // Add onClick prop
 }: AnimatedModalDemoProps) {
   return (
-    <div className="relative py-8 flex items-start justify-center ">
+    <div className="relative py-6 flex items-start justify-center ">
       <Modal>
         <ModalTrigger
           className={cn(
@@ -35,7 +35,7 @@ export function AboutWhiteBtn({
         >
           {/* Label */}
 
-          <p style={{ fontFamily: "inherit", fontStyle: "inherit",fontWeight:"400", fontSize:"14px" }} className="group-hover/modal-btn:translate-x-40  flex justify-between gap-10 text-center transition duration-500">
+          <p style={{ fontFamily: "inherit", fontStyle: "inherit",fontWeight:"400", fontSize:"12px" }} className="group-hover/modal-btn:translate-x-40  flex justify-between gap-10 items-center text-center transition duration-500">
             {label} 
             {icon && (
               <Image

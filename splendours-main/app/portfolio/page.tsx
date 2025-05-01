@@ -747,19 +747,19 @@ const PortfolioPage = () => {
                         >
                             <Box className="flex flex-col md:flex-row w-full justify-between">
                                 {/* Left Section for Description */}
-                                <Box className="flex w-full md:w-1/3 items-start justify-center mt-5">
+                                <Box className="flex w-[25%] items-start justify-center mt-5">
                                     <Typography
                                         variant="h5"
                                         color="#000000"
                                         sx={{
                                             fontWeight: 400,
                                             fontFamily: 'var(--font-montserrat)',
-                                            textAlign: 'center',
+                                            textAlign: 'start',
                                             fontSize: {
                                                 xs: '12px', // Mobile
                                                 sm: '14px', // Small screens
                                                 md: '16px', // Tablets
-                                                lg: '18px', // Large screens
+                                                lg: '16px', // Large screens
                                             },
                                         }}
                                     >
@@ -986,11 +986,11 @@ const PortfolioPage = () => {
                                     {isTablet ?
                                         <Box className="flex w-full justify-between gap-4">
                                             <Box className="flex w-1/2">
-                                                <GreenCustomButton label={'ENQUIRE NOW!'} iconSrc={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
+                                                <GreenCustomButton label={'Enquiry!'} iconSrc={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
                                             </Box>
                                             <Box className="flex w-1/2">
                                                 <Link href="/contact">
-                                                    <GreenCustomButton label={'CONTACT US!'} iconSrc={'/images/icons/Vector.svg'} />
+                                                    <GreenCustomButton label={'Contact Us!'} iconSrc={'/images/icons/Vector.svg'} />
                                                 </Link>
                                             </Box>
                                         </Box> :
@@ -998,9 +998,9 @@ const PortfolioPage = () => {
                                             <Box>
 
                                             </Box>
-                                            <GreenBtn label={'ENQUIRE NOW!'} icon={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
+                                            <GreenBtn label={'Enquire Now!'} icon={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
                                             <Link href="/contact">
-                                                <GreenBtn label={'CONTACT US!'} icon={'/images/icons/Vector.svg'} onClick={() => { }} />
+                                                <GreenBtn label={'Contact Us!'} icon={'/images/icons/Vector.svg'} onClick={() => { }} />
                                             </Link>
                                         </Box>}
                                 </Box>
