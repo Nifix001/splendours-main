@@ -2341,7 +2341,7 @@ const AboutPage = () => {
                                     <Box className="mt-5" sx={{ paddingBottom: '50px', display: "flex", alignItem: "start" }}>
                                         <AboutWhiteBtn
                                             label={'Enquire Now!'}
-                                            icon={'/images/Vector.svg'}
+                                            icon={'/images/Vectorn.svg'}
                                             onClick={handleOpenEnquiryForm}
                                         />
                                     </Box>
@@ -2549,8 +2549,8 @@ const AboutPage = () => {
                         </Box>
 
                         <Box className="flex w-full justify-around">
-                            <WhiteCustomButton label={'ENQUIRE NOW!'} iconSrc={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
-                            <Link href="/contact"><WhiteCustomButton label={'CONTACT US'} iconSrc={'/images/icons/Vector.svg'} /></Link>
+                            <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vectorn.svg'} onClick={handleOpenEnquiryForm} />
+                            <Link href="/contact"><WhiteCustomButton label={'Contact Us'} iconSrc={'/images/icons/Vectorn.svg'} /></Link>
                         </Box>
 
                         <CustomDivider />
@@ -2571,8 +2571,8 @@ const AboutPage = () => {
                                 READY TO CRAFT YOUR <span style={{fontWeight:600}}>STONE MASTERPIECE?</span> 
                             </Typography>
                             <Box className="flex w-full justify-start  gap-6">
-                                <AboutWhiteBtn label={'Enquire Now!'} icon={'/images/Vector.svg'} onClick={handleOpenEnquiryForm} />
-                                <Link href="/contact"><AboutWhiteBtn label={'Contact Us'} icon={'/images/Vector.svg'} /></Link>
+                                <AboutWhiteBtn label={'Enquire Now!'} icon={'/images/Vectorn.svg'} onClick={handleOpenEnquiryForm} />
+                                <Link href="/contact"><AboutWhiteBtn label={'Contact Us'} icon={'/images/Vectorn.svg'} /></Link>
                             </Box>
                         </Box>
 

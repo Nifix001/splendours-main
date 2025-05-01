@@ -218,7 +218,7 @@ const HomePage = () => {
                     </Box>
                     <Box sx={{ bottom: 0, left: "0", marginTop: isMobile ? '30px' : '0px', marginleft: "20px" }}>
                         <Link href={'/allProjectViews'} >
-                            <AnimatedModalDemo label="View all" isMobile={isMobile} icon={"images/Vector.svg"} ></AnimatedModalDemo>
+                            <AnimatedModalDemo label="View all" isMobile={isMobile} icon={"images/Vectorn.svg"} ></AnimatedModalDemo>
                         </Link>
                     </Box>
                 </Box>
@@ -308,7 +308,7 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex justify-center w-full">
                             <Link href={'https://www.splendourinstone.com.au/walling/'}>
-                                <GreenAnimationButton label={'View All'} className="" icon="/images/icons/Vector.svg"></GreenAnimationButton>
+                                <GreenAnimationButton label={'View All'} className="" icon="/images/icons/Vectorn.svg"></GreenAnimationButton>
                             </Link>
                         </Box>
                     </Box>
@@ -363,7 +363,7 @@ const HomePage = () => {
                         </Typography>
                         <Box className="flex justify-center mt-6">
                             <Link href={'https://www.splendourinstone.com.au/walling/'} passHref>
-                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
+                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vectorn.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -614,7 +614,7 @@ const HomePage = () => {
                                 ].map(({ label, href }, index) => (
                                     <Box key={index} className="flex">
                                         <Link href={href}>
-                                            <WhiteCustomButton isMobile={isMobile} label={label} iconSrc={'/images/icons/Vector.svg'} />
+                                            <WhiteCustomButton isMobile={isMobile} label={label} iconSrc={'/images/icons/Vectorn.svg'} />
                                         </Link>
                                     </Box>
                                 ))}
@@ -641,7 +641,7 @@ const HomePage = () => {
                             </Typography>
                             <Box className="flex w-full justify-center  ml-14 mb-24">
                                 <Link href={'/allvisualizers'}>
-                                    <AnimatedModalDemo label={'View all'} icon={'/images/Vector.svg'} ></AnimatedModalDemo>
+                                    <AnimatedModalDemo label={'View all'} icon={'/images/Vectorn.svg'} ></AnimatedModalDemo>
                                 </Link>
                             </Box>
                         </Box>
@@ -1064,7 +1064,7 @@ const HomePage = () => {
                     <CustomTextField value={email} onChange={(e) => setEmail(e.target.value)} />
                 </Box>
                 <Box className="flex w-full justify-center">
-                    <WhiteCustomButton isMobile={isMobile} label={'Send'} iconSrc={'/images/icons/Vector.svg'} onClick={handleSubmit} />
+                    <WhiteCustomButton isMobile={isMobile} label={'Send'} iconSrc={'/images/icons/Vectorn.svg'} onClick={handleSubmit} />
                 </Box>
                 {/* Success Alert */}
                 <Snackbar open={successAlert} autoHideDuration={6000} onClose={handleAlertClose}>
@@ -1122,7 +1122,7 @@ const HomePage = () => {
                     <CustomTextField value={email} onChange={(e) => setEmail(e.target.value)} />
                 </Box>
                 <Box className="flex justify-end mt-2 w-1/4">
-                    <AboutWhiteBtn label={'Send'} icon={'/images/Vector.svg'} onClick={handleSubmit} />
+                    <AboutWhiteBtn label={'Send'} icon={'/images/Vectorn.svg'} onClick={handleSubmit} />
                 </Box>
                 {/* Success Alert */}
                 <Snackbar open={successAlert} autoHideDuration={6000} onClose={handleAlertClose}>

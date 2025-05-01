@@ -251,12 +251,12 @@ const Home = () => {
                         <Box className="flex items-center justify-center gap-x-[15px] mt-4">
                             <WhiteCustomButton
                                 isMobile={false}
-                                label={'ENQUIRE NOW!'}
-                                iconSrc={'images/Vector.svg'}
+                                label={'Enquire Now!'}
+                                iconSrc={'images/Vectorn.svg'}
                                 onClick={handleOpenEnquiryForm}
                             />
                             <Link href="/contact">
-                                <WhiteCustomButton isMobile={false} label={'CONTACT US'} iconSrc={'images/Vector.svg'} />
+                                <WhiteCustomButton isMobile={false} label={'Contact Us'} iconSrc={'images/Vectorn.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -269,13 +269,13 @@ const Home = () => {
                             <Box>
                                 <AboutWhiteBtn
                                     label={'Enquire Now!'}
-                                    icon={'images/Vector.svg'}
+                                    icon={'images/Vectorn.svg'}
                                     onClick={handleOpenEnquiryForm}
                                 />
                             </Box>
                             <Link href={'/contact'} className="ml-[2.5vw]" style={{ position: "relative" }}>
 
-                                <AboutWhiteBtn label={'Contact us'} icon={'images/Vector.svg'} />
+                                <AboutWhiteBtn label={'Contact us'} icon={'images/Vectorn.svg'} />
 
                             </Link>
                         </Box>

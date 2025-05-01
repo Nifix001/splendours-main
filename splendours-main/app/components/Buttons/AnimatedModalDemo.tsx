@@ -37,8 +37,14 @@ export function AnimatedModalDemo({ isMobile, label, icon }: AnimatedModalDemoPr
           {/* SVG Icon */}
 
           {/* Label */}
-          <span style={{ "fontSize": "18px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-16 text-center transition duration-500">
-            {label}
+          <span style={{ "fontSize": "14px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-10 text-center transition duration-500">
+            {label} { icon && <Image
+                            src={icon}
+                            width={20}
+                            height={20}
+                            alt="icon"
+                            className="object-contain transition duration-500"
+                          />}
           </span>
 
           {/* Description */}

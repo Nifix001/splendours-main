@@ -35,8 +35,17 @@ export function AboutWhiteBtn({
         >
           {/* Label */}
 
-          <p style={{ fontFamily: "inherit", fontStyle: "inherit",fontWeight:"500", fontSize:"14px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-16 text-center transition duration-500">
-            {label}
+          <p style={{ fontFamily: "inherit", fontStyle: "inherit",fontWeight:"400", fontSize:"14px" }} className="group-hover/modal-btn:translate-x-40  flex justify-between gap-10 text-center transition duration-500">
+            {label} 
+            {icon && (
+              <Image
+                src={icon}
+                width={20}
+                height={20}
+                alt="icon"
+                className="object-contain transition duration-500"
+              />
+            )}
           </p>
 
           {/* Icon */}
