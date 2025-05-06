@@ -6,8 +6,8 @@ import { useMediaQuery } from '@mui/material';
 // Data
 import data from './PhaseData.json';
 import PhaseCarouselButton from './PhaseCarouselButton';
-import Image from "next/image";
-import { GreenBtnBooking } from "./Buttons/GreenBtnBooking";
+// import Image from "next/image";
+// import { GreenBtnBooking } from "./Buttons/GreenBtnBooking";
 // Define TypeScript interface for the resource
 interface Resource {
     phase: string
@@ -20,7 +20,7 @@ interface PhaseCarouselProps {
 
 // Carousel component
 
-const PhaseCarousel: React.FC<PhaseCarouselProps> = ({ onPhaseSelect, handleOpenDialog }) => {
+const PhaseCarousel: React.FC<PhaseCarouselProps> = ({ onPhaseSelect }) => {
     const isMobile = useMediaQuery('(max-width: 768px)'); // Define mobile breakpoint
     const isStemp = useMediaQuery('(max-width: 1000px)'); // Define mobile breakpoint
 
