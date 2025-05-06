@@ -739,6 +739,34 @@ const Booking: React.FC = () => {
                                 gap: "16px", // Consistent spacing for all devices
                             }}
                         >
+                            <GreenBtnBooking onClick={handleOpenDialog} label="Book" icon="/images/icons/vector.svg" className="gap-2 -mr-8">
+                                    <button
+                                        style={{
+                                            padding: "10px 20px",
+                                            backgroundColor: "#283C28",
+                                            color: "#DCC5BD",
+                                            border: "none",
+                                            borderRadius: "50px",
+                                            cursor: "pointer",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: "8px",
+                                            transition: "all 0.3s ease", // Add transition for smooth animation
+                                        }}
+                                        className="lg:w-[222px] lg:h-[54px] lg:justify-between lg:text-[15px] hover:gap-4" // Add hover gap for spacing
+                                    >
+                                        <span style={{ transition: "transform 0.3s ease" }} className="hover:translate-x-2 text-[#DCC5BD]">
+                                            Book
+                                        </span>
+                                        <Image src="/images/icons/VideoCall.svg"
+                                            alt="Video Call"
+                                            width={32}
+                                            height={32}
+                                            style={{ opacity: 0, transition: "opacity 0.3s ease, transform 0.3s ease" }} // Add opacity and transform transition
+                                            className="hover:opacity-100 hover:translate-x-0"
+                                        />
+                                    </button>
+                                </GreenBtnBooking>
                             {/* Book Button */}
                             {/* <Box
                                 className="flex justify-center md:justify-end"
@@ -757,6 +785,7 @@ const Booking: React.FC = () => {
                                     alignItems: { xs: "center", md: "flex-start" },
                                 }}
                             >
+        
 
                                 <GreenBtnBooking onClick={handleOpenDialog_VideoCall} label="Video Call" icon="/images/icons/VideoCall.svg" className="gap-2">
                                     <button
