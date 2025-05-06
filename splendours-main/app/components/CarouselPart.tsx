@@ -188,7 +188,7 @@ const CarouselPart = ({
                     }}
                     className={` font-bold flex justify-center items-center ${currentImg === 0 && 'opacity-50'}`}
                 >
-                    <ArrowBackIosNewIcon />
+                    <ArrowBackIosNewIcon sx={{ color: '#283C28' }} />
                     <Typography
                         className="font-semibold"
                         variant="h3"
@@ -228,7 +228,7 @@ const CarouselPart = ({
                     >
                         N E X T
                     </Typography>
-                    <ArrowForwardIosIcon />
+                    <ArrowForwardIosIcon sx={{ color: '#283C28' }} />
                 </button>
             </div>
         </div>

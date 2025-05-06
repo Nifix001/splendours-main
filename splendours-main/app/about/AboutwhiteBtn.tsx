@@ -28,14 +28,14 @@ export function AboutWhiteBtn({
       <Modal>
         <ModalTrigger
           className={cn(
-            "bg-customColor text-color flex items-center justify-center gap-2 group/modal-btn relative",
+            "bg-customColor text-color  flex items-center justify-center gap-2 group/modal-btn relative",
             className
           )}
           onClick={onClick} // Pass onClick to ModalTrigger
         >
           {/* Label */}
 
-          <p style={{ fontFamily: "inherit", fontStyle: "inherit",fontWeight:"400", fontSize:"12px" }} className="group-hover/modal-btn:translate-x-40  flex justify-between gap-10 items-center text-center transition duration-500">
+          <p style={{ fontFamily: "inherit", fontStyle: "inherit",fontWeight:"400", fontSize:"12px" }} className="group-hover/modal-btn:translate-x-40 text-[#283C28]  flex justify-between gap-10 items-center text-center transition duration-500">
             {label} 
             {icon && (
               <Image

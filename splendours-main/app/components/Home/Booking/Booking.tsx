@@ -774,7 +774,7 @@ const Booking: React.FC = () => {
                                         }}
                                         className="lg:w-[222px] lg:h-[54px] lg:justify-between lg:text-[15px] hover:gap-4" // Add hover gap for spacing
                                     >
-                                        <span style={{ transition: "transform 0.3s ease" }} className="hover:translate-x-2">
+                                        <span style={{ transition: "transform 0.3s ease" }} className="hover:translate-x-2 text-[#DCC5BD]">
                                             Video Call
                                         </span>
                                         <Image src="/images/icons/VideoCall.svg"
@@ -799,7 +799,7 @@ const Booking: React.FC = () => {
                                             alignItems: "center",
                                             gap: "8px",
                                         }}
-                                        className="lg:w-[222px] lg:h-[54px] lg:justify-between lg:text-[15px]"
+                                        className="lg:w-[222px] lg:h-[54px] lg:justify-between lg:text-[15px] text-[#DCC5BD]"
                                         onClick={handleOpenDialog_Call}
                                     >   Call
                                         <Image src="/images/icons/Call.svg" alt="Call" width={32} height={32} />
@@ -819,7 +819,7 @@ const Booking: React.FC = () => {
                                             alignItems: "center",
                                             gap: "8px",
                                         }}
-                                        className="lg:w-[222px] lg:h-[54px] lg:justify-between lg:text-[15px]"
+                                        className="lg:w-[222px] lg:h-[54px] lg:justify-between lg:text-[15px] text-[#DCC5BD]"
                                         onClick={handleOpenDialog_Email}
                                     > Email
                                         <Image src="/images/icons/Email.svg" alt="Email" width={32} height={32} />

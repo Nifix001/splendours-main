@@ -25,7 +25,7 @@ export function GreenAnimationButton({ label, icon, className }: AnimatedModalDe
           {/* SVG Icon */}
 
           {/* Label */}
-          <span style={{ "fontSize": "14px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-10 text-center transition duration-500">
+          <span style={{ "fontSize": "14px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-10 text-center transition duration-500 text-[#DBC6BC]">
             {label}
             {
               icon && 

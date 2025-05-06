@@ -308,7 +308,7 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex justify-center w-full">
                             <Link href={'https://www.splendourinstone.com.au/walling/'}>
-                                <GreenAnimationButton label={'View All'} className="" icon="/images/icons/Vectorn.svg"></GreenAnimationButton>
+                                <GreenAnimationButton label={'View all'} className="" icon="/images/icons/Vectorn.svg"></GreenAnimationButton>
                             </Link>
                         </Box>
                     </Box>
@@ -700,7 +700,7 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex justify-between w-full mt-[-3.5vh] lg:mt-[40px]">
                             <Box>
-                                <Typography color="#283C28 font-semibold" sx={{
+                                <Typography color="#283C28" sx={{
                                     fontWeight: 500,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
@@ -712,7 +712,7 @@ const HomePage = () => {
                                         lg: "15px"
                                     }
                                 }}>Category: Stairs</Typography>
-                                <Typography color="#283C28 font-semibold" sx={{
+                                <Typography color="#283C28" sx={{
                                     fontWeight: 500,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
