@@ -165,7 +165,7 @@ const ServicesPage = () => {
                                         xs: "15px",
                                         sm: "30px",  // Small screens
                                         md: "40px",  // Medium screens
-                                        lg: "65px"
+                                        lg: "48px"
                                     }
                                 }}
                             >
@@ -184,10 +184,10 @@ const ServicesPage = () => {
                                         xs: "15px",
                                         sm: "30px",  // Small screens
                                         md: "40px",  // Medium screens
-                                        lg: "65px"
+                                        lg: "48px"
                                     }
                                 }}
-                            > HOME DESERVES THE BRILLIANCE OF
+                            > HOME DESERVES <span className='font-bold'>THE BRILLIANCE OF</span>
                             </Typography>
                             <Typography
                                 variant="h3"
@@ -202,7 +202,7 @@ const ServicesPage = () => {
                                         xs: "15px",
                                         sm: "30px",  // Small screens
                                         md: "40px",  // Medium screens
-                                        lg: "65px"
+                                        lg: "48px"
                                     }
                                 }}
                             >
@@ -272,14 +272,14 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="white"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 200,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
                                         md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        lg: "16px"
                                     }
                                 }}
                             >
@@ -291,14 +291,14 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="white"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 200,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
                                         md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        lg: "16px"
                                     }
                                 }}
                             >
@@ -310,14 +310,14 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="white"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 200,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
                                         md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        lg: "16px"
                                     }
                                 }}
                             >
@@ -1221,12 +1221,12 @@ const ServicesPage = () => {
                         <Typography variant="h2" className="mb-4 font-bold" sx={{
                             fontFamily: 'Chronicle Display',
                             color: '#DCC5BD',
-                            lineHeight: 0.8,
+                            lineHeight: 1,
                             fontSize: {
                                 xs: '20px', // Font size for extra small screens
                                 sm: '30px', // Font size for small screens
                                 md: '40px', // Font size for medium screens
-                                lg: '100px', // Font size for large screens
+                                lg: '60px', // Font size for large screens
                             },
                             fontWeight: 300,
                         }}>
@@ -1243,7 +1243,7 @@ const ServicesPage = () => {
                                 xs: '12px', // Font size for extra small screens
                                 sm: '14px', // Font size for small screens
                                 md: '16px', // Font size for medium screens
-                                lg: '20px', // Font size for large screens
+                                lg: '16px', // Font size for large screens
                             },
                             fontWeight: 300,
                         }}>

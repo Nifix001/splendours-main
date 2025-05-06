@@ -739,7 +739,25 @@ const Booking: React.FC = () => {
                                 gap: "16px", // Consistent spacing for all devices
                             }}
                         >
-                            <GreenBtnBooking onClick={handleOpenDialog} label="Book" icon="/images/icons/vector.svg" className="gap-2 -mr-8">
+                            {/* Book Button */}
+                            {/* <Box
+                                className="flex justify-center md:justify-end"
+                                sx={{
+                                    width: "100%",
+                                }}
+                            >
+
+                            </Box> */}
+
+                            {/* Action Buttons */}
+                            <Box
+                            className="flex flex-col -mb-12"
+                            sx={{
+                                justifyContent: { xs: "flex-end", md: "space-between" },
+                                alignItems: { xs: "center", md: "flex-end" },
+                            }}
+                            >
+                            <GreenBtnBooking onClick={handleOpenDialog} label="Book" icon="/images/icons/vector.svg" className="gap-2 ">
                                     <button
                                         style={{
                                             padding: "10px 20px",
@@ -767,17 +785,7 @@ const Booking: React.FC = () => {
                                         />
                                     </button>
                                 </GreenBtnBooking>
-                            {/* Book Button */}
-                            {/* <Box
-                                className="flex justify-center md:justify-end"
-                                sx={{
-                                    width: "100%",
-                                }}
-                            >
-
-                            </Box> */}
-
-                            {/* Action Buttons */}
+                            </Box>
                             <Box
                                 className="flex flex-col md:flex-row gap-8"
                                 sx={{
@@ -785,7 +793,6 @@ const Booking: React.FC = () => {
                                     alignItems: { xs: "center", md: "flex-start" },
                                 }}
                             >
-        
 
                                 <GreenBtnBooking onClick={handleOpenDialog_VideoCall} label="Video Call" icon="/images/icons/VideoCall.svg" className="gap-2">
                                     <button

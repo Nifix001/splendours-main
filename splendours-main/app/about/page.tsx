@@ -392,27 +392,27 @@ const AboutPage = () => {
                             <Box className="flex flex-col w-full justify-center gap-y-3">
                                 <Typography variant="h2" className="mb-4" color='#283C28' sx={{
                                     fontFamily: 'Chronicle Display',
-                                    lineHeight: '0.8',
+                                    lineHeight: 0.8,
                                     fontStyle: 'italic',
                                     fontSize: {
                                         xs: '40px', // Font size for extra small screens
                                         sm: '60px', // Font size for small screens
-                                        md: '80px', // Font size for medium screens
-                                        lg: '90px', // Font size for large screens
+                                        md: '70px', // Font size for medium screens
+                                        lg: '75px', // Font size for large screens
                                     },
-                                    fontWeight: 20,
+                                    fontWeight: 10,
                                 }}>
                                     A LEGACY BUILT ON QUALITY AND EXPERTISE
                                 </Typography>
-                                <Box className="w-3/5">
+                                <Box className="w-[65%]">
                                     <Typography variant="h5" color='#283C28' sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         lineHeight: '1.4',
                                         fontSize: {
                                             xs: '10px', // Font size for extra small screens
                                             sm: '12px', // Font size for small screens
-                                            md: '14px', // Font size for medium screens
-                                            lg: '14px', // Font size for large screens
+                                            md: '12px', // Font size for medium screens
+                                            lg: '12px', // Font size for large screens
                                         },
                                         fontWeight: 400,
                                     }}>
@@ -765,7 +765,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '45px', // Font size for large screens
+                                            lg: '40px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
@@ -821,7 +821,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '54px', // Font size for large screens
+                                            lg: '45px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
@@ -979,9 +979,9 @@ const AboutPage = () => {
 
                         </Box> : 
                         <Box className="flex w-full justify-between items-start px-20 -my-20">
-                            <Box className="flex w-3/5 flex-col justify-center">
+                            <Box className="flex w-[50%] flex-col justify-center">
                                 <Typography
-                                    variant="h4"
+                                    variant="h6"
                                     color='#DBC6BC'
                                     sx={{
                                         fontFamily: 'Chronicle Display',
@@ -991,7 +991,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '65px', // Font size for large screens
+                                            lg: '45px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
@@ -1012,7 +1012,7 @@ const AboutPage = () => {
                                             xs: '10px', // Font size for extra small screens
                                             sm: '12px', // Font size for small screens
                                             md: '14px', // Font size for medium screens
-                                            lg: '16px', // Font size for large screens
+                                            lg: '14px', // Font size for large screens
                                         },
                                         lineHeight: '1.2',
                                         fontWeight: 400,
@@ -1031,8 +1031,8 @@ const AboutPage = () => {
                                                 fontSize: {
                                                     xs: '10px',
                                                     sm: '15px',
-                                                    md: '18px',
-                                                    lg: '18px',
+                                                    md: '16px',
+                                                    lg: '16px',
                                                 },
                                                 lineHeight: '1.2',
                                                 fontWeight: 300,
@@ -1051,8 +1051,8 @@ const AboutPage = () => {
                                                 fontSize: {
                                                     xs: '10px',
                                                     sm: '15px',
-                                                    md: '18px',
-                                                    lg: '18px',
+                                                    md: '16px',
+                                                    lg: '16px',
                                                 },
                                                 fontWeight: 300,
                                                 lineHeight: '1.2',
@@ -1156,7 +1156,7 @@ const AboutPage = () => {
                         </Box>
 
                     </Box> : <Box
-                        className="relative flex w-full px-20 py-24 gap-x-16 rounded-[20px]"
+                        className="relative flex w-full px-20 py-28 gap-x-4 rounded-[20px]"
                         sx={{
                             backgroundImage: 'url(images/About/Achievements/background.jpg)', // Add your image path here
                             backgroundSize: 'cover', // Ensures the background image covers the entire area
@@ -1164,7 +1164,7 @@ const AboutPage = () => {
                             backgroundRepeat: 'no-repeat', // Prevents repeating the background image
                         }}
                     >
-                        <Box className="flex w-[65%] justify-center flex-col gap-y-5">
+                        <Box className="flex w-[70%] justify-center flex-col gap-y-4">
                             <Typography variant="h3" color="#283C28" className="mb-2" sx={{
                                 fontFamily: 'Chronicle Display',
                                 fontStyle: 'italic',
@@ -1173,7 +1173,7 @@ const AboutPage = () => {
                                     xs: '30px', // Font size for extra small screens
                                     sm: '40px', // Font size for small screens
                                     md: '60px', // Font size for medium screens
-                                    lg: '100px', // Font size for large screens
+                                    lg: '75px', // Font size for large screens
                                 },
                                 fontWeight: 20,
                             }}>
@@ -1187,9 +1187,9 @@ const AboutPage = () => {
                                         xs: '10px', // Font size for extra small screens
                                         sm: '12px', // Font size for small screens
                                         md: '14px', // Font size for medium screens
-                                        lg: '16px', // Font size for large screens
+                                        lg: '14px', // Font size for large screens
                                     },
-                                    lineHeight: '1.2',
+                                    lineHeight: '1.4',
                                     fontWeight: 400,
                                 }}>
                                     before his founding of Splendour in Stone include his apprenticeship in landscape construction and his work on fireplaces and feature walls using stone.<br />

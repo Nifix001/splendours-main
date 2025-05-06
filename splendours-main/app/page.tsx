@@ -787,7 +787,7 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex justify-center w-full">
                             <Link href={'https://www.splendourinstone.com.au/paving/'} passHref>
-                                <GreenCustomButton label={'View All'} iconSrc={'/images/icons/Vector.svg'} />
+                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -850,7 +850,7 @@ const HomePage = () => {
                                         xs: '30px',
                                         sm: '45px',
                                         md: '50px',
-                                        lg: '80px',
+                                        lg: '60px',
                                     },
                                 }}
                             >
@@ -1080,7 +1080,7 @@ const HomePage = () => {
                     </Alert>
                 </Snackbar>
             </Box> : <Box className="flex items-end justify-between w-full px-16">
-                <Box className="flex flex-col justify-end w-1/4">
+                <Box className="flex flex-col justify-end w-1/4 ">
                     <Typography
                         variant="h3"
                         color="white"
@@ -1090,9 +1090,9 @@ const HomePage = () => {
                             fontFamily: 'var(--font-montserrat)',
                             fontSize: {
                                 xs: "10px",
-                                sm: "15px",  // Small screens
-                                md: "18px",  // Medium screens
-                                lg: "20px"
+                                sm: "12px",  // Small screens
+                                md: "14px",  // Medium screens
+                                lg: "14px"
                             }
                         }}
                     >
@@ -1111,17 +1111,17 @@ const HomePage = () => {
                                 xs: "20px",
                                 sm: "30px",  // Small screens
                                 md: "50px",  // Medium screens
-                                lg: "90px"
+                                lg: "70px"
                             }
                         }}
                     >
                         STAY TUNED
                     </Typography>
                 </Box>
-                <Box className="w-1/2">
+                <Box className="w-1/2 ">
                     <CustomTextField value={email} onChange={(e) => setEmail(e.target.value)} />
                 </Box>
-                <Box className="flex justify-end mt-2 w-1/4">
+                <Box className="flex justify-center -mb-10 w-1/4">
                     <AboutWhiteBtn label={'Send'} icon={'/images/Vectorn.svg'} onClick={handleSubmit} />
                 </Box>
                 {/* Success Alert */}
