@@ -757,7 +757,7 @@ const Booking: React.FC = () => {
                                 alignItems: { xs: "center", md: "flex-end" },
                             }}
                             >
-                            <GreenBtnBooking onClick={handleOpenDialog} label="Book" icon="/images/icons/vector.svg" className="gap-2 ">
+                            <GreenBtnBooking onClick={handleOpenDialog} label="Book" icon="/images/icons/Vector.svg" className="gap-2 ">
                                     <button
                                         style={{
                                             padding: "10px 20px",
