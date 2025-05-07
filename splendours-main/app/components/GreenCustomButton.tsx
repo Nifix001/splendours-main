@@ -29,7 +29,7 @@ const GreenCustomButton: React.FC<CustomButtonProps> = ({ label, iconSrc, onClic
                 height: { xs: "42px", sm: "42px", md: "42px", lg: "42px"}, // Responsive height
                 borderRadius: '50px',
                 color: '#DBC6BC',
-                fontSize: isMobile ? '24px' : isTablet ? '24px' : '24px', // Responsive font size
+                fontSize: isMobile ? '16px' : isTablet ? '24px' : '24px', // Responsive font size
                 fontWeight: 500,
                 fontFamily: 'var(--font-montserrat)',
                 backgroundColor: '#283C28', // Default background color

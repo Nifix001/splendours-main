@@ -20,13 +20,13 @@ export function AnimatedModalDemo({ isMobile, label, icon }: AnimatedModalDemoPr
   return (
     <div className="relative py-6 w-full mt-4 flex items-center justify-center">
       <Modal>
-        {isMobile ? <ModalTrigger className="bg-customColor text-color flex items-center justify-center gap-2 group/modal-btn">
+        {isMobile ? <ModalTrigger className="bg-customColor text-color py-2 flex items-center justify-center gap-2 group/modal-btn -mb-2">
           {/* SVG Icon */}
 
           {/* Label */}
-          <span style={{ "fontSize": "14px" }} className="group-hover/modal-btn:translate-x-40 flex justify-between gap-16 text-center transition duration-500">
+          <span style={{ "fontSize": "14px" }} className="group-hover/modal-btn:translate-x-40 text-[#283C28] text-[14px] flex justify-between gap-16 text-center transition duration-500">
             {label}
-
+            {icon && <Image src={icon} width={24} height={24} alt="icon" className="text-color object-contain transition duration-500" />}
           </span>
 
           {/* Description */}

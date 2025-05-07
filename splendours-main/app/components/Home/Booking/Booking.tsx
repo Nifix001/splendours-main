@@ -27,6 +27,7 @@ import { GreenBtnBooking } from "../../Buttons/GreenBtnBooking";
 // import { GreenAnimationBooking } from "./GreenAnimationBooking";
 // import Image from "next/image";
 import CustomTextField from "../../3dEffects/FormInput"
+
 const Booking: React.FC = () => {
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1024px)' });
@@ -378,7 +379,42 @@ const Booking: React.FC = () => {
                             >
                                 BOOKING
                             </Typography>
+                            
                         </Box>
+                        <Box className="flex w-full justify-center">
+                        <Box
+                            className="flex w-[50%] h-[42px] justify-center border-2 border-[#283C28]"
+                            sx={{ borderRadius: "20px" }}
+                        >
+                            {/* <CalendarControl onClick={handleCalendarControlClick} month={getMonthAbbreviation(selectedMonth)} year={selectedYear} /> */}
+                            <CalendarControl
+                                onClick={handleCalendarControlClick}
+                                month={getMonthAbbreviation(selectedMonth)}
+                                year={selectedYear}
+                            />
+
+                            <Dialog
+                                open={openCalendarDialog}
+                                onClose={handleCloseCalendarDialog}
+                            >
+                                <DialogTitle>Select Month and Year</DialogTitle>
+                                <DialogContent>
+                                    <MonthYearPicker
+                                        initialMonth={selectedMonth}
+                                        initialYear={selectedYear}
+                                        onMonthYearChange={handleMonthYearChange}
+                                    />
+                                </DialogContent>
+                            </Dialog>
+                        </Box>
+                        <Box className="flex w-[50%] justify-center">
+                            <GreenCustomButton
+                                label={"Book"}
+                                iconSrc="/images/icons/Vector.svg"
+                                onClick={handleOpenDialog}
+                            />
+                        </Box>
+                    </Box>
 
                         <Box className="flex justify-between w-full">
                             <GreenCustomMobileButton
@@ -409,40 +445,7 @@ const Booking: React.FC = () => {
                         <ProductCarousel onProductSelect={handleProductSelection} />
 
                         <PhaseCarousel onPhaseSelect={handlePhaseSelect} handleOpenDialog={handleOpenDialog} />
-                    </Box>
-                    <Box className="flex w-full justify-center">
-                        <Box
-                            className="flex w-[160px] h-[42px] justify-center"
-                            sx={{ borderRadius: "20px" }}
-                        >
-                            {/* <CalendarControl onClick={handleCalendarControlClick} month={getMonthAbbreviation(selectedMonth)} year={selectedYear} /> */}
-                            <CalendarControl
-                                onClick={handleCalendarControlClick}
-                                month={getMonthAbbreviation(selectedMonth)}
-                                year={selectedYear}
-                            />
 
-                            <Dialog
-                                open={openCalendarDialog}
-                                onClose={handleCloseCalendarDialog}
-                            >
-                                <DialogTitle>Select Month and Year</DialogTitle>
-                                <DialogContent>
-                                    <MonthYearPicker
-                                        initialMonth={selectedMonth}
-                                        initialYear={selectedYear}
-                                        onMonthYearChange={handleMonthYearChange}
-                                    />
-                                </DialogContent>
-                            </Dialog>
-                        </Box>
-                        <Box className="flex w-1/2 justify-center">
-                            <GreenCustomButton
-                                label={"Book"}
-                                iconSrc="/images/icons/Vector.svg"
-                                onClick={handleOpenDialog}
-                            />
-                        </Box>
                     </Box>
                     {/* Dialog for Form */}
                     <Dialog open={openDialog} onClose={handleCloseDialog}>

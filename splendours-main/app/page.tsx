@@ -205,7 +205,7 @@ const HomePage = () => {
                                 fontWeight: 500,
                                 fontFamily: 'Chronicle Display',
                                 textAlign: isMobile ? 'center' : 'start',
-                                fontSize: {
+                                fontSize: isMobile ? '40px' : {
                                     xs: "30px",
                                     sm: "50px",
                                     md: "65px",
@@ -216,7 +216,7 @@ const HomePage = () => {
                             SPLENDOURS PROJECTS
                         </Typography>
                     </Box>
-                    <Box sx={{ bottom: 0, left: "0", marginTop: isMobile ? '30px' : '0px', marginleft: "20px", }}>
+                    <Box sx={{ bottom: 0, left: "0", marginTop: isMobile ? '10px' : '0px', marginBottom: isMobile ? '1px' : '', marginleft: "20px", }}>
                         <Link href={'/allProjectViews'} >
                             <AnimatedModalDemo label="View all" isMobile={isMobile} icon={"images/Vectorn.svg"} ></AnimatedModalDemo>
                         </Link>
@@ -293,22 +293,22 @@ const HomePage = () => {
                                 WALLING RANGE
                             </Typography>
                         </Box>
-                        <Box className="flex w-full">
+                        <Box className="flex w-[80%] text-center">
                             <Typography
                                 variant="h3"
                                 color="#000000"
                                 sx={{
                                     fontWeight: 400,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '1px',
+                                    fontSize: '12px',
                                 }}
                             >
                                 We believe that in a new age world filled with gadgets, noise and pace that a moment to stop, reflect and connect with something pure
                             </Typography>
                         </Box>
-                        <Box className="flex justify-center w-full">
+                        <Box className="flex justify-center items-center ml-8">
                             <Link href={'https://www.splendourinstone.com.au/walling/'}>
-                                <GreenAnimationButton label={'View all'} className="" icon="/images/icons/Vectorn.svg"></GreenAnimationButton>
+                                <GreenAnimationButton label={'View all'} className="" icon="/images/icons/Vector.svg"></GreenAnimationButton>
                             </Link>
                         </Box>
                     </Box>
@@ -600,7 +600,7 @@ const HomePage = () => {
                                         fontWeight: 300,
                                         textAlign: 'center',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '13px',
+                                        fontSize: '14px',
                                     }}
                                 >
                                     We believe that in a new age world filled with gadgets, noise, and pace that a moment to stop, reflect and
@@ -769,17 +769,17 @@ const HomePage = () => {
                                     fontSize: isTablet ? '50px' : '40px', // Adjust for tablets
                                 }}
                             >
-                                PAVING RANGE
+                                PAVING <br /> RANGE
                             </Typography>
                         </Box>
-                        <Box className="flex w-full">
+                        <Box className="flex w-[80%] ml-8 items-center justify-center">
                             <Typography
                                 variant="h3"
                                 color="#000000"
                                 sx={{
                                     fontWeight: 400,
                                     textAlign: 'center',
-                                    fontSize: isTablet ? '20x' : '22px', // Adjust for tablets
+                                    fontSize: isTablet ? '20x' : '14px', // Adjust for tablets
                                     fontFamily: 'var(--font-montserrat)',
                                 }}
                             >
@@ -892,7 +892,7 @@ const HomePage = () => {
 
 
             {isMobile ?
-                <Box className="py-8">
+                <Box className="py-4">
                     <ShortCustomBrownDivider />
                 </Box> : <></>
             }
@@ -909,9 +909,9 @@ const HomePage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'Chronicle Display',
                                     fontSize: {
-                                        xs: '30px', // Extra small screens
-                                        sm: '35px', // Small screens
-                                        md: '40px', // Medium screens (tablets)
+                                        xs: '50px', // Extra small screens
+                                        sm: '50px', // Small screens
+                                        md: '50px', // Medium screens (tablets)
                                     },
                                 }}
                             >
@@ -927,9 +927,9 @@ const HomePage = () => {
                                     sx={{
                                         fontWeight: 300,
                                         fontSize: {
-                                            xs: '22px',
-                                            sm: '22px',
-                                            md: '22px', // Adjusted for tablets
+                                            xs: '14px',
+                                            sm: '14px',
+                                            md: '14px', // Adjusted for tablets
                                         },
                                         fontFamily: 'var(--font-montserrat)',
                                         lineHeight: 1.5,
@@ -945,9 +945,9 @@ const HomePage = () => {
                                         sx={{
                                             marginTop: '10px',
                                             fontSize: {
-                                                xs: '20px',
-                                                sm: '20px',
-                                                md: '20px', // Adjusted for tablets
+                                                xs: '16px',
+                                                sm: '16px',
+                                                md: '16px', // Adjusted for tablets
                                             },
                                             color: '#FFFFFF',
                                             fontWeight: 500,

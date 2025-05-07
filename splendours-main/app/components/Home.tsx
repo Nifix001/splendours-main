@@ -196,7 +196,7 @@ const Home = () => {
 
                 {isMobile ? (<Box className="flex flex-col w-full" sx={{ paddingX: '4vw', height: '30vh' }}>
 
-                    <Box className="flex items-center justify-center">
+                    <Box className="flex items-center justify-start mb-4">
                         <Box
 
                         >
@@ -204,13 +204,13 @@ const Home = () => {
                             <Typography
                                 variant='h3'
                                 sx={{
-                                    fontSize: '30px',
+                                    fontSize: '34px',
                                     fontWeight: 400,
                                     color: { xs: '#DBC6BC', sm: '#FFFFFF' }, // Change color for mobile only
 
                                 }}
                             >
-                                STONE BY SPLENDOUR
+                                STONE BY <br /> SPLENDOUR
                             </Typography>
                             <Typography
                                 variant='h3'
