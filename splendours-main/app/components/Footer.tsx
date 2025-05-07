@@ -14,10 +14,11 @@ const Footer = () => {
                 backgroundSize: 'cover', // Ensures the background image covers the entire area
                 backgroundPosition: 'center', // Centers the background image
                 backgroundRepeat: 'no-repeat', // Prevents repeating the background image
+                // color:'#DBC6BC',
             }}
         >
             <Box className="flex w-full justify-between py-12">
-                <Box className="flex w-1/4">
+                <Box className="flex w-1/4  ">
                     <Box>
                         <Image
                             src="/images/FooterIcon/footer-logo.svg"

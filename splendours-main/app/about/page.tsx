@@ -223,7 +223,7 @@ const AboutPage = () => {
                                                 xs: "18px",
                                                 sm: "24px",
                                                 md: "36px",
-                                                lg: "62px",
+                                                lg: "60px",
                                             },
                                             // fontWeight: 100,
                                         }}
@@ -475,29 +475,29 @@ const AboutPage = () => {
                                 />
                             </Box>
                             <Box className="absolute z-10 text-center p-8 w-3/4 flex flex-col gap-y-6">
-                                <Typography variant="h2" className="font-semibold" color="#DBC6BC" sx={{
+                                <Typography variant="h4" className="font-semibold" color="#DBC6BC" sx={{
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: { lg: '0.8', xs: '0.95' },
                                     fontSize: {
                                         xs: '40px', // Font size for extra small screens
                                         sm: '60px', // Font size for small screens
                                         md: '80px', // Font size for medium screens
-                                        lg: '100px', // Font size for large screens
+                                        lg: '80px', // Font size for large screens
                                     },
-                                    fontWeight: 300,
+                                    fontWeight: 100,
                                 }}>
                                     WE&apos;RE MORE THAN JUST SUPPLIERS
                                 </Typography>
                                 <ShortCustomBrownDivider />
-                                <Typography variant="h5" color="white" sx={{
+                                <Typography variant="h6" color="white" sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '12px', // Font size for extra small screens
                                         sm: '14px', // Font size for small screens
-                                        md: '16px', // Font size for medium screens
-                                        lg: '18px', // Font size for large screens
+                                        md: '14px', // Font size for medium screens
+                                        lg: '14px', // Font size for large screens
                                     },
-                                    fontWeight: 300,
+                                    fontWeight: 100,
                                 }}>
                                     we&apos;re stone enthusiasts dedicated to crafting exceptional experiences for our clients.
                                 </Typography>
@@ -765,7 +765,7 @@ const AboutPage = () => {
                                             xs: '15px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '40px', // Font size for large screens
+                                            lg: '42px', // Font size for large screens
                                         },
                                         fontWeight: 300,
                                         textAlign: 'start',
@@ -1015,7 +1015,7 @@ const AboutPage = () => {
                                             lg: '14px', // Font size for large screens
                                         },
                                         lineHeight: '1.2',
-                                        fontWeight: 400,
+                                        fontWeight: 300,
                                         textAlign: 'start',
                                     }}
                                 >
@@ -1031,8 +1031,8 @@ const AboutPage = () => {
                                                 fontSize: {
                                                     xs: '10px',
                                                     sm: '15px',
-                                                    md: '16px',
-                                                    lg: '16px',
+                                                    md: '15px',
+                                                    lg: '15px',
                                                 },
                                                 lineHeight: '1.2',
                                                 fontWeight: 300,
@@ -1051,8 +1051,8 @@ const AboutPage = () => {
                                                 fontSize: {
                                                     xs: '10px',
                                                     sm: '15px',
-                                                    md: '16px',
-                                                    lg: '16px',
+                                                    md: '15px',
+                                                    lg: '15px',
                                                 },
                                                 fontWeight: 300,
                                                 lineHeight: '1.2',
@@ -1360,13 +1360,13 @@ const AboutPage = () => {
                                             xs: '13px', // Font size for extra small screens
                                             sm: '30px', // Font size for small screens
                                             md: '35px', // Font size for medium screens
-                                            lg: '64px', // Font size for large screens
+                                            lg: '50px', // Font size for large screens
                                         },
                                         fontWeight: 100,
                                         textAlign: 'start',
                                     }}
                                 >
-                                    TODAY, SPLENDOURS IN STONE SUPPLIES A WIDE RANGE OF NATURAL STONES FROM ALL OVER THE WORLD, INCLUDEING:
+                                    TODAY, SPLENDOURS IN STONE SUPPLIES A WIDE RANGE OF NATURAL STONES FROM ALL OVER THE WORLD, INCLUDING:
                                 </Typography>
                             </Box>
                         </Box>}
@@ -1549,11 +1549,11 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '14px',
                                             },
-                                            fontWeight: 300,
+                                            fontWeight: 100,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1569,12 +1569,12 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '14px',
                                             },
 
-                                            fontWeight: 300,
+                                            fontWeight: 100,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1590,9 +1590,9 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '16px',
                                             },
                                             fontWeight: 300,
                                             textAlign: 'start',
@@ -1611,10 +1611,10 @@ const AboutPage = () => {
                                             fontSize: {
                                                 xs: '10px',
                                                 sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                md: '16px',
+                                                lg: '14px',
                                             },
-                                            fontWeight: 300,
+                                            fontWeight: 100,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1634,11 +1634,11 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '14px',
                                             },
-                                            fontWeight: 300,
+                                            fontWeight: 100,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1654,9 +1654,9 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '14px',
                                             },
                                             fontWeight: 300,
                                             textAlign: 'start',
@@ -1674,11 +1674,11 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '14px',
                                             },
-                                            fontWeight: 300,
+                                            fontWeight: 100,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1694,11 +1694,11 @@ const AboutPage = () => {
                                             lineHeight: '1.2',
                                             fontSize: {
                                                 xs: '10px',
-                                                sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                sm: '14px',
+                                                md: '14px',
+                                                lg: '14px',
                                             },
-                                            fontWeight: 300,
+                                            fontWeight: 100,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1707,21 +1707,22 @@ const AboutPage = () => {
                                 </li>
                             </ul>
                         </Box>
-                        <Box className="w-1/4">
+                        <Box className="w-[30%]">
                             <Typography
                                 variant="h4"
                                 color="white"
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    lineHeight: '1.2',
+                                    lineHeight: '1.4',
                                     fontSize: {
                                         xs: '10px',
-                                        sm: '15px',
-                                        md: '18px',
-                                        lg: '18px',
+                                        sm: '14px',
+                                        md: '14px',
+                                        lg: '14px',
                                     },
-                                    fontWeight: 300,
+                                    fontWeight: 100,
                                     textAlign: 'start',
+                                    justifyContent: 'center',
                                 }}
                             >
                                 We also pride ourselves on an experienced team we have assembled over the years, creating a haven for all our customers and their inquiries.
@@ -1935,7 +1936,7 @@ const AboutPage = () => {
                                                         xs: '20px', // Font size for extra small screens
                                                         sm: '25px', // Font size for small screens
                                                         md: '45px', // Font size for medium screens
-                                                        lg: '65px', // Font size for large screens
+                                                        lg: '58px', // Font size for large screens
                                                     },
                                                     fontWeight: 20,
                                                     textAlign: 'start',
@@ -1953,7 +1954,7 @@ const AboutPage = () => {
                                                         xs: '20px', // Font size for extra small screens
                                                         sm: '25px', // Font size for small screens
                                                         md: '45px', // Font size for medium screens
-                                                        lg: '70px', // Font size for large screens
+                                                        lg: '60px', // Font size for large screens
                                                     },
                                                     fontWeight: 20,
                                                     color: 'white', // Set text color
@@ -2066,7 +2067,7 @@ const AboutPage = () => {
                     </Box> : 
                     <Box className="flex w-full justify-between items-start px-20 -mt-24">
 
-                        <Box className="flex w-1/2 flex-col justify-center">
+                        <Box className="flex w-1/2 flex-col justify-center mt-4">
                             <Typography
                                 variant="h4"
                                 color='#DBC6BC'
@@ -2078,7 +2079,7 @@ const AboutPage = () => {
                                         xs: '10px', // Font size for extra small screens
                                         sm: '20px', // Font size for small screens
                                         md: '25px', // Font size for medium screens
-                                        lg: '60px', // Font size for large screens
+                                        lg: '52px', // Font size for large screens
                                     },
                                     fontWeight: 100,
                                     textAlign: 'start',
@@ -2101,7 +2102,7 @@ const AboutPage = () => {
                                         xs: '10px', // Font size for extra small screens
                                         sm: '12px', // Font size for small screens
                                         md: '14px', // Font size for medium screens
-                                        lg: '17px', // Font size for large screens
+                                        lg: '16px', // Font size for large screens
                                     },
                                     fontWeight: 300,
                                     lineHeight: 1.4,
@@ -2490,7 +2491,7 @@ const AboutPage = () => {
                                     xs: '20px', // Font size for extra small screens
                                     sm: '40px', // Font size for small screens
                                     md: '60px', // Font size for medium screens
-                                    lg: '80px', // Font size for large screens
+                                    lg: '75px', // Font size for large screens
                                 },
                                 fontWeight: 200,
                             }}>
@@ -2503,11 +2504,11 @@ const AboutPage = () => {
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: {
                                     xs: '12px', // Font size for extra small screens
-                                    sm: '14px', // Font size for small screens
-                                    md: '16px', // Font size for medium screens
-                                    lg: '18px', // Font size for large screens
+                                    sm: '12px', // Font size for small screens
+                                    md: '14px', // Font size for medium screens
+                                    lg: '14px', // Font size for large screens
                                 },
-                                fontWeight: 300,
+                                fontWeight: 100,
                             }}>
                                 as we do, we will be there to hold your hand as you make life-changing decisions about your living space.
                             </Typography>
@@ -2564,7 +2565,7 @@ const AboutPage = () => {
                                     xs: '30px', // Font size for extra small screens
                                     sm: '40px', // Font size for small screens
                                     md: '60px', // Font size for medium screens
-                                    lg: '90px', // Font size for large screens
+                                    lg: '86px', // Font size for large screens
                                 },
                                 fontWeight: 300,
                             }}>
@@ -2585,9 +2586,9 @@ const AboutPage = () => {
                                     xs: '10px', // Font size for extra small screens
                                     sm: '12px', // Font size for small screens
                                     md: '14px', // Font size for medium screens
-                                    lg: '16px', // Font size for large screens
+                                    lg: '14px', // Font size for large screens
                                 },
-                                fontWeight: 200,
+                                fontWeight: 100,
                             }}>
                                 Our commitment to providing outstanding services, expert advice, and a range of natural stone for your needs is our top priority. Feel free to engage with our experts today and let us mould your ideas into reality.
                             </Typography>

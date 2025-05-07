@@ -322,11 +322,11 @@ const ServicesPage = () => {
                                                 xs: "15px",
                                                 sm: "30px",  // Small screens
                                                 md: "40px",  // Medium screens
-                                                lg: "57px"
+                                                lg: "54px"
                                             }
                                         }}
                                     >
-                                        AT SPLENDOUR IN STONE,
+                                        AT SPLENDOUR IN STONE
                                     </Typography>
                                     <Typography
                                         variant="h3"
@@ -335,7 +335,7 @@ const ServicesPage = () => {
                                             fontWeight: 600,
                                             alignContent: 'flex-start',
                                             fontFamily: 'Chronicle Display',
-                                            lineHeight: '0.9',
+                                            lineHeight: '1',
                                             fontSize: {
                                                 xs: "15px",
                                                 sm: "30px",  // Small screens
@@ -353,7 +353,7 @@ const ServicesPage = () => {
                                             fontWeight: 600,
                                             alignContent: 'flex-start',
                                             fontFamily: 'Chronicle Display',
-                                            lineHeight: '0.9',
+                                            lineHeight: '1',
                                             fontSize: {
                                                 xs: "15px",
                                                 sm: "30px",  // Small screens
@@ -371,7 +371,7 @@ const ServicesPage = () => {
                                             fontWeight: 600,
                                             alignContent: 'flex-start',
                                             fontFamily: 'Chronicle Display',
-                                            lineHeight: '0.9',
+                                            lineHeight: '1',
                                             fontSize: {
                                                 xs: "15px",
                                                 sm: "30px",  // Small screens
@@ -383,22 +383,23 @@ const ServicesPage = () => {
                                         AUSTRALIAN HOMES
                                     </Typography>
                                 </Box>
-                                <Box className="w-11/12 -mt-10 mb-10">
+                                <Box className="w-11/12 -mt-40 mb-10">
                                     <FullCustomYellowDivider />
                                 </Box>
-                                <Box className="flex w-[55%]">
+                                <Box className="flex w-[50%]">
                                     <Typography
                                         variant="h3"
                                         color="#ffffff"
                                         sx={{
-                                            fontWeight: 300,
+                                            fontWeight: 100,
+                                            lineHeight: '1.4',
                                             alignContent: 'flex-start',
                                             fontFamily: 'var(--font-montserrat)',
                                             fontSize: {
                                                 xs: "8px",
                                                 sm: "10px",  // Small screens
                                                 md: "12px",  // Medium screens
-                                                lg: "20px"
+                                                lg: "15px"
                                             }
                                         }}
                                     >
@@ -418,7 +419,7 @@ const ServicesPage = () => {
 
                     {isMobile ? <Box className="py-12">
                         <CustomPartDivider />
-                    </Box> : <></>}+-
+                    </Box> : <></>}
 
 
                     {isMobile ? <Box
@@ -542,31 +543,32 @@ const ServicesPage = () => {
                                         xs: "20px",
                                         sm: "30px",  // Small screens
                                         md: "45px",  // Medium screens
-                                        lg: "56px"
+                                        lg: "50px"
                                     }
                                 }}
                             >
                                 YOUR STONE DESIGN JOURNEY AT SPLENDOUR IN STONE
                             </Typography>
                         </Box>
-                        <Box className="flex w-1/3 items-center">
+                        <Box className="flex w-1/3 items-start">
                             <Typography
                                 variant="h3"
                                 color="#ffffff"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 100,
+                                    lineHeight: '1.4',
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "8px",
                                         sm: "10px",  // Small screens
                                         md: "12px",  // Medium screens
-                                        lg: "20px"
+                                        lg: "13px"
                                     }
                                 }}
                             >
-                                At Splendour in Stone, the journey towards your dream stone design should be seamless and enjoyable.
-                                We understand that embarking on a stone design project can involve questions. Our team is here to guide you through every step, ensuring a smooth and stress-free experience.
+                                At Splendour in Stone, the journey towards your dream stone design should be seamless and enjoyable. <br />
+                                We understand that embarking on a stone design project can involve questions. Our team is here to guide you through every step, ensuring a smooth and stress-free experience. <br />
                                 Here&apos;s a glimpse into the collaborative process, from your initial inquiry to the final installation:
                             </Typography>
                         </Box>
@@ -654,8 +656,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: "15px",
                                         sm: "20px",  // Small screens
-                                        md: "25px",  // Medium screens
-                                        lg: "30px"
+                                        md: "24px",  // Medium screens
+                                        lg: "24px"
                                     }
                                 }}
                             >
@@ -665,21 +667,22 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#FFFFFF"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 100,
+                                    lineHeight: '1.4',
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        md: "14px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
                                 Our conversation begins with a friendly call. We&apos;ll discuss your vision, understand your project scope, and answer any questions you may have about natural stone.
                             </Typography>
                         </Box>
-                        <Box className="flex w-2/5 justify-end">
+                        <Box className="flex w-[38%] justify-end">
                             <Card3DEffect>
                                 <Image
                                     src="/images/Service/journey/consultation.png"
@@ -719,7 +722,7 @@ const ServicesPage = () => {
                                     fontSize: '30px'
                                 }}
                             >
-                                PROJECT DISCUSSTIONS
+                                PROJECT DISCUSSIONS
                             </Typography>
                             <Typography
                                 variant="h3"
@@ -746,7 +749,7 @@ const ServicesPage = () => {
                                 className='rounded-lg w-full h-full'
                             />
                         </Box>
-                    </Box></Box> : <Box className="flex w-full justify-between gap-6 px-12">
+                    </Box></Box> : <Box className="flex w-full justify-between gap-8 px-12">
                         <Box className="flex w-1/5 items-start">
                             <Typography
                                 variant="h3"
@@ -775,32 +778,33 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: "15px",
                                         sm: "20px",  // Small screens
-                                        md: "25px",  // Medium screens
-                                        lg: "30px"
+                                        md: "24px",  // Medium screens
+                                        lg: "24px"
                                     }
                                 }}
                             >
-                                PROJECT DISCUSSITONS
+                                PROJECT DISCUSSIONS
                             </Typography>
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 100,
+                                    lineHeight: '1.4',
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        md: "14px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
                                 Following the call, we&apos;ll delve deeper. We&apos;ll explore design options, recommend suitable stone types based on your preferences and space, and provide initial estimates to ensure transparency. Additionally, this is the perfect opportunity to visit our showroom for a more realistic feel of what to expect.
                             </Typography>
                         </Box>
-                        <Box className="flex w-2/5 justify-end">
+                        <Box className="flex w-[38%] justify-end">
                             <Card3DEffect >
 
                                 <Image
@@ -869,7 +873,7 @@ const ServicesPage = () => {
                                 className="rounded-lg w-full h-full"
                             />
                         </Box>
-                    </Box></Box> : <Box className="flex w-full justify-between gap-6 px-12">
+                    </Box></Box> : <Box className="flex w-full justify-between gap-8 px-12">
                         <Box className="flex w-1/5 items-start">
                             <Typography
                                 variant="h3"
@@ -893,8 +897,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: "15px",
                                         sm: "20px",  // Small screens
-                                        md: "25px",  // Medium screens
-                                        lg: "30px"
+                                        md: "24px",  // Medium screens
+                                        lg: "24px"
                                     }
                                 }}
                             >
@@ -904,21 +908,22 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#FFFFFF"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 100,
+                                    lineHeight: '1.4',
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        md: "14px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
                                 Once we&apos;ve established a plan, our team members will visit your site to take precise measurements. This ensures a flawless fit and avoids any unwanted surprises during installation.
                             </Typography>
                         </Box>
-                        <Box className="flex w-2/5 justify-end">
+                        <Box className="flex w-[38%] justify-end">
                             <Card3DEffect rotationIntensity={30} perspective={1000}>
                                 <Image
                                     src="/images/Service/journey/measurement.png"
@@ -985,7 +990,7 @@ const ServicesPage = () => {
                                 className='rounded-lg w-full h-full'
                             />
                         </Box>
-                    </Box></Box> : <Box className="flex w-full justify-between gap-6 px-12">
+                    </Box></Box> : <Box className="flex w-full justify-between gap-8 px-12">
                         <Box className="flex w-1/5 items-start">
                             <Typography
                                 variant="h3"
@@ -997,8 +1002,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        md: "14px",  // Medium screens
+                                        lg: "15px"
                                     }
                                 }}
                             >04</Typography>
@@ -1014,8 +1019,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: "15px",
                                         sm: "20px",  // Small screens
-                                        md: "25px",  // Medium screens
-                                        lg: "30px"
+                                        md: "24px",  // Medium screens
+                                        lg: "24px"
                                     }
                                 }}
                             >
@@ -1025,21 +1030,22 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#FFFFFF"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 100,
+                                    lineHeight: '1.4',
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        md: "14px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
                                 With your project details finalised, we&apos;ll secure the perfect stone selection and collaborate with a trusted and highly skilled stone mason for installation.
                             </Typography>
                         </Box>
-                        <Box className="flex w-2/5 justify-end">
+                        <Box className="flex w-[38%] justify-end">
                             <Card3DEffect rotationIntensity={30} perspective={1000}>
                                 <Image
                                     src="/images/Service/journey/arranging.png"
@@ -1105,7 +1111,7 @@ const ServicesPage = () => {
                                 className='rounded-lg w-full h-full'
                             />
                         </Box>
-                    </Box></Box> : <Box className="flex w-full justify-between gap-6 px-12">
+                    </Box></Box> : <Box className="flex w-full justify-between gap-8 px-12">
                         <Box className="flex w-1/5 items-start">
                             <Typography
                                 variant="h3"
@@ -1134,8 +1140,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: "15px",
                                         sm: "20px",  // Small screens
-                                        md: "25px",  // Medium screens
-                                        lg: "30px"
+                                        md: "24px",  // Medium screens
+                                        lg: "24px"
                                     }
                                 }}
                             >
@@ -1145,21 +1151,22 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#FFFFFF"
                                 sx={{
-                                    fontWeight: 300,
+                                    fontWeight: 100,
+                                    lineHeight:'1.4',
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "20px"
+                                        md: "14px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
                                 The big day arrives! Our recommended stone mason will meticulously install your chosen stone, transforming your space with the enduring beauty of natural stone.
                             </Typography>
                         </Box>
-                        <Box className="flex w-2/5 justify-end">
+                        <Box className="flex w-[38%] justify-end">
                             <Card3DEffect>
                                 <Image
                                     src="/images/Service/journey/installation.png"
@@ -1471,13 +1478,13 @@ const ServicesPage = () => {
                                 </Box>
                                 {/* <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vector.svg'} /> */}
                                 <Box className={"flex items-start"}>
-                                    <GreenServiceBtn label={'ENQUIRE NOW!'} icon={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
+                                    <GreenServiceBtn label={'Enquire Now!'} icon={'/images/icons/Vector.svg'} onClick={handleOpenEnquiryForm} />
                                 </Box>
                             </Box>
                         </Box>
 
                         <Box className="flex w-2/5 items-center" sx={{ zIndex: 2 }}>
-                            <Box className="flex w-full">
+                            <Box className="flex w-full -mt-6">
                                 <Typography
                                     variant="h4"
                                     color="white"
@@ -1486,14 +1493,14 @@ const ServicesPage = () => {
                                         fontSize: {
                                             xs: '10px', // Font size for extra small screens
                                             sm: '12px', // Font size for small screens
-                                            md: '15px', // Font size for medium screens
-                                            lg: '20px', // Font size for large screens
+                                            md: '14px', // Font size for medium screens
+                                            lg: '16px', // Font size for large screens
                                         },
-                                        fontWeight: 300,
+                                        fontWeight: 100,
                                         textAlign: 'start',
                                     }}
                                 >
-                                    At Splendour in Stone, we believe in open communication. We invite you to visit our Pricing Page to explore a breakdown of our services and associated costs. This ensures you can make informed decisions while embarking on your stone design journey.
+                                    <span className='opacity-60'>At Splendour in Stone, we believe in open communication. We invite you to visit our</span> Pricing Page <span className='opacity-60'>to explore a breakdown of our services and associated costs. This ensures you can make informed decisions while embarking on your stone design journey.</span>
                                 </Typography>
                             </Box>
                         </Box>
@@ -1522,11 +1529,11 @@ const ServicesPage = () => {
                                                 xs: "20px",
                                                 sm: "30px",  // Small screens
                                                 md: "45px",  // Medium screens
-                                                lg: "60px"
+                                                lg: "50px"
                                             }
                                         }}
                                     >
-                                        HEAR FROM OUR SATISFIED CLIENTS:
+                                        HEAR FROM OUR <br /> SATISFIED CLIENTS:
                                     </Typography>
                                     <Typography
                                         variant="h3"
@@ -1540,7 +1547,7 @@ const ServicesPage = () => {
                                                 xs: "20px",
                                                 sm: "30px",  // Small screens
                                                 md: "45px",  // Medium screens
-                                                lg: "60px"
+                                                lg: "50px"
                                             }
                                         }}
                                     >
@@ -1553,13 +1560,14 @@ const ServicesPage = () => {
                                         color="#000000"
                                         sx={{
                                             fontWeight: 300,
+                                            lineHeight: '1.4',
                                             alignContent: 'flex-start',
                                             fontFamily: 'var(--font-montserrat)',
                                             fontSize: {
                                                 xs: "8px",
                                                 sm: "10px",  // Small screens
                                                 md: "12px",  // Medium screens
-                                                lg: "20px"
+                                                lg: "14px"
                                             }
                                         }}
                                     >
@@ -1586,9 +1594,9 @@ const ServicesPage = () => {
                                                     fontFamily: 'Chronicle Display',
                                                     fontSize: {
                                                         xs: "15px",
-                                                        sm: "30px",  // Small screens
-                                                        md: "40px",  // Medium screens
-                                                        lg: "50px"
+                                                        sm: "25px",  // Small screens
+                                                        md: "30px",  // Medium screens
+                                                        lg: "30px"
                                                     }
                                                 }}
                                             >
@@ -1611,15 +1619,15 @@ const ServicesPage = () => {
                                         <Typography
                                             variant="h3"
                                             color="#000000"
-                                            className="text-center"
+                                            className="flex text-start items-center justify-center"
                                             sx={{
                                                 fontWeight: 400,
                                                 fontFamily: 'var(--font-montserrat)',
                                                 fontSize: {
                                                     xs: "10px",
                                                     sm: "12px",  // Small screens
-                                                    md: "15px",  // Medium screens
-                                                    lg: "20px"
+                                                    md: "13px",  // Medium screens
+                                                    lg: "14px"
                                                 }
                                             }}
                                         >
@@ -1647,9 +1655,9 @@ const ServicesPage = () => {
                                                     fontFamily: 'Chronicle Display',
                                                     fontSize: {
                                                         xs: "15px",
-                                                        sm: "30px",  // Small screens
-                                                        md: "40px",  // Medium screens
-                                                        lg: "50px"
+                                                        sm: "25px",  // Small screens
+                                                        md: "30px",  // Medium screens
+                                                        lg: "30px"
                                                     }
                                                 }}
                                             >
@@ -1672,15 +1680,15 @@ const ServicesPage = () => {
                                         <Typography
                                             variant="h3"
                                             color="#000000"
-                                            className="text-center"
+                                            className="flex text-start items-center justify-center"
                                             sx={{
                                                 fontWeight: 400,
                                                 fontFamily: 'var(--font-montserrat)',
                                                 fontSize: {
                                                     xs: "10px",
                                                     sm: "12px",  // Small screens
-                                                    md: "15px",  // Medium screens
-                                                    lg: "20px"
+                                                    md: "13px",  // Medium screens
+                                                    lg: "14px"
                                                 }
                                             }}
                                         >
@@ -1708,9 +1716,9 @@ const ServicesPage = () => {
                                                     fontFamily: 'Chronicle Display',
                                                     fontSize: {
                                                         xs: "15px",
-                                                        sm: "30px",  // Small screens
-                                                        md: "40px",  // Medium screens
-                                                        lg: "50px"
+                                                        sm: "25px",  // Small screens
+                                                        md: "30px",  // Medium screens
+                                                        lg: "30px"
                                                     }
                                                 }}
                                             >
@@ -1733,15 +1741,15 @@ const ServicesPage = () => {
                                         <Typography
                                             variant="h3"
                                             color="#000000"
-                                            className="text-center"
+                                            className="flex text-start items-center justify-center"
                                             sx={{
                                                 fontWeight: 400,
                                                 fontFamily: 'var(--font-montserrat)',
                                                 fontSize: {
                                                     xs: "10px",
                                                     sm: "12px",  // Small screens
-                                                    md: "15px",  // Medium screens
-                                                    lg: "20px"
+                                                    md: "13px",  // Medium screens
+                                                    lg: "14px"
                                                 }
                                             }}
                                         >
@@ -1848,18 +1856,18 @@ const ServicesPage = () => {
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: {
                                     xs: '12px', // Font size for extra small screens
-                                    sm: '14px', // Font size for small screens
-                                    md: '16px', // Font size for medium screens
-                                    lg: '20px', // Font size for large screens
+                                    sm: '12px', // Font size for small screens
+                                    md: '14px', // Font size for medium screens
+                                    lg: '14px', // Font size for large screens
                                 },
-                                fontWeight: 300,
+                                fontWeight: 100,
                             }}>
-                                Contact our friendly and knowledgeable team today. We're here to answer your questions, discuss your project, and guide you towards the perfect stone solution. Let Splendour in Stone be your partner in creating a space that reflects your unique style and endures for generations to come.
+                                Contact our friendly and knowledgeable team today. We're here to answer your <br /> questions, discuss your project, and guide you towards the perfect stone solution. Let <br /> Splendour in Stone be your partner in creating a space that reflects your unique style <br /> and endures for generations to come.
 
                             </Typography>
                         </Box>
                         <Link href={'/contact'} className="relative flex items-center justify-center pt-4">
-                            <WhiteBtn label={'CONTACT US'} icon={'/images/Vector.svg'} />
+                            <WhiteBtn label={'Contact Us'} icon={'/images/Vectorn.svg'} />
                         </Link>
                     </Box>
                     }

@@ -131,7 +131,7 @@ export default function StoneTypesFaqAccordion() {
                                 fontSize: "20px",
                             }}
                         >
-                            WHAT IS THE AVERAGE TURNAROUND TIME TO RECEIVE MY STONE ORDER?
+                            CAN I VISIT YOUR SHOWROOM?
                         </Typography>
                         {expanded ? (
                             <IndeterminateCheckBoxIcon

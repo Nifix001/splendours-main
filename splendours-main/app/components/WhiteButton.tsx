@@ -47,7 +47,7 @@ const WhiteCustomButton: React.FC<CustomButtonProps> = ({ label, isMobile, iconS
                 height: { xs: "50px", sm: "50px", md: "60px", lg: "60px" }, // Responsive height
                 borderRadius: "50px",
                 color: "#283C28",
-                fontSize: { xs: "13px", sm: "15px" }, // Responsive font size
+                fontSize: { xs: "12px", sm: "15px" }, // Responsive font size
                 fontWeight: 400,
                 fontFamily: "inherit",
                 fontSynthesisWeight: 600,

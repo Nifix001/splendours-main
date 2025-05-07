@@ -272,14 +272,15 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="white"
                                 sx={{
-                                    fontWeight: 200,
+                                    fontWeight: 100,
+                                    lineHeight: 1.4,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "16px"
+                                        md: "13px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
@@ -291,14 +292,15 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="white"
                                 sx={{
-                                    fontWeight: 200,
+                                    fontWeight: 100,
+                                    lineHeight: 1.3,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "16px"
+                                        md: "13px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
@@ -310,14 +312,15 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="white"
                                 sx={{
-                                    fontWeight: 200,
+                                    fontWeight: 100,
+                                    lineHeight: 1.4,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: "10px",
                                         sm: "12px",  // Small screens
-                                        md: "15px",  // Medium screens
-                                        lg: "16px"
+                                        md: "13px",  // Medium screens
+                                        lg: "14px"
                                     }
                                 }}
                             >
@@ -976,8 +979,8 @@ const ServicesPage = () => {
                                             fontSize: {
                                                 xs: '10px',
                                                 sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                md: '16px',
+                                                lg: '16px',
                                             },
                                             fontWeight: 300,
                                             textAlign: 'start',
@@ -995,8 +998,8 @@ const ServicesPage = () => {
                                             fontSize: {
                                                 xs: '10px',
                                                 sm: '15px',
-                                                md: '18px',
-                                                lg: '18px',
+                                                md: '16px',
+                                                lg: '16px',
                                             },
                                             fontWeight: 300,
                                             textAlign: 'start',
@@ -1029,8 +1032,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: '15px',
                                         sm: '20px',
-                                        md: '25px',
-                                        lg: '28px',
+                                        md: '24px',
+                                        lg: '24px',
                                     },
                                     fontWeight: 500,
                                     textAlign: 'start',
@@ -1047,9 +1050,9 @@ const ServicesPage = () => {
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '10px',
-                                        sm: '15px',
-                                        md: '18px',
-                                        lg: '18px',
+                                        sm: '13px',
+                                        md: '14px',
+                                        lg: '14px',
                                     },
                                     fontWeight: 300,
                                     textAlign: 'start',
@@ -1080,8 +1083,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: '15px',
                                         sm: '20px',
-                                        md: '25px',
-                                        lg: '28px',
+                                        md: '24px',
+                                        lg: '24px',
                                     },
                                     fontWeight: 500,
                                     textAlign: 'start',
@@ -1098,9 +1101,9 @@ const ServicesPage = () => {
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '10px',
-                                        sm: '15px',
-                                        md: '18px',
-                                        lg: '18px',
+                                        sm: '13px',
+                                        md: '14px',
+                                        lg: '14px',
                                     },
                                     fontWeight: 300,
                                     textAlign: 'start',
@@ -1131,8 +1134,8 @@ const ServicesPage = () => {
                                     fontSize: {
                                         xs: '15px',
                                         sm: '20px',
-                                        md: '25px',
-                                        lg: '28px',
+                                        md: '22px',
+                                        lg: '22px',
                                     },
                                     fontWeight: 500,
                                     textAlign: 'start',
@@ -1149,9 +1152,9 @@ const ServicesPage = () => {
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '10px',
-                                        sm: '15px',
-                                        md: '18px',
-                                        lg: '18px',
+                                        sm: '13px',
+                                        md: '14px',
+                                        lg: '14px',
                                     },
                                     fontWeight: 300,
                                     textAlign: 'start',

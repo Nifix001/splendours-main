@@ -142,7 +142,7 @@ export default function StoneTypesFaqAccordion() {
                                 fontSize: "20px",
                             }}
                         >
-                            DO YOU OFFER INSTALLATION SERVICES FOR STONE PROJECTS?
+                            DO YOU OFFER INSTALLATION SERVICES?
                         </Typography>
                         {expanded ? (
                             <IndeterminateCheckBoxIcon

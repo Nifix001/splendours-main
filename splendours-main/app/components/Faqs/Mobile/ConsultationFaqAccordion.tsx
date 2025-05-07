@@ -131,7 +131,7 @@ export default function ConsultationFaqAccodion() {
                                 fontSize: "20px",
                             }}
                         >
-                            HOW DO I CARE FOR MY NATURAL STONE SURFACES?
+                            DO YOU PROVIDE CONSULTATIONS?
                         </Typography>
                         {expanded ? (
                             <IndeterminateCheckBoxIcon

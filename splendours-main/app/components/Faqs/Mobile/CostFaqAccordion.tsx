@@ -131,7 +131,7 @@ export default function CostFaqAccordion() {
                                 fontSize: "20px",
                             }}
                         >
-                            CAN NATURAL STONE BE USED FOR BOTH INDOOR AND OUTDOOR PROJECTS?
+                            HOW MUCH DOES NATURAL STONE COST?
                         </Typography>
                         {expanded ? (
                             <IndeterminateCheckBoxIcon

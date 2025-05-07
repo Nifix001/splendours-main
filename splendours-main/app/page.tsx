@@ -194,7 +194,7 @@ const HomePage = () => {
                     },
                 }}
             >
-                <Box sx={{ width: '100%', display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'center' : 'flex-end' }} style={{ marginBottom: "50px" }}>
+                <Box sx={{ width: '100%', display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'center' : 'flex-end' }} style={{ marginBottom: "80px" }}>
                     <Box sx={{ width: isMobile ? "100%" : "40%" }}>
                         <Typography
                             // className="text-center"
@@ -216,7 +216,7 @@ const HomePage = () => {
                             SPLENDOURS PROJECTS
                         </Typography>
                     </Box>
-                    <Box sx={{ bottom: 0, left: "0", marginTop: isMobile ? '30px' : '0px', marginleft: "20px" }}>
+                    <Box sx={{ bottom: 0, left: "0", marginTop: isMobile ? '30px' : '0px', marginleft: "20px", }}>
                         <Link href={'/allProjectViews'} >
                             <AnimatedModalDemo label="View all" isMobile={isMobile} icon={"images/Vectorn.svg"} ></AnimatedModalDemo>
                         </Link>
@@ -621,29 +621,30 @@ const HomePage = () => {
                             </Box>
                         </Box>
                     ) : (
-                        <Box className="flex flex-col justify-center w-[28%] gap-y-5 mt-5">
+                        <Box className="flex flex-col justify-center text-start w-[25%] gap-y-6 mt-5">
                             <Typography
                                 variant="h3"
                                 color="#ffffff"
                                 sx={{
                                     fontWeight: 200,
+                                    lineHeight: 1.4,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: {
                                         xs: '8px',
                                         sm: '10px',
                                         md: '12px',
-                                        lg: '16px',
+                                        lg: '14px',
                                     },
                                 }}
                             >
                                 We believe that in a new age world filled with gadgets, noise, and pace that a moment to stop, reflect and
                                 connect with something pure
-                            </Typography>
-                            <Box className="flex w-full justify-center  ml-14 mb-24">
+                            <Box className="flex w-full justify-start ml-48 mt-4">
                                 <Link href={'/allvisualizers'}>
                                     <AnimatedModalDemo label={'View all'} icon={'/images/Vectorn.svg'} ></AnimatedModalDemo>
                                 </Link>
                             </Box>
+                            </Typography>
                         </Box>
                     )}
                 </Box>
@@ -808,7 +809,7 @@ const HomePage = () => {
                     }}
                 >
                     <Box className="flex flex-col md:flex-row justify-between w-full">
-                        <Box className="flex flex-col justify-center w-full md:w-[30%] gap-3">
+                        <Box className="flex flex-col justify-center w-full md:w-[28%] gap-3">
                             <Box className="flex w-full flex-col gap-y-6 mt-4">
                                 <Typography
                                     variant="h3"
@@ -821,7 +822,7 @@ const HomePage = () => {
                                             xs: '12px',
                                             sm: '14px',
                                             md: '14px',
-                                            lg: '18px',
+                                            lg: '16px',
                                         },
                                     }}
                                 >

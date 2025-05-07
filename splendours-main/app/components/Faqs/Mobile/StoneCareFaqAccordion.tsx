@@ -131,7 +131,7 @@ export default function StoneCareFaqAccordion() {
                                 fontSize: "20px",
                             }}
                         >
-                            IS NATURAL STONE ECO-FRIENDLY?
+                            HOW DO I CARE FOR NATURAL STONE?
                         </Typography>
                         {expanded ? (
                             <IndeterminateCheckBoxIcon

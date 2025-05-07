@@ -143,7 +143,7 @@ export default function StoneBenefitsFaqAccordion() {
                                 fontSize: "20px",
                             }}
                         >
-                            HOW DURABLE IS NATURAL STONE FOR HIGH-TRAFFIC AREAS?
+                            WHAT ARE THE BENEFITS OF USING NATURAL STONE?
                         </Typography>
                         {expanded ? (
                             <IndeterminateCheckBoxIcon

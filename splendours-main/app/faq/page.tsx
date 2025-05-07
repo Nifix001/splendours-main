@@ -115,7 +115,7 @@ const FaqPage = () => {
                                     xs: "25px",
                                     sm: "45px",  // Small screens
                                     md: "65px",  // Medium screens
-                                    lg: "100px"
+                                    lg: "90px"
                                 }
                             }}
                         >
@@ -127,18 +127,19 @@ const FaqPage = () => {
                             variant="h3"
                             color="#ffffff"
                             sx={{
-                                fontWeight: 300,
+                                fontWeight: 100,
+                                lineHeight: '1.4',
                                 alignContent: 'flex-start',
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: {
                                     xs: "8px",
                                     sm: "10px",  // Small screens
                                     md: "12px",  // Medium screens
-                                    lg: "20px"
+                                    lg: "14px"
                                 }
                             }}
                         >
-                            we appreciate our clients’ need for the correct information to make informed decisions about your stone design project. Here are some answers to frequent questions asked:
+                            we appreciate our clients&apos; need for the correct information to make informed decisions about your stone design project. Here are some answers to frequent questions asked:
                         </Typography>
                     </Box>
                 </Box>}
@@ -311,19 +312,20 @@ const FaqPage = () => {
                             CAN I REACH YOU?
                         </Typography>
                     </Box>
-                    <Box className="flex w-1/3 items-center">
+                    <Box className="flex w-1/3 items-start">
                         <Typography
                             variant="h3"
                             color="#FFFFFF"
                             sx={{
-                                fontWeight: 300,
+                                fontWeight: 100,
                                 alignContent: 'flex-start',
+                                lineHeight: '1.4',
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: {
                                     xs: "8px",
                                     sm: "10px",  // Small screens
                                     md: "12px",  // Medium screens
-                                    lg: "20px"
+                                    lg: "14px"
                                 }
                             }}
                         >

@@ -31,7 +31,7 @@ const StoneProductCard: React.FC<StoneProductCardProps> = ({ product_image_src, 
                                     xs: "15px",
                                     sm: "20px",  // Small screens
                                     md: "30px",  // Medium screens
-                                    lg: "38px"
+                                    lg: "32px"
                                 }
                             }}
                         >

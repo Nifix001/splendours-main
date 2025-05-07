@@ -265,7 +265,7 @@ const Home = () => {
                         className="flex flex-col w-full mb-6 sm:flex-row md:flex-row lg:flex-row md:px-[5vw]"
                         sx={{ height: '8vh' }}
                     >
-                        <Box className="flex items-center w-full sm:w-1/3 md:w-2/5">
+                        <Box className="flex items-center mt-8 w-full sm:w-1/3 md:w-2/5">
                             <Box>
                                 <AboutWhiteBtn
                                     label={'Enquire Now!'}
@@ -280,7 +280,7 @@ const Home = () => {
                             </Link>
                         </Box>
 
-                        <Box className="flex items-center justify-center w-[60vw]">
+                        <Box className="flex items-center justify-center w-[70vw]">
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
