@@ -37,6 +37,7 @@ const Home = () => {
             <EnquiryForm open={isEnquiryFormOpen} handleClose={handleCloseEnquiryForm} />
 
             {/* Texture Modal1 */}
+             
             <Modal
                 open={isTextureModalOpen1}
                 onClose={handleCloseTextureModal1}
