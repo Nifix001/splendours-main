@@ -28,7 +28,7 @@ export function AboutWhiteBtn({
       <Modal>
         <ModalTrigger
           className={cn(
-            "bg-customColor text-color  flex items-center justify-center gap-2 group/modal-btn relative",
+            "bg-customColor text-color flex items-center justify-center gap-2 group/modal-btn relative",
             className
           )}
           onClick={onClick} // Pass onClick to ModalTrigger

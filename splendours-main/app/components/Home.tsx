@@ -180,7 +180,7 @@ const Home = () => {
                             style={{
                                 position: 'absolute',
                                 right: isTablet ? '3vw' : '4vw',
-                                top: isTablet ? '-5vh' : '2vh',
+                                top: isTablet ? '-5vh' : '-4vh',
                             }}
                         >
                             <Image
@@ -188,7 +188,7 @@ const Home = () => {
                                 alt="Logo"
                                 width={18}
                                 height={600}
-                                className="h-[70vh]"
+                                className="h-[50vh]"
                             />
                         </Box>
                     </Box>
@@ -262,7 +262,7 @@ const Home = () => {
                     </Box>
                 ) : (
                     <Box
-                        className="flex flex-col w-full mb-6 sm:flex-row md:flex-row lg:flex-row md:px-[5vw]"
+                        className="flex flex-col w-full mb-6 sm:flex-row md:flex-row lg:flex-row md:px-[5vw] "
                         sx={{ height: '8vh' }}
                     >
                         <Box className="flex items-center mt-8 w-full sm:w-1/3 md:w-2/5">
@@ -280,7 +280,7 @@ const Home = () => {
                             </Link>
                         </Box>
 
-                        <Box className="flex items-center justify-center w-[70vw]">
+                        <Box className="flex items-center justify-center -mr-14 w-full">
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
@@ -288,7 +288,7 @@ const Home = () => {
                                     fontWeight: 400,
                                     alignContent: 'flex-start',
                                     fontFamily: 'Chronicle Display',
-                                    fontSize: '3.4vw',
+                                    fontSize: '3.72vw',
                                 }}
                             >
                                 STONE BY SPLENDOUR IN STONE
