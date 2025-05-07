@@ -1852,7 +1852,7 @@ const ServicesPage = () => {
                             }}>
                                 READY TO CRAFT YOUR STONE MASTERPIECE?
                             </Typography>
-                            <Typography variant="h5" className="mb-8" sx={{
+                            <Typography variant="h5" className="mb-8 mt-1" sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: {
                                     xs: '12px', // Font size for extra small screens
