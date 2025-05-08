@@ -280,7 +280,7 @@ const Home = () => {
                             </Link>
                         </Box>
 
-                        <Box className="flex items-center justify-center -mr-14 w-full">
+                        <Box className="flex items-center justify-center -mr-14 w-[60vw]">
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
@@ -288,7 +288,7 @@ const Home = () => {
                                     fontWeight: 400,
                                     alignContent: 'flex-start',
                                     fontFamily: 'Chronicle Display',
-                                    fontSize: '3.72vw',
+                                    fontSize: '3.4vw',
                                 }}
                             >
                                 STONE BY SPLENDOUR IN STONE

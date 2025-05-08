@@ -180,7 +180,7 @@ const HomePage = () => {
                 flexDirection: "column", // equivalent to "flex-col"
                 gap: isMobile ? "2rem" : "6rem", // equivalent to "gap-y-24" (6 * 4px = 24px per unit in Tailwind)
             }}
-            className='max-sm:overflow-x-hidden max-sm:max-w-'
+            className='max-sm:overflow-x-hidden overflow-x-hidden max-sm:max-w-'
         >
             <Home />
 
