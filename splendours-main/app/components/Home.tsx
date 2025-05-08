@@ -180,7 +180,7 @@ const Home = () => {
                             style={{
                                 position: 'absolute',
                                 right: isTablet ? '3vw' : '4vw',
-                                top: isTablet ? '-5vh' : '-4vh',
+                                top: isTablet ? '-5vh' : isMobile ? '0vh' : '-4vh',
                             }}
                         >
                             <Image
@@ -188,7 +188,7 @@ const Home = () => {
                                 alt="Logo"
                                 width={18}
                                 height={600}
-                                className="h-[50vh]"
+                                className="h-[50vh] max-sm:h-full"
                             />
                         </Box>
                     </Box>
