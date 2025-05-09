@@ -91,7 +91,7 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
              top: '0px'
          }}
         >
-          PREV
+          PRE
         </Typography>
 
       </Button>
