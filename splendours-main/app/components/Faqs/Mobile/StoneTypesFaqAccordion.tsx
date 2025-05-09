@@ -140,7 +140,7 @@ export default function StoneTypesFaqAccordion() {
                                 fontWeight: 300,
                                 flexWrap: "wrap",
                                 fontFamily: "Chronicle Display",
-                                fontSize: "20px",
+                                fontSize: "22px",
                             }}
                         >
                             WHAT TYPES OF NATURAL STONE DO YOU OFFER?

@@ -63,11 +63,11 @@ const FaqPage = () => {
                             variant="h3"
                             color="#DCC5BD"
                             sx={{
-                                fontWeight: 500,
+                                fontWeight: 700,
                                 textAlign: 'center',
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
-                                fontSize: '40px'
+                                fontSize: '44px'
                             }}
                         >
                             AT SPLENDOUR
@@ -76,11 +76,11 @@ const FaqPage = () => {
                             variant="h3"
                             color="#DCC5BD"
                             sx={{
-                                fontWeight: 500,
+                                fontWeight: 700,
                                 textAlign: 'center',
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
-                                fontSize: '40px'
+                                fontSize: '44px'
                             }}
                         >
                             IN STONE,
@@ -94,11 +94,12 @@ const FaqPage = () => {
                                 fontWeight: 300,
                                 letterSpacing: '1.5',
                                 textAlign: 'center',
+                                lineHeight: '1.2',
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '13px'
+                                fontSize: '14px'
                             }}
                         >
-                            we appreciate our clients’ need for the correct information to make informed decisions about your stone design project. Here are some answers to frequent questions asked:
+                            we appreciate our clients’ need for the correct <br /> information to make informed decisions about<br /> your stone design project. Here are some<br /> answers to frequent questions asked:
                         </Typography>
                     </Box>
                 </Box> : <Box className="flex w-full justify-between px-12 py-24">
@@ -174,7 +175,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '40px',
+                                fontSize: '44px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -202,7 +203,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '40px',
+                                fontSize: '44px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -216,7 +217,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '40px',
+                                fontSize: '44px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -230,11 +231,11 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '40px',
+                                fontSize: '44px',
                                 fontStyle: 'italic'
                             }}
                         >
-                            I REACH YOU?
+                            REACH YOU?
                         </Typography>
                     </Box>
                     <Box className="flex w-full items-center justify-center">
@@ -245,11 +246,11 @@ const FaqPage = () => {
                             sx={{
                                 fontWeight: 300,
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '13px',
+                                fontSize: '14px',
                                 lineHeight: '1.2'
                             }}
                         >
-                            No problem! Our team is always ready to assist you. CONTACT US by phone at (03) 9873 4941, email us at info@splendourinstone.com, or visit our CONTACT US page for details. We're happy to answer any questions you may have.
+                            No problem! Our team is always ready to assist you. CONTACT US by phone at (03) 9873 4941, email us at info@splendourinstone.com, or visit our Contact Us page for details. We're happy to answer any questions you may have.
                         </Typography>
                     </Box>
                 </Box> : <Box className="px-12"><Box className="flex w-full justify-between">

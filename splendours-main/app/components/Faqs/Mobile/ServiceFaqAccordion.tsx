@@ -139,7 +139,7 @@ export default function StoneTypesFaqAccordion() {
                                 fontWeight: 300,
                                 flexWrap: "wrap",
                                 fontFamily: "Chronicle Display",
-                                fontSize: "20px",
+                                fontSize: "22px",
                             }}
                         >
                             DO YOU OFFER INSTALLATION SERVICES?

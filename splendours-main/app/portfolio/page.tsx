@@ -5,7 +5,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
-import Header from '../components/Header';
+// import Header from '../components/Header';
+import Header from '../components/Home/Header';
 import Footer from '../components/Footer';
 import './embla.css';
 // import {motion} from 'framer-motion';
@@ -214,7 +215,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '40px'
+                                        fontSize: '44px'
                                     }}
                                 >
                                     AT SPLENDOUR
@@ -227,7 +228,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '40px'
+                                        fontSize: '44px'
                                     }}
                                 >
                                     IN STONE,
@@ -241,7 +242,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '40px'
+                                        fontSize: '44px'
                                     }}
                                 >
                                     WE DON'T JUST
@@ -254,7 +255,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '40px'
+                                        fontSize: '44px'
                                     }}
                                 >
                                     DEAL IN STONE
@@ -263,7 +264,7 @@ const PortfolioPage = () => {
 
                             <FullCustomBrownDivider />
 
-                            <Box className="flex w-full gap-3">
+                            <Box className="flex w-full gap-3 py-4">
                                 <Box className="w-1/2">
                                     <Box>
                                         <Typography
@@ -274,10 +275,10 @@ const PortfolioPage = () => {
                                                 fontWeight: 300,
                                                 fontFamily: 'var(--font-montserrat)',
                                                 lineHeight: 1.4,
-                                                fontSize: '15px'
+                                                fontSize: '14px'
                                             }}
                                         >
-                                            we create experiences. Our portfolio showcases a captivating collection of projects where natural stone has breathed life into Melbourne homes and businesses.
+                                            we create experiences.<br /> Our portfolio showcases a<br /> captivating collection of<br /> projects where natural<br /> stone has breathed life<br /> into Melbourne homes<br /> and businesses.
                                         </Typography>
                                     </Box>
 
@@ -300,10 +301,10 @@ const PortfolioPage = () => {
                                             fontWeight: 300,
                                             fontFamily: 'var(--font-montserrat)',
                                             lineHeight: 1.4,
-                                            fontSize: '15px'
+                                            fontSize: '14px'
                                         }}
                                     >
-                                        Explore a curated selection of projects, each a testament to natural stone's enduring beauty and versatility. From modern kitchen renovations featuring captivating stone splashbacks to stunning outdoor living spaces paved with timeless elegance, discover how we've collaborated with clients to translate their visions into reality.
+                                        Explore a curated<br /> selection of projects, each<br /> a testament to natural<br /> stone's enduring beauty<br /> and versatility. From<br /> modern kitchen<br /> renovations featuring<br /> captivating stone<br /> splashbacks to stunning<br /> outdoor living spaces<br /> paved with timeless<br /> elegance, discover how<br /> we've collaborated with<br /> clients to translate their<br /> visions into reality.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -469,10 +470,10 @@ const PortfolioPage = () => {
                                     <Typography variant="h5" className="text-center" color='#283C28' sx={{
                                         width: '80%',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '13px',
-                                        fontWeight: 400,
+                                        fontSize: '14px',
+                                        fontWeight: 500,
                                     }}>
-                                        Whether you&apos;re seeking classic sophistication or a burst of contemporary flair, our portfolio offers a wealth of inspiration.
+                                        Whether you&apos;re seeking classic<br /> sophistication or a burst of<br /> contemporary flair, our portfolio offers<br /> a wealth of inspiration.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -601,15 +602,15 @@ const PortfolioPage = () => {
                                         sx={{
                                             fontWeight: 100,
                                             textAlign: "center",
-                                            lineHeight: "0.9",
+                                            lineHeight: "1",
                                             fontFamily: "Chronicle Display",
-                                            fontSize: "42px", // Smaller font for mobile
+                                            fontSize: "44px", // Smaller font for mobile
                                         }}
                                     >
                                         PROJECT TYPE
                                     </Typography>
                                 </Box>
-                                <Box className="flex w-[65%] items-center">
+                                <Box className="flex w-[60%] items-center text-center">
                                     <Typography
                                         variant="h3"
                                         color="#FFFFFF"
@@ -617,11 +618,11 @@ const PortfolioPage = () => {
                                             fontWeight: 300,
                                             textAlign: "center",
                                             fontFamily: "var(--font-montserrat)",
-                                            fontSize: "12px", // Smaller font for mobile
+                                            fontSize: "14px", // Smaller font for mobile
                                         }}
                                     >
-                                        Narrow your search by exploring projects categorised by
-                                        application, such as kitchens, bathrooms, or outdoor spaces.
+                                        Narrow your search by exploring<br /> projects categorised by<br />
+                                        application, such as kitchens,<br /> bathrooms, or outdoor spaces.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -712,12 +713,11 @@ const PortfolioPage = () => {
                                         sx={{
                                             fontFamily: 'Chronicle Display',
                                             lineHeight: '0.9',
-                                            fontStyle: 'italic',
                                             fontSize: '40px',
                                             fontWeight: 300,
                                         }}
                                     >
-                                        EXPLORE THE MATERIALS
+                                        EXPLORE <br /> THE <br /> MATERIALS
                                     </Typography>
 
                                     <Typography
@@ -726,11 +726,11 @@ const PortfolioPage = () => {
                                         color="#283C28"
                                         sx={{
                                             fontFamily: 'var(--font-montserrat)',
-                                            fontSize: '15px',
-                                            fontWeight: 300,
+                                            fontSize: '14px',
+                                            fontWeight: 500,
                                         }}
                                     >
-                                        Delve deeper into the specific stones used in each project, allowing you to discover the unique textures and colours each natural stone offers.
+                                        Delve deeper into the specific stones used in <br /> each project, allowing you to discover the <br /> unique textures and colours each natural<br /> stone offers.
                                     </Typography>
                                 </Box>
                             </Box>
@@ -810,6 +810,7 @@ const PortfolioPage = () => {
                                     sx={{
                                         fontWeight: 300,
                                         textAlign: 'center',
+                                        fontStyle: 'italic',
                                         lineHeight: '0.8',
                                         fontFamily: 'Chronicle Display',
                                         fontSize: 'center'
@@ -825,12 +826,13 @@ const PortfolioPage = () => {
                                     color="#FFFFFF"
                                     sx={{
                                         fontWeight: 300,
+                                        lineHeight: '1.4',
                                         textAlign: 'center',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '13px'
+                                        fontSize: '14px'
                                     }}
                                 >
-                                    Beyond the visual appeal, each project description highlights the practical benefits of using natural stone. Discover how stone&apos;s durability enhances functionality, its timeless style adds lasting value, and its sustainable nature creates an eco-conscious space.
+                                    Beyond the visual appeal, each project<br /> description highlights the practical benefits<br /> of using natural stone. Discover how stone&apos;s<br /> durability enhances functionality, its timeless<br /> style adds lasting value, and its sustainable<br /> nature creates an eco-conscious space.
                                 </Typography>
                             </Box>
                         </Box>
@@ -908,7 +910,7 @@ const PortfolioPage = () => {
                                             fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: 0.8,
-                                            fontSize: '40px'
+                                            fontSize: '44px'
                                         }}
                                     >
                                         READY TO START YOUR STONE JOURNEY?
@@ -1023,32 +1025,32 @@ const PortfolioPage = () => {
                                 alt="Background"
                                 // layout="fill"
                                 objectFit="cover"
-                                className="w-1/2"
-                                width={260}
-                                height={260}
+                                className="w-[60%]"
+                                width={280}
+                                height={280}
                             />
                         </Box>
                         <Box className="absolute z-10 text-center p-8 w-full">
-                            <Typography variant="h2" className="font-bold" color='#DCC5BD' sx={{
+                            <Typography variant="h2" className="font-normal" color='#DCC5BD' sx={{
                                 fontFamily: 'Chronicle Display',
-                                fontSize: '40px',
-                                lineHeight: 0.9,
+                                fontSize: '42px',
+                                lineHeight: 1,
                                 fontWeight: 300,
                             }}>
-                                LET SPLENDOUR IN STONE BE YOUR PARTNER
+                                LET SPLENDOUR <br /> IN STONE BE <br /> YOUR PARTNER
                             </Typography>
                             <CustomPartDivider />
                             <Box>
                                 <Typography variant="h5" className="text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '14px',
                                     fontWeight: 300,
                                 }}>
                                     in crafting a masterpiece that
                                 </Typography>
                                 <Typography variant="h5" className="text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '14px',
                                     fontWeight: 300,
                                 }}>
                                     endures for generations.

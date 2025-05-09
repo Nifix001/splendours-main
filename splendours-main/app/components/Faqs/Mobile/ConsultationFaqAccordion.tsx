@@ -128,7 +128,7 @@ export default function ConsultationFaqAccodion() {
                                 fontWeight: 300,
                                 flexWrap: "wrap",
                                 fontFamily: "Chronicle Display",
-                                fontSize: "20px",
+                                fontSize: "22px",
                             }}
                         >
                             DO YOU PROVIDE CONSULTATIONS?

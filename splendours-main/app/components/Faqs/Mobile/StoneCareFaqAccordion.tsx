@@ -128,7 +128,7 @@ export default function StoneCareFaqAccordion() {
                                 fontWeight: 300,
                                 flexWrap: "wrap",
                                 fontFamily: "Chronicle Display",
-                                fontSize: "20px",
+                                fontSize: "22px",
                             }}
                         >
                             HOW DO I CARE FOR NATURAL STONE?

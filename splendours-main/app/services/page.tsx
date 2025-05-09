@@ -185,11 +185,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 400,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 AT SPLENDOUR
@@ -198,11 +198,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 400,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 IN STONE,
@@ -211,11 +211,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 700,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 WE&apos;RE
@@ -224,11 +224,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 700,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 PASSIONATE
@@ -237,11 +237,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 700,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 ABOUT
@@ -250,11 +250,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 700,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 ELEVATING
@@ -263,11 +263,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 700,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 AUSTRALIAN
@@ -276,11 +276,11 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 500,
+                                    fontWeight: 700,
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '40px'
+                                    fontSize: '42px'
                                 }}
                             >
                                 HOMES
@@ -298,7 +298,7 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    lineHeight: '1.2'
+                                    lineHeight: '1.4'
                                 }}
                             >
                                 with natural stone&apos;s timeless beauty and enduring qualities. We offer a comprehensive suite of services to transform your vision into reality, from selecting the perfect stone to flawless installation.
@@ -436,7 +436,7 @@ const ServicesPage = () => {
                                 <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '50px',
+                                    fontSize: '48px',
                                     fontWeight: 300,
                                 }}>
                                     OUR SERVICES
@@ -503,8 +503,8 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
-                                    fontSize: '40px',
-                                    lineHeight: '0.8'
+                                    fontSize: '42px',
+                                    lineHeight: '0.9'
                                 }}
                             >
                                 YOUR STONE DESIGN JOURNEY AT SPLENDOUR IN STONE
@@ -518,14 +518,13 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    lineHeight: '1.2',
+                                    lineHeight: '1.4',
                                     fontSize: '13px',
-                                    letterSpacing: '0.15em',
                                 }}
                             >
-                                At Splendour in Stone, the journey towards your dream stone design should be seamless and enjoyable.
-                                We understand that embarking on a stone design project can involve questions. Our team is here to guide you through every step, ensuring a smooth and stress-free experience.
-                                Here&apos;s a glimpse into the collaborative process, from your initial inquiry to the final installation:
+                                At Splendour in Stone, the journey towards your <br /> dream stone design should be seamless and<br /> enjoyable.<br />
+                                We understand that embarking on a stone design<br /> project can involve questions. Our team is here to<br /> guide you through every step, ensuring a smooth<br /> and stress-free experience.<br />
+                                Here&apos;s a glimpse into the collaborative process,<br /> from your initial inquiry to the final installation:
                             </Typography>
                         </Box>
                     </Box> : <Box className="flex w-full justify-between px-12">
@@ -606,16 +605,15 @@ const ServicesPage = () => {
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
-                                className="text-center"
+                                className="text-center mb-2"
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    lineHeight: 1.2,
-                                    letterSpacing: '0.16em',
+                                    lineHeight: 1.4,
                                 }}
                             >
-                                Our conversation begins with a friendly call. We&apos;ll discuss your vision, understand your project scope, and answer any questions you may have about natural stone.
+                                Our conversation begins with a friendly call. We&apos;ll<br /> discuss your vision, understand your project scope,<br /> and answer any questions you may have about<br /> natural stone.
                             </Typography>
                         </Box>
                         <Box className="flex w-full">
@@ -722,22 +720,21 @@ const ServicesPage = () => {
                                     fontSize: '30px'
                                 }}
                             >
-                                PROJECT DISCUSSIONS
+                                PROJECT <br /> DISCUSSIONS
                             </Typography>
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
-                                className="text-center"
+                                className="text-center mb-2"
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    lineHeight: 1.2,
+                                    lineHeight: 1.4,
                                     // width:'95%',
-                                    letterSpacing: '0.16em',
                                 }}
                             >
-                                Following the call, we&apos;ll delve deeper. We&apos;ll explore design options, recommend suitable stone types based on your preferences and space, and provide initial estimates to ensure transparency. Additionally, this is the perfect opportunity to visit our showroom for a more realistic feel of what to expect.
+                                Following the call, we&apos;ll delve deeper. We&apos;ll<br /> explore design options, recommend suitable<br /> stone types based on your preferences and<br /> space, and provide initial estimates to ensure<br /> transparency. Additionally, this is the perfect<br /> opportunity to visit our showroom for a more<br /> realistic feel of what to expect.
                             </Typography>
                         </Box>
                         <Box className="flex w-full">
@@ -841,7 +838,7 @@ const ServicesPage = () => {
                                 color="#DCC5BD"
                                 className="text-center"
                                 sx={{
-                                    fontWeight: 600,
+                                    fontWeight: 400,
                                     fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
                                     fontSize: '30px'

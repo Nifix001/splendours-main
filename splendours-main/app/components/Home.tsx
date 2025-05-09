@@ -204,7 +204,7 @@ const Home = () => {
                             <Typography
                                 variant='h3'
                                 sx={{
-                                    fontSize: '34px',
+                                    fontSize: '38px',
                                     fontWeight: 400,
                                     color: { xs: '#DBC6BC', sm: '#FFFFFF' }, // Change color for mobile only
 
@@ -215,7 +215,7 @@ const Home = () => {
                             <Typography
                                 variant='h3'
                                 sx={{
-                                    fontSize: '35px',
+                                    fontSize: '38px',
                                     fontWeight: 400,
                                     color: { xs: '#FFFFFF', sm: '#FFFFFF' }, // Keep "IN STONE" color unchanged
                                 }}

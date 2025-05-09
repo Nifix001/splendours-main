@@ -57,10 +57,10 @@ const AccordionSummary = styled((props: CustomAccordionSummaryProps) => {
                             fontWeight: 300,
                             flexWrap: "wrap",
                             fontFamily: "Chronicle Display",
-                            fontSize: "20px",
+                            fontSize: "22px",
                         }}
                     >
-                        CAN I VISTI YOUR
+                        CAN I VISIT YOUR
                     </Typography>
                     <Typography
                         variant="h3"
@@ -69,7 +69,7 @@ const AccordionSummary = styled((props: CustomAccordionSummaryProps) => {
                             fontWeight: 300,
                             flexWrap: "wrap",
                             fontFamily: "Chronicle Display",
-                            fontSize: "20px",
+                            fontSize: "22px",
                         }}
                     >
                         SHOWROOM?

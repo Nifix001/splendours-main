@@ -24,7 +24,7 @@ export function GreenBtn({
   onClick, // Add onClick prop
 }: AnimatedModalDemoProps) {
   return (
-    <div className="relative py-7 flex items-center justify-center ml-56">
+    <div className="relative py-8 flex items-center justify-between ml-56 ">
       <Modal>
         <ModalTrigger
           className={cn(
@@ -34,12 +34,12 @@ export function GreenBtn({
           onClick={onClick} // Pass onClick to ModalTrigger
         >
           {/* Label */}
-          <span className="group-hover/modal-btn:translate-x-40 flex text-[13px] text-[#DCC5BD] justify-between gap-10 text-center transition duration-500">
+          <span className="group-hover/modal-btn:translate-x-40 flex font-extrathin text-[14px] text-[#DCC5BD] justify-between gap-8 text-center transition duration-500">
             {label} {icon && (
               <Image
                 src={icon}
-                width={18}
-                height={18}
+                width={24}
+                height={24}
                 alt="icon"
                 className="object-contain transition duration-500"
               />

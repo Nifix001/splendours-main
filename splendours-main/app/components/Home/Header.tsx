@@ -23,11 +23,11 @@ const Header: React.FC = () => {
             {isMobile &&
                 <Box className={`flex justify-center w-full h-[100%] lg:flex`}>
                     <header className={`fixed left-0 w-screen z-50 top-0`}>
-                        <div className={"bg-color h-[65px] flex flex-col pt-2 justify-center items-center w-full "}>
-                                <p className="text-[9px] leading-tight-custom text-customColor font-medium text-center">
+                        <Box className={"bg-color h-[65px] flex flex-col pt-2 justify-center items-center w-full "}>
+                                <Typography className="text-[9px] leading-tight-custom text-customColor font-medium text-center">
                                   REGISTER YOUR INFORMATION FOR FREE STONE SAMPLES SENT EXPRESS TO YOU!
-                                </p>
-                                <div className="flex items-center text-[9px] mt-1 justify-center gap-2">
+                                </Typography>
+                                <Box className="flex items-center text-[9px] mt-1 justify-center gap-2">
 
                                 <Link
                                   href={"https://staging.splendourinstone.com.au/walling/#free-stone-samples"}
@@ -40,8 +40,8 @@ const Header: React.FC = () => {
                                   className="border border-customColor h-[30px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-xs-custom leading-tight-custom font-semibold transition duration-300 hover:text-color hover:bg-customColor">
                                   <FaMoneyBill className="w-4 h-4" /> Trade Credit
                                 </Link>
-                                </div>
-                              </div>
+                                </Box>
+                              </Box>
                         <Box className="bg-color pt-2 flex justify-between items-center">
                             <Box sx={{
                                 marginLeft: "5px"
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
                                                 }}
                                             >
                                                 <Box
-                                                    className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                                    className="absolute bg-white/20 p-2 rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                                     sx={{
                                                         width: 30,
                                                         height: 30,
@@ -120,7 +120,7 @@ const Header: React.FC = () => {
                                             }}
                                         >
                                             <Box
-                                                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                                className="absolute bg-white/20 p-2 rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                                 sx={{
                                                     width: 30,
                                                     height: 30,

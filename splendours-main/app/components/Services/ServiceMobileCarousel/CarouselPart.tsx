@@ -102,8 +102,9 @@ const Carousel: React.FC<CarouselProps> = ({ items, options }) => {
                   fontWeight: 300,
                   textAlign: 'start',
                   fontFamily: 'var(--font-montserrat)',
-                  lineHeight: 1.2,
-                  fontSize: '13px'
+                  lineHeight: 1.4,
+                  fontSize: '13px',
+                  opacity: 0.8
                 }}
               >
                 {item.content}

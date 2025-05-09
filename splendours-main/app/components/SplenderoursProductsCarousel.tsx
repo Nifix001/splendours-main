@@ -191,7 +191,7 @@ const SplenderoursProductsCarousel: React.FC = () => {
                                             fontFamily: 'Chronicle Display',
                                             lineHeight: '0.9',
                                             padding: "30px",
-                                            fontSize: '30px'
+                                            fontSize: '40px'
                                         }}
                                     >
                                         {resource.product_name}
@@ -264,7 +264,7 @@ const SplenderoursProductsCarousel: React.FC = () => {
                                                 lineHeight: '1.2',
                                                 fontFamily: 'var(--font-montserrat)',
                                                 fontSize: {
-                                                    xs: "20px",
+                                                    xs: "14px",
                                                     sm: "20px",
                                                     md: "20px",
                                                     lg: "20px"

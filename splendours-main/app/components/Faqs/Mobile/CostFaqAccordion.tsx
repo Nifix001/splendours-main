@@ -128,7 +128,7 @@ export default function CostFaqAccordion() {
                                 fontWeight: 300,
                                 flexWrap: "wrap",
                                 fontFamily: "Chronicle Display",
-                                fontSize: "20px",
+                                fontSize: "22px",
                             }}
                         >
                             HOW MUCH DOES NATURAL STONE COST?

@@ -50,7 +50,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >HOME</Typography>
                     </Link>
@@ -62,7 +62,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >WALLING</Typography>
                     </Link>
@@ -74,7 +74,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >PAVING</Typography>
                     </Link>
@@ -86,7 +86,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >BLOG</Typography>
                     </Link>
@@ -120,7 +120,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >ABOUT</Typography>
                     </Link>
@@ -132,7 +132,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >GALLERY</Typography>
                     </Link>
@@ -144,7 +144,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >CONTACT</Typography>
                     </Link>
@@ -156,7 +156,7 @@ const FooterMobile = () => {
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
                                 fontSize: '20px',
-                                fontWeight: 700,
+                                fontWeight: 500,
                             }}
                         >CONSULTATION</Typography>
                     </Link>

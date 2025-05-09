@@ -140,7 +140,7 @@ export default function StoneBenefitsFaqAccordion() {
                                 fontWeight: 300,
                                 flexWrap: "wrap",
                                 fontFamily: "Chronicle Display",
-                                fontSize: "20px",
+                                fontSize: "22px",
                             }}
                         >
                             WHAT ARE THE BENEFITS OF USING NATURAL STONE?
