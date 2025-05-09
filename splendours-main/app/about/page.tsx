@@ -2518,7 +2518,7 @@ const AboutPage = () => {
                     {isMobile ? <Box className="flex w-full flex-col lg:flex-row justify-between">
                         <CustomDivider />
                         <Box className="flex flex-col w-full">
-                            <Typography variant="h1" className="mb-4 font-normal text-center" sx={{
+                            <Typography variant="h1" className="mb-8 font-normal text-center" sx={{
                                 color: '#DBC6BC',
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
@@ -2528,7 +2528,7 @@ const AboutPage = () => {
                                 READY TO CRAFT YOUR <span style={{ fontWeight: 600 }}>STONE MASTERPIECE?</span>
                             </Typography>
                             <Box className="flex w-full justify-center px-3">
-                                <Typography variant="h3" className="mb-8 text-center" sx={{
+                                <Typography variant="h3" className="mb-10 text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     color: 'white',
                                     // width:'90%',
