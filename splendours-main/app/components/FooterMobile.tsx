@@ -242,10 +242,10 @@ const FooterMobile = () => {
                 <Box className="flex w-full justify-center">
                     <Typography
                         variant="h3"
-                        className="text-center font-thin"
+                        className="text-center"
                         color="#283C28"
                         sx={{
-                            fontWeight: 700,
+                            fontWeight: 400,
                             fontFamily: 'Chronicle Display',
                             fontSize: '20px'
                         }}

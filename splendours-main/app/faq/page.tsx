@@ -96,7 +96,7 @@ const FaqPage = () => {
                                 textAlign: 'center',
                                 lineHeight: '1.2',
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '14px'
+                                fontSize: '12px'
                             }}
                         >
                             we appreciate our clients’ need for the correct <br /> information to make informed decisions about<br /> your stone design project. Here are some<br /> answers to frequent questions asked:
@@ -175,7 +175,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '44px',
+                                fontSize: '40px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -203,7 +203,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '44px',
+                                fontSize: '40px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -217,7 +217,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '44px',
+                                fontSize: '40px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -231,7 +231,7 @@ const FaqPage = () => {
                                 fontWeight: 400,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '44px',
+                                fontSize: '40px',
                                 fontStyle: 'italic'
                             }}
                         >
@@ -246,7 +246,7 @@ const FaqPage = () => {
                             sx={{
                                 fontWeight: 300,
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '14px',
+                                fontSize: '12px',
                                 lineHeight: '1.2'
                             }}
                         >

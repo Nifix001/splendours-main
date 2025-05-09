@@ -18,7 +18,7 @@ const GreenCustomButton: React.FC<CustomButtonProps> = ({ label, iconSrc, onClic
 
     return (
         <Button
-            className="font-semibold gap-3"
+            className="font-semibold gap-3 text-[14px]"
             variant="outlined"
             onClick={onClick}
             sx={{

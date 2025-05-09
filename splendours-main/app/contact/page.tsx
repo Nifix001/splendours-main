@@ -89,7 +89,7 @@ const ServicesPage = () => {
                             color="#DCC5BD"
                             sx={{
                                 width: '100%',
-                                fontWeight: 400,
+                                fontWeight: 300,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
@@ -103,7 +103,7 @@ const ServicesPage = () => {
                             color="#DCC5BD"
                             sx={{
                                 width: '100%',
-                                fontWeight: 400,
+                                fontWeight: 300,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
@@ -117,7 +117,7 @@ const ServicesPage = () => {
                             color="#DCC5BD"
                             sx={{
                                 width: '100%',
-                                fontWeight: 400,
+                                fontWeight: 300,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
@@ -131,7 +131,7 @@ const ServicesPage = () => {
                             color="#DCC5BD"
                             sx={{
                                 width: '100%',
-                                fontWeight: 400,
+                                fontWeight: 300,
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
@@ -226,7 +226,7 @@ const ServicesPage = () => {
                                         fontWeight: 300,
                                         alignContent: 'flex-start',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '13px'
+                                        fontSize: '12px'
                                     }}
                                 >
                                     Whether you're embarking on a grand renovation or seeking a touch of elegance for a specific space, our exquisite stone collection and exceptional design expertise are here to help.
@@ -241,7 +241,7 @@ const ServicesPage = () => {
                                         fontWeight: 300,
                                         alignContent: 'flex-start',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '13px'
+                                        fontSize: '12px'
                                     }}
                                 >
                                     We invite you to connect with our friendly and knowledgeable team to discuss your project and transform your vision into reality.
@@ -259,7 +259,7 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     alignContent: 'flex-start',
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px'
+                                    fontSize: '12px'
                                 }}
                             >
                                 Our dedicated team is passionate about natural stone and its potential to elevate your space. They're eager to discuss your project's specific needs and guide you through our extensive selection of stone cladding, walling, and paving options.
@@ -554,7 +554,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                 }}
                             >
                                 Feel free to browse our website for further
@@ -566,7 +566,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                 }}
                             >
                                 information on our products and services.
@@ -581,7 +581,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                 }}
                             >
                                 For project inspiration, explore our gallery
@@ -593,7 +593,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                 }}
                             >
                                 showcasing a variety of stunning stone
@@ -605,7 +605,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                 }}
                             >
                                 applications.
@@ -659,7 +659,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                         textAlign: 'start',
                                     }}
                                 >
@@ -672,7 +672,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                         textAlign: 'start',
                                     }}
                                 >
@@ -685,7 +685,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                         textAlign: 'start',
                                     }}
                                 >
@@ -750,7 +750,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     Our team will respond to your
@@ -762,7 +762,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     email inquiry within one
@@ -774,7 +774,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     business day
@@ -878,7 +878,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     Our showroom hours are the
@@ -890,7 +890,7 @@ const ServicesPage = () => {
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '13px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     same as our phone hours
@@ -1189,7 +1189,7 @@ const ServicesPage = () => {
                             fontFamily: 'Chronicle Display',
                             fontSize: '40px',
                             lineHeight: 0.9,
-                            fontWeight: 400,
+                            fontWeight: 300,
                         }}>
                             WE LOOK FORWARD TO CONNECTING WITH YOU
                         </Typography>
@@ -1198,7 +1198,7 @@ const ServicesPage = () => {
 
                         <Typography variant="h5" className="text-center" sx={{
                             fontFamily: 'var(--font-montserrat)',
-                            fontSize: '15px',
+                            fontSize: '13px',
                             width: '60%',
                             fontWeight: 300,
                         }}>

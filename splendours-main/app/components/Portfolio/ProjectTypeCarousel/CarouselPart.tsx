@@ -42,10 +42,10 @@ const Carousel: React.FC<CarouselProps> = ({ items, options }) => {
                 color="#FFFFFF"
                 className={styles.imageName}
                 sx={{
-                  fontWeight: 600,
+                  fontWeight: 400,
                   textAlign: 'start',
                   fontFamily: 'Chronicle Display',
-                  fontSize: '40px'
+                  fontSize: '38px'
                 }}
               >
                 {item.name}

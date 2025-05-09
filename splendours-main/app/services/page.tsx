@@ -189,7 +189,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 AT SPLENDOUR
@@ -202,7 +202,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 IN STONE,
@@ -215,7 +215,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 WE&apos;RE
@@ -228,7 +228,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 PASSIONATE
@@ -241,7 +241,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 ABOUT
@@ -254,7 +254,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 ELEVATING
@@ -267,7 +267,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 AUSTRALIAN
@@ -280,7 +280,7 @@ const ServicesPage = () => {
                                     textAlign: 'center',
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
-                                    fontSize: '42px'
+                                    fontSize: '40px'
                                 }}
                             >
                                 HOMES
@@ -297,7 +297,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                     lineHeight: '1.4'
                                 }}
                             >
@@ -503,11 +503,11 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
-                                    fontSize: '42px',
+                                    fontSize: '38px',
                                     lineHeight: '0.9'
                                 }}
                             >
-                                YOUR STONE DESIGN JOURNEY AT SPLENDOUR IN STONE
+                                YOUR STONE <br /> DESIGN <br /> JOURNEY AT <br /> SPLENDOUR IN STONE
                             </Typography>
                         </Box>
                         <Box className="flex w-full justify-center" style={{ paddingLeft: '10px', paddingRight: "10px" }}>
@@ -519,7 +519,7 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
                                     lineHeight: '1.4',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                 }}
                             >
                                 At Splendour in Stone, the journey towards your <br /> dream stone design should be seamless and<br /> enjoyable.<br />
@@ -609,7 +609,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                     lineHeight: 1.4,
                                 }}
                             >
@@ -729,7 +729,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                     lineHeight: 1.4,
                                     // width:'95%',
                                 }}
@@ -849,11 +849,11 @@ const ServicesPage = () => {
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
-                                className="text-center"
+                                className="text-center mb-2"
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                     lineHeight: 1.4
                                 }}
                             >
@@ -965,11 +965,11 @@ const ServicesPage = () => {
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
-                                className="text-center"
+                                className="text-center mb-2"
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                     lineHeight: 1.4,
                                 }}
                             >
@@ -1085,16 +1085,15 @@ const ServicesPage = () => {
                             <Typography
                                 variant="h3"
                                 color="#FFFFFF"
-                                className="text-center"
+                                className="text-center mb-2"
                                 sx={{
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
-                                    lineHeight: 1.2,
-                                    letterSpacing: '0.16em',
+                                    fontSize: '12px',
+                                    lineHeight: 1.4,
                                 }}
                             >
-                                The big day arrives! Our recommended stone mason will meticulously install your chosen stone, transforming your space with the enduring beauty of natural stone.
+                                The big day arrives! Our recommended stone <br /> mason will meticulously install your chosen<br /> stone, transforming your space with the<br /> enduring beauty of natural stone.
                             </Typography>
                         </Box>
                         <Box className="flex w-full">
@@ -1214,7 +1213,7 @@ const ServicesPage = () => {
                                             fontSize: '40px',
                                             fontStyle: 'italic',
                                             lineHeight: '1',
-                                            fontWeight: 300,
+                                            fontWeight: 200,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1242,7 +1241,7 @@ const ServicesPage = () => {
                                             fontSize: '40px',
                                             lineHeight: '1',
                                             fontStyle: 'italic',
-                                            fontWeight: 300,
+                                            fontWeight: 200,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1256,7 +1255,7 @@ const ServicesPage = () => {
                                             fontSize: '40px',
                                             lineHeight: '1',
                                             fontStyle: 'italic',
-                                            fontWeight: 300,
+                                            fontWeight: 200,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1269,8 +1268,8 @@ const ServicesPage = () => {
                                         color="white"
                                         sx={{
                                             fontFamily: 'var(--font-montserrat)',
-                                            fontSize: '13px',
-                                            fontWeight: 300,
+                                            fontSize: '12px',
+                                            fontWeight: 100,
                                             lineHeight: '1.4',
                                             textAlign: 'start',
                                         }}
@@ -1301,13 +1300,13 @@ const ServicesPage = () => {
                             borderBottomLeftRadius: "25px",
                             borderBottomRightRadius: "25px"
                         }}>
-                            <Box className="flex flex-col w-full items-center py-12">
+                            <Box className="flex flex-col w-full items-center py-4">
                                 <Typography
                                     className="text-center"
                                     variant="h3"
                                     color="#283C28"
                                     sx={{
-                                        fontWeight: 300,
+                                        fontWeight: 200,
                                         fontStyle: 'italic',
                                         lineHeight: '0.8',
                                         fontFamily: 'Chronicle Display',
@@ -1321,7 +1320,7 @@ const ServicesPage = () => {
                                     variant="h3"
                                     color="#283C28"
                                     sx={{
-                                        fontWeight: 300,
+                                        fontWeight: 200,
                                         fontStyle: 'italic',
                                         lineHeight: '0.8',
                                         fontFamily: 'Chronicle Display',
@@ -1344,7 +1343,7 @@ const ServicesPage = () => {
                                         fontSize: '13px'
                                     }}
                                 >
-                                    Are you curious to hear how we&apos;ve transformed spaces with natural stone? Dive into our Testimonials Page to hear from our delighted clients and discover how natural stone has added a touch of magic to their homes and businesses. You can also view our portfolio to get a clear picture of the transformations we have achieved with our clients.
+                                    Are you curious to hear how we&apos;ve transformed<br /> spaces with natural stone? Dive into our<br /> Testimonials Page to hear from our delighted<br /> clients and discover how natural stone has<br /> added a touch of magic to their homes and<br /> businesses. You can also view our portfolio to<br /> get a clear picture of the transformations we<br /> have achieved with our clients.
                                 </Typography>
                             </Box>
                             <Box className="flex flex-col w-full justify-center items-center space-y-3">
@@ -1361,7 +1360,7 @@ const ServicesPage = () => {
                                                 alignContent: 'flex-start',
                                                 fontFamily: 'Chronicle Display',
                                                 fontSize: {
-                                                    xs: "15px",
+                                                    xs: "20px",
                                                     sm: "30px",  // Small screens
                                                     md: "40px",  // Medium screens
                                                     lg: "50px"
@@ -1391,11 +1390,11 @@ const ServicesPage = () => {
                                         sx={{
                                             fontWeight: 400,
                                             fontFamily: 'var(--font-montserrat)',
-                                            fontSize: '15px',
+                                            fontSize: '12px',
                                             lineHeight: 1.4,
                                         }}
                                     >
-                                        "I&apos;m blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.”
+                                        "I&apos;m blown away by the quality and style of the clothes<br /> I received from Shop.co. From casual wear to elegant<br /> dresses, every piece I&apos;ve bought has exceeded my<br /> expectations.”
                                     </Typography>
                                 </Box>
 
@@ -1782,7 +1781,7 @@ const ServicesPage = () => {
                         </Box>
                         <Box className="absolute z-10 text-center w-full flex flex-col items-center justify-center gap-y-8 mt-[-100px]">
                             <Box className="w-full">
-                                <Typography variant="h2" className="font-bold" color='#DCC5BD' sx={{
+                                <Typography variant="h2"  color='#DCC5BD' sx={{
                                     fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                     lineHeight: 0.9,
@@ -1790,7 +1789,7 @@ const ServicesPage = () => {
                                 }}>
                                     READY TO CRAFT
                                 </Typography>
-                                <Typography variant="h2" className="font-bold" color='#DCC5BD' sx={{
+                                <Typography variant="h2" color='#DCC5BD' sx={{
                                     fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                     lineHeight: 0.9,
@@ -1798,7 +1797,7 @@ const ServicesPage = () => {
                                 }}>
                                     YOUR STONE
                                 </Typography>
-                                <Typography variant="h2" className="font-bold" color='#DCC5BD' sx={{
+                                <Typography variant="h2" color='#DCC5BD' sx={{
                                     fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                     lineHeight: 0.9,
@@ -1810,7 +1809,7 @@ const ServicesPage = () => {
                             <Box className="px-3">
                                 <Typography variant="h5" className="text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '15px',
+                                    fontSize: '13px',
                                     fontWeight: 300,
                                 }}>
                                     Contact our friendly and knowledgeable team today. We're here to answer your questions, discuss your project, and guide you towards the perfect stone solution. Let Splendour in Stone be your partner in creating a space that reflects your unique style and endures for generations to come.
@@ -1819,7 +1818,7 @@ const ServicesPage = () => {
                         </Box>
                         <Box className="flex w-full justify-center py-4">
                             <Link href="/contact">
-                                <WhiteCustomButton label={'CONTACT US'} iconSrc={'/images/icons/Vector.svg'} />
+                                <WhiteCustomButton label={'Contact us'} iconSrc={'/images/icons/Vector.svg'} />
                             </Link>
                         </Box>
                     </Box> : <Box className="flex w-full flex-col relative items-center justify-center gap-y-12 text-white py-12">

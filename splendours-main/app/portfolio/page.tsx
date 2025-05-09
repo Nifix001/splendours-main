@@ -215,7 +215,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '44px'
+                                        fontSize: '40px'
                                     }}
                                 >
                                     AT SPLENDOUR
@@ -228,7 +228,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '44px'
+                                        fontSize: '40px'
                                     }}
                                 >
                                     IN STONE,
@@ -242,7 +242,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '44px'
+                                        fontSize: '40px'
                                     }}
                                 >
                                     WE DON'T JUST
@@ -255,7 +255,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '44px'
+                                        fontSize: '40px'
                                     }}
                                 >
                                     DEAL IN STONE
@@ -275,7 +275,7 @@ const PortfolioPage = () => {
                                                 fontWeight: 300,
                                                 fontFamily: 'var(--font-montserrat)',
                                                 lineHeight: 1.4,
-                                                fontSize: '14px'
+                                                fontSize: '13px'
                                             }}
                                         >
                                             we create experiences.<br /> Our portfolio showcases a<br /> captivating collection of<br /> projects where natural<br /> stone has breathed life<br /> into Melbourne homes<br /> and businesses.
@@ -301,7 +301,7 @@ const PortfolioPage = () => {
                                             fontWeight: 300,
                                             fontFamily: 'var(--font-montserrat)',
                                             lineHeight: 1.4,
-                                            fontSize: '14px'
+                                            fontSize: '13px'
                                         }}
                                     >
                                         Explore a curated<br /> selection of projects, each<br /> a testament to natural<br /> stone's enduring beauty<br /> and versatility. From<br /> modern kitchen<br /> renovations featuring<br /> captivating stone<br /> splashbacks to stunning<br /> outdoor living spaces<br /> paved with timeless<br /> elegance, discover how<br /> we've collaborated with<br /> clients to translate their<br /> visions into reality.
@@ -470,7 +470,7 @@ const PortfolioPage = () => {
                                     <Typography variant="h5" className="text-center" color='#283C28' sx={{
                                         width: '80%',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '14px',
+                                        fontSize: '13px',
                                         fontWeight: 500,
                                     }}>
                                         Whether you&apos;re seeking classic<br /> sophistication or a burst of<br /> contemporary flair, our portfolio offers<br /> a wealth of inspiration.
@@ -600,7 +600,7 @@ const PortfolioPage = () => {
                                         variant="h3"
                                         color="#DCC5BD"
                                         sx={{
-                                            fontWeight: 100,
+                                            fontWeight: 400,
                                             textAlign: "center",
                                             lineHeight: "1",
                                             fontFamily: "Chronicle Display",
@@ -618,7 +618,7 @@ const PortfolioPage = () => {
                                             fontWeight: 300,
                                             textAlign: "center",
                                             fontFamily: "var(--font-montserrat)",
-                                            fontSize: "14px", // Smaller font for mobile
+                                            fontSize: "13px", // Smaller font for mobile
                                         }}
                                     >
                                         Narrow your search by exploring<br /> projects categorised by<br />
@@ -829,7 +829,7 @@ const PortfolioPage = () => {
                                         lineHeight: '1.4',
                                         textAlign: 'center',
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '14px'
+                                        fontSize: '12px'
                                     }}
                                 >
                                     Beyond the visual appeal, each project<br /> description highlights the practical benefits<br /> of using natural stone. Discover how stone&apos;s<br /> durability enhances functionality, its timeless<br /> style adds lasting value, and its sustainable<br /> nature creates an eco-conscious space.
@@ -1025,15 +1025,15 @@ const PortfolioPage = () => {
                                 alt="Background"
                                 // layout="fill"
                                 objectFit="cover"
-                                className="w-[60%]"
-                                width={280}
-                                height={280}
+                                className="w-[50%]"
+                                width={260}
+                                height={260}
                             />
                         </Box>
                         <Box className="absolute z-10 text-center p-8 w-full">
                             <Typography variant="h2" className="font-normal" color='#DCC5BD' sx={{
                                 fontFamily: 'Chronicle Display',
-                                fontSize: '42px',
+                                fontSize: '34px',
                                 lineHeight: 1,
                                 fontWeight: 300,
                             }}>
@@ -1043,14 +1043,14 @@ const PortfolioPage = () => {
                             <Box>
                                 <Typography variant="h5" className="text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '14px',
+                                    fontSize: '12px',
                                     fontWeight: 300,
                                 }}>
                                     in crafting a masterpiece that
                                 </Typography>
                                 <Typography variant="h5" className="text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '14px',
+                                    fontSize: '12px',
                                     fontWeight: 300,
                                 }}>
                                     endures for generations.

@@ -341,7 +341,7 @@ const AboutPage = () => {
                                     A LEGACY BUILT <br /> ON QUALITY AND <br /> EXPERTISE
                                 </Typography>
                                 <Box className="flex justify-center">
-                                    <Typography variant="h5" className="text-center" color='#000000' sx={{
+                                    <Typography variant="h5" className="text-center mt-2" color='#000000' sx={{
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: '14px',
                                         width: '70%',
