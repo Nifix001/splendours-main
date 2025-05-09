@@ -74,7 +74,7 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
         className="embla__button embla__button--prev -ml-[8px]"
         onClick={scrollPrev}
       >
-        <NavigateBeforeIcon fontSize="large" />
+        {/* <NavigateBeforeIcon fontSize="large" /> */}
         <Typography
         className='mt-[3px]'
           sx={{
@@ -84,7 +84,7 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
             color: 'white', // Set text color
           }}
         >
-          PREV
+          {'<'}PREV
         </Typography>
 
       </Button>
@@ -101,9 +101,9 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
             color: 'white', // Set text color
           }}
         >
-          NEXT
+          NEXT{'>'}
         </Typography>
-        <NavigateNextIcon fontSize="large" />
+        {/* <NavigateNextIcon fontSize="large" /> */}
       </Button>
     </div>
   );

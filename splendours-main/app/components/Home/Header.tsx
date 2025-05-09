@@ -24,7 +24,7 @@ const Header: React.FC = () => {
                 <Box className={`flex justify-center w-full h-[100%] lg:flex`}>
                     <header className={`fixed left-0 w-screen z-50 top-0`}>
                         <Box className={"bg-color h-[65px] flex flex-col pt-2 justify-center items-center w-full "}>
-                                <Typography className="text-[9px] leading-tight-custom text-customColor font-medium text-center">
+                                <Typography className="text-[9px] leading-tight text-customColor font-medium text-center">
                                   REGISTER YOUR INFORMATION FOR FREE STONE SAMPLES SENT EXPRESS TO YOU!
                                 </Typography>
                                 <Box className="flex items-center text-[9px] mt-1 justify-center gap-2">
