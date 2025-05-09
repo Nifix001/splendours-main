@@ -24,7 +24,7 @@ const Header: React.FC = () => {
                 <Box className={`flex justify-center w-full h-[100%] lg:flex`}>
                     <header className={`fixed left-0 w-screen z-50 top-0`}>
                         <Box className={"bg-color h-[65px] flex flex-col pt-2 justify-center items-center w-full "}>
-                                <Typography className="text-[9px] leading-tight text-customColor font-medium text-center">
+                                <Typography className="text-[6px] leading-tight text-customColor font-normal text-center">
                                   REGISTER YOUR INFORMATION FOR FREE STONE SAMPLES SENT EXPRESS TO YOU!
                                 </Typography>
                                 <Box className="flex items-center text-[9px] mt-1 justify-center gap-2">
@@ -37,7 +37,7 @@ const Header: React.FC = () => {
                                 </Link>
                                 <Link
                                   href={"https://www.splendourinstone.com.au/trade-credit/"}
-                                  className="border border-customColor h-[29px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-xs-custom leading-tight-custom font-semibold transition duration-300 hover:text-color hover:bg-customColor">
+                                  className="border border-customColor h-[29px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-xs-custom leading-tight-custom font-normal transition duration-300 hover:text-color hover:bg-customColor">
                                   <FaMoneyBill className="w-4 h-4" /> Trade Credit
                                 </Link>
                                 </Box>
