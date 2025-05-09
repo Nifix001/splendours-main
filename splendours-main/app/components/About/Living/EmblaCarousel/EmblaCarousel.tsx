@@ -74,17 +74,24 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
         className="embla__button embla__button--prev -ml-[8px]"
         onClick={scrollPrev}
       >
-        {/* <NavigateBeforeIcon fontSize="large" /> */}
+        <NavigateBeforeIcon fontSize="large" />
         <Typography
-        className='mt-[3px]'
-          sx={{
-            fontSize: '12px',
-            fontWeight: 300,
-            letterSpacing:'0.3em',
-            color: 'white', // Set text color
-          }}
+         variant="h3"
+         color="white"
+         sx={{
+             fontWeight: 400,
+             fontFamily: 'var(--font-montserrat)',
+             lineHeight: '0.9',
+             opacity: 0.8,
+             fontSize: '14px',
+             width: 'max-content',
+             position: 'relative',
+             letterSpacing: '0.3em',
+             left: '0px',
+             top: '0px'
+         }}
         >
-          {'<'}PREV
+          PREV
         </Typography>
 
       </Button>
@@ -93,17 +100,24 @@ const EmblaCarousel: React.FC<PropType> = ({ options }) => {
         onClick={scrollNext}
       >
         <Typography
-        className='mt-[3px]'
-          sx={{
-            fontSize: '12px',
-            fontWeight: 300,
-            letterSpacing:'0.3em',
-            color: 'white', // Set text color
-          }}
+        variant="h3"
+        color="white"
+        sx={{
+            fontWeight: 400,
+            fontFamily: 'var(--font-montserrat)',
+            lineHeight: '0.9',
+            opacity: 0.8,
+            fontSize: '14px',
+            width: 'max-content',
+            letterSpacing: '0.3em',
+            position: 'relative',
+            left: '0px',
+            top: '0px'
+        }}
         >
-          NEXT{'>'}
+          NEXT
         </Typography>
-        {/* <NavigateNextIcon fontSize="large" /> */}
+        <NavigateNextIcon fontSize="large" />
       </Button>
     </div>
   );
