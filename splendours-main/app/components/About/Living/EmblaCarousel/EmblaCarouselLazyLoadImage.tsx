@@ -60,7 +60,7 @@ export const LazyLoadImage: React.FC<PropType> = (props) => {
                             color="white"
                             sx={{
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '13px',
+                                fontSize: '12px',
                                 fontWeight: 200,
                                 textAlign: 'start',
                             }}

@@ -31,13 +31,13 @@ const Header: React.FC = () => {
 
                                 <Link
                                   href={"https://staging.splendourinstone.com.au/walling/#free-stone-samples"}
-                                  className="bg-customColor border border-customColor text-color w-[90px] h-[30px] rounded-full text-xs-custom leading-tight-custom font-medium flex items-center justify-center hover:bg-white"
+                                  className="bg-customColor border border-customColor text-color w-[90px] h-[29px] rounded-full text-xs-custom leading-tight-custom font-medium flex items-center justify-center hover:bg-white"
                                 >
                                   Click Here
                                 </Link>
                                 <Link
                                   href={"https://www.splendourinstone.com.au/trade-credit/"}
-                                  className="border border-customColor h-[30px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-xs-custom leading-tight-custom font-semibold transition duration-300 hover:text-color hover:bg-customColor">
+                                  className="border border-customColor h-[29px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-xs-custom leading-tight-custom font-semibold transition duration-300 hover:text-color hover:bg-customColor">
                                   <FaMoneyBill className="w-4 h-4" /> Trade Credit
                                 </Link>
                                 </Box>

@@ -183,7 +183,7 @@ const AboutPage = () => {
                                     className="text-center"
                                     sx={{
                                         fontFamily: "var(--font-montserrat)",
-                                        fontSize: "14px",
+                                        fontSize: "13px",
                                         lineHeight: 1.4,
                                         width: "90%",
                                         fontWeight: 400,
@@ -343,7 +343,7 @@ const AboutPage = () => {
                                 <Box className="flex justify-center">
                                     <Typography variant="h5" className="text-center" color='#000000' sx={{
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '16px',
+                                        fontSize: '14px',
                                         width: '70%',
                                         fontWeight: 400,
                                     }}>
@@ -453,7 +453,7 @@ const AboutPage = () => {
                                 <Typography variant="h5" sx={{
                                     width: '70%',
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '13px',
+                                    fontSize: '12px',
                                     lineHeight: '1.4',
                                     fontWeight: 300,
                                 }}>
@@ -525,7 +525,7 @@ const AboutPage = () => {
                                     sx={{
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
-                                        fontSize: '42px',
+                                        fontSize: '40px',
                                         fontWeight: 300,
                                     }}
                                 >
@@ -538,7 +538,7 @@ const AboutPage = () => {
                                         sx={{
                                             width: '85%',
                                             fontFamily: 'var(--font-montserrat)',
-                                            fontSize: '14px',
+                                            fontSize: '12px',
                                             fontWeight: 400,
                                             lineHeight: '1.2',
                                             textAlign: 'center',
@@ -933,7 +933,7 @@ const AboutPage = () => {
                                     color="white"
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '14px',
+                                        fontSize: '13px',
                                         fontWeight: 300,
                                         lineHeight: '1.4',
                                         textAlign: 'center',
@@ -946,7 +946,7 @@ const AboutPage = () => {
                                     color="white"
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '14px',
+                                        fontSize: '13px',
                                         fontWeight: 300,
                                         lineHeight: '1.4',
                                         textAlign: 'center',
@@ -959,7 +959,7 @@ const AboutPage = () => {
                                     color="white"
                                     sx={{
                                         fontFamily: 'var(--font-montserrat)',
-                                        fontSize: '14px',
+                                        fontSize: '13px',
                                         fontWeight: 300,
                                         lineHeight: '1.4',
                                         textAlign: 'center',
@@ -1126,7 +1126,7 @@ const AboutPage = () => {
 
                                 <Typography variant="h5" className="text-center" color='#000000' sx={{
                                     fontFamily: 'var(--font-montserrat)',
-                                    fontSize: '14px',
+                                    fontSize: '13px',
                                     fontWeight: 400,
                                 }}>
                                     before his founding of Splendour in Stone include his <br /> apprenticeship in landscape construction and his <br /> work on fireplaces and feature walls using stone.<br />
@@ -1372,7 +1372,7 @@ const AboutPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     lineHeight: '1.2',
-                                    fontSize: '16px',
+                                    fontSize: '15px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -1385,7 +1385,7 @@ const AboutPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     lineHeight: '1.2',
-                                    fontSize: '16px',
+                                    fontSize: '15px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -1398,7 +1398,7 @@ const AboutPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     lineHeight: '1.2',
-                                    fontSize: '16px',
+                                    fontSize: '15px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -1411,7 +1411,7 @@ const AboutPage = () => {
                                 sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     lineHeight: '1.2',
-                                    fontSize: '16px',
+                                    fontSize: '15px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -1770,7 +1770,7 @@ const AboutPage = () => {
                         className="pl-5 pb-7"
                         sx={{
                             position: 'relative',
-                            height: '90vh',
+                            height: '100vh',
                             width: '100%',
                             aspectRatio: '1 / 1.6', // Aspect ratio of 3:1 (width to height)
                             backgroundImage: 'url("/images/About/Requirements/house-mobile.jpg")',
@@ -1798,7 +1798,7 @@ const AboutPage = () => {
                         {/* <Box className="w-full border" sx={{ position: 'relative', zIndex: 2 }}>
                         </Box> */}
                         <Box
-                            className="flex flex-col w-full gap-y-5 mt-[17rem] justify-end "
+                            className="flex flex-col w-full gap-y-5 mt-[12rem] justify-end "
                             sx={{ position: 'relative', zIndex: 2 }}
                         >
                             <Box className="flex flex-col">
@@ -1810,7 +1810,7 @@ const AboutPage = () => {
                                             fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
-                                            fontSize: '42px',
+                                            fontSize: '40px',
                                             fontWeight: 200,
                                             textAlign: 'start',
                                         }}
@@ -1837,7 +1837,7 @@ const AboutPage = () => {
                                             fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
-                                            fontSize: '42px',
+                                            fontSize: '40px',
                                             fontWeight: 200,
                                             color: 'white', // Set text color
                                             textAlign: 'start',
@@ -1851,8 +1851,8 @@ const AboutPage = () => {
                                             fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
-                                            fontSize: '42px',
-                                            fontWeight: 300,
+                                            fontSize: '40px',
+                                            fontWeight: 200,
                                             color: 'white', // Set text color
                                             textAlign: 'start',
                                         }}
@@ -1868,7 +1868,7 @@ const AboutPage = () => {
                                         fontFamily: 'var(--font-montserrat)',
                                         lineHeight: '1.3',
                                         width: '95%',
-                                        fontSize: '14px',
+                                        fontSize: '12px',
                                         fontWeight: 300,
                                         color: 'white', // Set text color
                                         textAlign: 'start',
@@ -2238,7 +2238,7 @@ const AboutPage = () => {
                                         sx={{
                                             fontFamily: 'var(--font-montserrat)',
                                             lineHeight: '1',
-                                            fontSize: '14px',
+                                            fontSize: '12px',
                                             fontWeight: 300,
                                             color: 'white', // Set text color
                                             textAlign: 'start',
@@ -2428,7 +2428,7 @@ const AboutPage = () => {
                             <Typography variant="h2"  color="#DBC6BC" sx={{
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '42px',
+                                fontSize: '36px',
                                 fontWeight: 400,
                             }}>
                                 IF YOU FALL
@@ -2436,7 +2436,7 @@ const AboutPage = () => {
                             <Typography variant="h2"  color="#DBC6BC" sx={{
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '42px',
+                                fontSize: '36px',
                                 fontWeight: 400,
                             }}>
                                 VICTIM TO THEIR
@@ -2444,7 +2444,7 @@ const AboutPage = () => {
                             <Typography variant="h2"  color="#DBC6BC" sx={{
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '42px',
+                                fontSize: '36px',
                                 fontWeight: 400,
                             }}>
                                 BREATHTAKING
@@ -2452,7 +2452,7 @@ const AboutPage = () => {
                             <Typography variant="h2"  color="#DBC6BC" sx={{
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '42px',
+                                fontSize: '36px',
                                 fontWeight: 400,
                             }}>
                                 BEAUTY
@@ -2460,10 +2460,11 @@ const AboutPage = () => {
                             <CustomDivider />
                             <Typography variant="h5" className="mb-8" sx={{
                                 fontFamily: 'var(--font-montserrat)',
-                                fontSize: '15px',
+                                fontSize: '12px',
                                 fontWeight: 400,
                             }}>
-                                as we do, we will be there to hold your <br /> hand as you make life-changing decisions<br /> about your living space.                        </Typography>
+                                as we do, we will be there to hold your <br /> hand as you make life-changing decisions<br /> about your living space.                        
+                            </Typography>
                         </Box>
                     </Box> : <Box className="flex w-full flex-col relative items-center justify-center text-white">
                         <Box className="flex justify-center items-center w-[33%]">
@@ -2521,7 +2522,7 @@ const AboutPage = () => {
                                 color: '#DBC6BC',
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
-                                fontSize: '42px',
+                                fontSize: '40px',
                                 fontWeight: 300,
                             }}>
                                 READY TO CRAFT YOUR <span style={{ fontWeight: 600 }}>STONE MASTERPIECE?</span>
@@ -2533,7 +2534,7 @@ const AboutPage = () => {
                                     // width:'90%',
                                     textJustify: 'justify',
                                     lineHeight: '1.2',
-                                    fontSize: '14px',
+                                    fontSize: '12px',
                                     fontWeight: 300,
                                 }}>
                                     Our commitment to providing outstanding services,<br /> expert advice, and a range of natural stone for your<br /> needs is our top priority. Feel free to engage with our<br /> experts today and let us mould your ideas into reality.
