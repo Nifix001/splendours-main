@@ -854,11 +854,10 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    lineHeight: 1.2,
-                                    letterSpacing: '0.16em',
+                                    lineHeight: 1.4
                                 }}
                             >
-                                Once we&apos;ve established a plan, our team members will visit your site to take precise measurements. This ensures a flawless fit and avoids any unwanted surprises during installation.
+                                Once we&apos;ve established a plan, our team<br /> members will visit your site to take precise<br /> measurements. This ensures a flawless fit and<br /> avoids any unwanted surprises during<br /> installation.
                             </Typography>
                         </Box>
                         <Box className="flex w-full">
@@ -961,7 +960,7 @@ const ServicesPage = () => {
                                     fontSize: '30px'
                                 }}
                             >
-                                ARRANGING FOR STOCK AND STONE MASON
+                                ARRANGING FOR<br /> STOCK<br /> AND STONE MASON
                             </Typography>
                             <Typography
                                 variant="h3"
@@ -971,11 +970,10 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
-                                    lineHeight: 1.2,
-                                    letterSpacing: '0.16em',
+                                    lineHeight: 1.4,
                                 }}
                             >
-                                With your project details finalised, we&apos;ll secure the perfect stone selection and collaborate with a trusted and highly skilled stone mason for installation.
+                                With your project details finalised, we&apos;ll secure<br /> the perfect stone selection and collaborate with<br /> a trusted and highly skilled stone mason for<br /> installation.
                             </Typography>
                         </Box>
                         <Box className="flex w-full">
