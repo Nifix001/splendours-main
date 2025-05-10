@@ -11,8 +11,8 @@ import { LazyLoadImage } from './EmblaCarouselLazyLoadImage';
 // } from './EmblaCarouselArrowButtons'
 // import { Button, Typography } from '@mui/material';
 
-// import data from "./EmblaData.json";
-// import './embla.css'
+import data from "./EmblaData.json";
+import './embla.css'
 
 // interface Resource {
 //   imageUrl?: string;
@@ -134,14 +134,14 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { EmblaCarouselType, EmblaOptionsType } from 'embla-carousel'
 import useEmblaCarousel from 'embla-carousel-react'
 // import { LazyLoadImage } from './EmblaCarouselLazyLoadImage'
-import './Embla.css'
+// import './Embla.css'
 import {
   NextButton,
   PrevButton,
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
 
-import data from "./EmblaData.json";
+// import data from "./EmblaData.json";
 
 interface Resource {
   imageUrl?: string;
