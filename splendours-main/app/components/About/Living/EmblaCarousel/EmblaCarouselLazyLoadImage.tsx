@@ -46,7 +46,7 @@ export const LazyLoadImage: React.FC<PropType> = (props) => {
                             color="#DBC6BC"
                             sx={{
                                 fontFamily: 'Chronicle Display',
-                                fontSize: '40px',
+                                fontSize: '38px',
                                 width:'80%',
                                 fontStyle: 'italic',
                                 lineHeight: '1',
