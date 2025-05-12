@@ -204,6 +204,7 @@ const HomePage = () => {
                                 lineHeight: 0.8,
                                 fontWeight: isMobile ? 700 : 500,
                                 fontFamily: 'Chronicle Display',
+                                fontStyle: isMobile ? 'italic' : '',
                                 textAlign: isMobile ? 'center' : 'start',
                                 fontSize: isMobile ? '40px' : {
                                     xs: "30px",

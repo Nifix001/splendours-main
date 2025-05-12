@@ -169,6 +169,7 @@ const AboutPage = () => {
                                     sx={{
                                         fontFamily: "Raleway",
                                         fontSize: "38px",
+                                        fontstyle: "italic",
                                         lineHeight: 1.2,
                                         fontWeight: 300,
                                     }}
@@ -320,7 +321,7 @@ const AboutPage = () => {
 
 
                     {isMobile ? <Box
-                        className="relative flex flex-col w-full px-3 py-12 gap-x-12 gap-y-6 rounded-[20px]"
+                        className="relative flex flex-col w-full px-3 py-8 gap-x-12 gap-y-6 rounded-[20px]"
                         sx={{
                             backgroundImage: 'url(images/About/Legacy/Mobile/legacy-background-mobile.jpg)', // Add your image path here
                             backgroundSize: 'cover', // Ensures the background image covers the entire area
@@ -331,12 +332,12 @@ const AboutPage = () => {
                     >
                         <Box className="flex w-full">
                             <Box className="flex flex-col w-full items-center justify-center">
-                                <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
+                                <Typography variant="h2" className="mb-4 -mt-4 font-light text-center" color='#283C28' sx={{
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '42px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                 }}>
                                     A LEGACY BUILT <br /> ON QUALITY AND <br /> EXPERTISE
                                 </Typography>
@@ -484,7 +485,7 @@ const AboutPage = () => {
                                         md: '80px', // Font size for medium screens
                                         lg: '80px', // Font size for large screens
                                     },
-                                    fontWeight: 100,
+                                    fontWeight: 300,
                                 }}>
                                     WE&apos;RE MORE THAN JUST SUPPLIERS
                                 </Typography>
@@ -526,7 +527,7 @@ const AboutPage = () => {
                                         fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontSize: '40px',
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     THROUGH HIS EXPLORATIONS ACROSS AFRICA&apos;S EAST COAST,<br /> ENDING IN <br /> EGYPT,
