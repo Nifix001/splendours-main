@@ -1125,7 +1125,7 @@ const AboutPage = () => {
                                     ACHIEVEMENTS
                                 </Typography>
 
-                                <Typography variant="h5" className="text-center" color='#000000' sx={{
+                                <Typography variant="h5" className="text-center mt-4" color='#000000' sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     fontSize: '13px',
                                     fontWeight: 400,
@@ -1812,7 +1812,7 @@ const AboutPage = () => {
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '40px',
-                                            fontWeight: 200,
+                                            fontWeight: 400,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1826,7 +1826,7 @@ const AboutPage = () => {
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '42px',
-                                            fontWeight: 200,
+                                            fontWeight: 400,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1839,7 +1839,7 @@ const AboutPage = () => {
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '40px',
-                                            fontWeight: 200,
+                                            fontWeight: 400,
                                             color: 'white', // Set text color
                                             textAlign: 'start',
                                         }}
@@ -1853,7 +1853,7 @@ const AboutPage = () => {
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '40px',
-                                            fontWeight: 200,
+                                            fontWeight: 400,
                                             color: 'white', // Set text color
                                             textAlign: 'start',
                                         }}
@@ -2003,7 +2003,7 @@ const AboutPage = () => {
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                     textAlign: 'center',
                                 }}
                             >
