@@ -2524,12 +2524,12 @@ const AboutPage = () => {
                                 fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
-                                fontWeight: 300,
+                                fontWeight: 400,
                             }}>
                                 READY TO CRAFT YOUR <span style={{ fontWeight: 600 }}>STONE MASTERPIECE?</span>
                             </Typography>
                             <Box className="flex w-full justify-center px-3">
-                                <Typography variant="h3" className="mb-10 text-center" sx={{
+                                <Typography variant="h3" className="mb-12 text-center" sx={{
                                     fontFamily: 'var(--font-montserrat)',
                                     color: 'white',
                                     // width:'90%',

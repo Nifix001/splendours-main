@@ -14,7 +14,7 @@ interface CustomButtonProps {
 const WhiteCustomButton: React.FC<CustomButtonProps> = ({ label, isMobile, iconSrc, onClick }) => {
     return (
         <Button
-            className="font-semibold px-4 text-[14px] flex items-center justify-between"
+            className=" px-4 text-[14px] flex items-center justify-between"
             variant="outlined"
             endIcon={
                 <Box
@@ -23,6 +23,7 @@ const WhiteCustomButton: React.FC<CustomButtonProps> = ({ label, isMobile, iconS
                             width: { xs: "35px", md: '1vw' },
                             height: { xs: "35px", md: '1vw' },
                             paddingRight: "2px",
+                            fontWeight: 500,
                             backgroundSize: "cover",
                             backgroundImage: `url(${iconSrc})`,
                             filter: "brightness(0) saturate(100%) invert(28%) sepia(14%) saturate(589%) hue-rotate(100deg) brightness(93%) contrast(81%)",
