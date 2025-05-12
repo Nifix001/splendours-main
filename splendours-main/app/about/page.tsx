@@ -321,7 +321,7 @@ const AboutPage = () => {
 
 
                     {isMobile ? <Box
-                        className="relative flex flex-col w-full px-1 py-8 gap-x-12 gap-y-6 -mt-4 rounded-[20px]"
+                        className="relative flex flex-col w-full px-2 py-1 gap-x-12 gap-y-6 -mt-4 rounded-[20px]"
                         sx={{
                             backgroundImage: 'url(images/About/Legacy/Mobile/legacy-background-mobile.jpg)', // Add your image path here
                             backgroundSize: 'cover', // Ensures the background image covers the entire area
@@ -2545,7 +2545,7 @@ const AboutPage = () => {
                             </Box>
                         </Box>
 
-                        <Box className="flex w-full justify-around">
+                        <Box className="flex w-full justify-around mt-4">
                             <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vectorn.svg'} onClick={handleOpenEnquiryForm} />
                             <Link href="/contact"><WhiteCustomButton label={'Contact Us'} iconSrc={'/images/icons/Vectorn.svg'} /></Link>
                         </Box>
