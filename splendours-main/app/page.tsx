@@ -194,7 +194,7 @@ const HomePage = () => {
                     },
                 }}
             >
-                <Box sx={{ width: '100%', display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'center' : 'flex-end' }} style={{ marginBottom: "80px" }}>
+                <Box sx={{ width: '100%', display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'center' : 'flex-end' }} style={{ marginBottom: isMobile ? "10px" : "80px" }}>
                     <Box sx={{ width: isMobile ? "100%" : "40%" }}>
                         <Typography
                             // className="text-center"
@@ -202,7 +202,7 @@ const HomePage = () => {
                             color="#DBC6BC"
                             sx={{
                                 lineHeight: 0.8,
-                                fontWeight: 500,
+                                fontWeight: isMobile ? 700 : 500,
                                 fontFamily: 'Chronicle Display',
                                 textAlign: isMobile ? 'center' : 'start',
                                 fontSize: isMobile ? '40px' : {
@@ -213,12 +213,12 @@ const HomePage = () => {
                                 }
                             }}
                         >
-                            SPLENDOURS PROJECTS
+                            SPLENDORS PROJECTS
                         </Typography>
                     </Box>
                     <Box sx={{ bottom: 0, left: "0", marginTop: isMobile ? '10px' : '0px', marginBottom: isMobile ? '1px' : '', marginleft: "20px", }}>
                         <Link href={'/allProjectViews'} >
-                            <AnimatedModalDemo label="View all" isMobile={isMobile} icon={"images/Vectorn.svg"} ></AnimatedModalDemo>
+                            <AnimatedModalDemo label="View All" isMobile={isMobile} icon={"images/Vectorn.svg"} ></AnimatedModalDemo>
                         </Link>
                     </Box>
                 </Box>

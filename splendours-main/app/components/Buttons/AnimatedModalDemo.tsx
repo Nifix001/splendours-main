@@ -20,7 +20,7 @@ export function AnimatedModalDemo({ isMobile, label, icon }: AnimatedModalDemoPr
   return (
     <div className="relative py-6 w-full mt-4 flex items-center justify-center">
       <Modal>
-        {isMobile ? <ModalTrigger className="bg-customColor text-color py-2 flex items-center justify-center gap-2 group/modal-btn -mb-2">
+        {isMobile ? <ModalTrigger className="bg-customColor text-color py-2 flex items-center justify-center gap-2 group/modal-btn -my-2">
           {/* SVG Icon */}
 
           {/* Label */}
