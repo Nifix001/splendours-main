@@ -168,7 +168,7 @@ const AboutPage = () => {
                                     className="text-center"
                                     sx={{
                                         fontFamily: "Raleway",
-                                        fontSize: "40px",
+                                        fontSize: "38px",
                                         lineHeight: 1.2,
                                         fontWeight: 300,
                                     }}
