@@ -167,11 +167,11 @@ const AboutPage = () => {
                                     color="#DBC6BC"
                                     className="text-center"
                                     sx={{
-                                        fontFamily: "Raleway",
+                                        fontFamily: "Chronicle Display",
                                         fontSize: "38px",
                                         fontstyle: "italic",
                                         lineHeight: 1.2,
-                                        fontWeight: 300,
+                                        fontWeight: 400,
                                     }}
                                 >
                                     Unearth the <br /> Enduring Beauty of <br /> Stone with Splendour <br /> in Stone,{" "}
@@ -321,7 +321,7 @@ const AboutPage = () => {
 
 
                     {isMobile ? <Box
-                        className="relative flex flex-col w-full px-3 py-8 gap-x-12 gap-y-6 rounded-[20px]"
+                        className="relative flex flex-col w-full px-1 py-8 gap-x-12 gap-y-6 -mt-4 rounded-[20px]"
                         sx={{
                             backgroundImage: 'url(images/About/Legacy/Mobile/legacy-background-mobile.jpg)', // Add your image path here
                             backgroundSize: 'cover', // Ensures the background image covers the entire area
@@ -332,7 +332,7 @@ const AboutPage = () => {
                     >
                         <Box className="flex w-full">
                             <Box className="flex flex-col w-full items-center justify-center">
-                                <Typography variant="h2" className="mb-4 -mt-4 font-light text-center" color='#283C28' sx={{
+                                <Typography variant="h2" className="mb-8 -mt-4 font-light text-center" color='#283C28' sx={{
                                     fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
