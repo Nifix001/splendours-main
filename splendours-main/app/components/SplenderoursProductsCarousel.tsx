@@ -189,7 +189,7 @@ const SplenderoursProductsCarousel: React.FC = () => {
                                         sx={{
                                             fontWeight: 375,
                                             fontFamily: 'Chronicle Display',
-                                            fontStyle: 'italic',
+                                            // fontStyle: 'italic',
                                             lineHeight: '0.9',
                                             padding: "30px",
                                             fontSize: '40px'
