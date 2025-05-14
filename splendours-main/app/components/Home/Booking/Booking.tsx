@@ -373,7 +373,7 @@ const Booking: React.FC = () => {
                                 sx={{
                                     fontWeight: 400,
                                     textAlign: "center",
-                                    fontFamily: "Chronicle Display",
+                                    // fontFamily: "Chronicle Display",
                                     fontSize: "40px",
                                 }}
                             >

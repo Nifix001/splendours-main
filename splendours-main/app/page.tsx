@@ -908,7 +908,8 @@ const HomePage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 300,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
+
                                     fontSize: {
                                         xs: '50px', // Extra small screens
                                         sm: '50px', // Small screens
@@ -1054,7 +1055,7 @@ const HomePage = () => {
                         sx={{
                             fontWeight: 400,
                             justifyContent: 'flex-end',
-                            fontFamily: 'Chronicle Display',
+                            // fontFamily: 'Chronicle Display',
                             lineHeight: 0.8,
                             fontSize: '50px'
                         }}

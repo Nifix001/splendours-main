@@ -33,7 +33,7 @@ const FooterMobile = () => {
                         sx={{
                             fontWeight: 400,
                             alignContent: 'flex-start',
-                            fontFamily: 'Chronicle Display',
+                            // fontFamily: 'Chronicle Display',
                             fontStyle: 'italic',
                             fontSize: '50px'
                         }}
@@ -103,7 +103,7 @@ const FooterMobile = () => {
                         sx={{
                             fontWeight: 400,
                             alignContent: 'flex-start',
-                            fontFamily: 'Chronicle Display',
+                            // fontFamily: 'Chronicle Display',
                             fontStyle: 'italic',
                             fontSize: '50px'
                         }}
