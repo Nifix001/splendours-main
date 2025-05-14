@@ -127,7 +127,7 @@ export default function ConsultationFaqAccodion() {
                             sx={{
                                 fontWeight: 300,
                                 flexWrap: "wrap",
-                                fontFamily: "Chronicle Display",
+                                // fontFamily: "Chronicle Display",
                                 fontSize: "22px",
                             }}
                         >

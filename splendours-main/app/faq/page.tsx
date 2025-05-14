@@ -65,9 +65,9 @@ const FaqPage = () => {
                             sx={{
                                 fontWeight: 700,
                                 textAlign: 'center',
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
-                                fontSize: '44px'
+                                fontSize: '42px'
                             }}
                         >
                             AT SPLENDOUR
@@ -78,9 +78,9 @@ const FaqPage = () => {
                             sx={{
                                 fontWeight: 700,
                                 textAlign: 'center',
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
-                                fontSize: '44px'
+                                fontSize: '42px'
                             }}
                         >
                             IN STONE,
@@ -173,7 +173,7 @@ const FaqPage = () => {
                             className='text-center'
                             sx={{
                                 fontWeight: 400,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontStyle: 'italic'
@@ -187,7 +187,7 @@ const FaqPage = () => {
                             className='text-center'
                             sx={{
                                 fontWeight: 400,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontStyle: 'italic'
@@ -201,7 +201,7 @@ const FaqPage = () => {
                             className='text-center'
                             sx={{
                                 fontWeight: 400,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontStyle: 'italic'
@@ -215,7 +215,7 @@ const FaqPage = () => {
                             className='text-center'
                             sx={{
                                 fontWeight: 400,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontStyle: 'italic'
@@ -229,7 +229,7 @@ const FaqPage = () => {
                             className='text-center'
                             sx={{
                                 fontWeight: 400,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontStyle: 'italic'

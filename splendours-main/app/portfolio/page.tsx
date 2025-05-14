@@ -213,7 +213,7 @@ const PortfolioPage = () => {
                                     sx={{
                                         fontWeight: 400,
                                         textAlign: 'center',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontSize: '40px'
                                     }}
@@ -226,7 +226,7 @@ const PortfolioPage = () => {
                                     sx={{
                                         fontWeight: 400,
                                         textAlign: 'center',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontSize: '40px'
                                     }}
@@ -240,7 +240,7 @@ const PortfolioPage = () => {
                                     sx={{
                                         fontWeight: 600,
                                         textAlign: 'center',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontSize: '40px'
                                     }}
@@ -253,7 +253,7 @@ const PortfolioPage = () => {
                                     sx={{
                                         fontWeight: 600,
                                         textAlign: 'center',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontSize: '40px'
                                     }}
@@ -431,8 +431,8 @@ const PortfolioPage = () => {
                             <Box className="flex w-full">
                                 <Box className="flex flex-col w-full items-center justify-center">
                                     <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
-                                        fontFamily: 'Chronicle Display',
-                                        lineHeight: '0.7',
+                                        // fontFamily: 'Chronicle Display',
+                                        lineHeight: '0.9',
                                         fontStyle: 'italic',
                                         fontSize: '50px',
                                         fontWeight: 300,
@@ -440,8 +440,8 @@ const PortfolioPage = () => {
                                         FIND
                                     </Typography>
                                     <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
-                                        fontFamily: 'Chronicle Display',
-                                        lineHeight: '0.7',
+                                        // fontFamily: 'Chronicle Display',
+                                        lineHeight: '0.9',
                                         fontStyle: 'italic',
                                         fontSize: '50px',
                                         fontWeight: 300,
@@ -449,8 +449,8 @@ const PortfolioPage = () => {
                                         INSPIRATION
                                     </Typography>
                                     <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
-                                        fontFamily: 'Chronicle Display',
-                                        lineHeight: '0.7',
+                                        // fontFamily: 'Chronicle Display',
+                                        lineHeight: '0.9',
                                         fontStyle: 'italic',
                                         fontSize: '50px',
                                         fontWeight: 300,
@@ -458,8 +458,8 @@ const PortfolioPage = () => {
                                         FOR YOUR
                                     </Typography>
                                     <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
-                                        fontFamily: 'Chronicle Display',
-                                        lineHeight: '0.7',
+                                        // fontFamily: 'Chronicle Display',
+                                        lineHeight: '0.9',
                                         fontStyle: 'italic',
                                         fontSize: '50px',
                                         fontWeight: 300,
@@ -603,7 +603,7 @@ const PortfolioPage = () => {
                                             fontWeight: 400,
                                             textAlign: "center",
                                             lineHeight: "1",
-                                            fontFamily: "Chronicle Display",
+                                            // fontFamily: "Chronicle Display",
                                             fontSize: "44px", // Smaller font for mobile
                                         }}
                                     >
@@ -711,7 +711,7 @@ const PortfolioPage = () => {
                                         className="mb-4 font-light text-center"
                                         color="#283C28"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '0.9',
                                             fontSize: '40px',
                                             fontWeight: 300,
@@ -812,7 +812,7 @@ const PortfolioPage = () => {
                                         textAlign: 'center',
                                         fontStyle: 'italic',
                                         lineHeight: '0.8',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         fontSize: 'center'
                                     }}
                                 >
@@ -907,7 +907,7 @@ const PortfolioPage = () => {
                                         sx={{
                                             fontWeight: 300,
                                             textAlign: 'center',
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: 0.8,
                                             fontSize: '44px'
@@ -1032,7 +1032,7 @@ const PortfolioPage = () => {
                         </Box>
                         <Box className="absolute z-10 text-center p-8 w-full">
                             <Typography variant="h2" className="font-normal" color='#DCC5BD' sx={{
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 fontSize: '34px',
                                 lineHeight: 1,
                                 fontWeight: 300,

@@ -90,7 +90,7 @@ const ServicesPage = () => {
                             sx={{
                                 width: '100%',
                                 fontWeight: 300,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
                             }}
@@ -104,7 +104,7 @@ const ServicesPage = () => {
                             sx={{
                                 width: '100%',
                                 fontWeight: 300,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
                             }}
@@ -118,7 +118,7 @@ const ServicesPage = () => {
                             sx={{
                                 width: '100%',
                                 fontWeight: 300,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
                             }}
@@ -132,7 +132,7 @@ const ServicesPage = () => {
                             sx={{
                                 width: '100%',
                                 fontWeight: 300,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
                             }}
@@ -145,7 +145,7 @@ const ServicesPage = () => {
                             className='text-center font-semibold'
                             sx={{
                                 fontWeight: 600,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '0.8',
                                 fontSize: '40px'
                             }}
@@ -507,7 +507,7 @@ const ServicesPage = () => {
                                 sx={{
                                     width: '100%',
                                     fontWeight: 600,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.8',
                                     fontSize: '40px'
                                 }}
@@ -522,7 +522,7 @@ const ServicesPage = () => {
                                     width: '100%',
                                     fontWeight: 600,
                                     lineHeight: '0.8',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontSize: '40px'
                                 }}
                             >
@@ -1186,7 +1186,7 @@ const ServicesPage = () => {
                     </Box>
                     <Box className="absolute z-10 text-center p-8 w-full justify-center items-center flex flex-col">
                         <Typography variant="h2" className="font-semibold" color='#DCC5BD' sx={{
-                            fontFamily: 'Chronicle Display',
+                            // fontFamily: 'Chronicle Display',
                             fontSize: '40px',
                             lineHeight: 0.9,
                             fontWeight: 300,
