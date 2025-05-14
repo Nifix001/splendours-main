@@ -185,7 +185,7 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 400,
+                                    fontWeight: 300,
                                     textAlign: 'center',
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
@@ -198,7 +198,7 @@ const ServicesPage = () => {
                                 variant="h3"
                                 color="#DCC5BD"
                                 sx={{
-                                    fontWeight: 400,
+                                    fontWeight: 300,
                                     textAlign: 'center',
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
@@ -503,7 +503,7 @@ const ServicesPage = () => {
                                     fontWeight: 300,
                                     // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
-                                    fontSize: '38px',
+                                    fontSize: '34px',
                                     lineHeight: '0.9'
                                 }}
                             >
@@ -597,7 +597,7 @@ const ServicesPage = () => {
                                     fontWeight: 400,
                                     // fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
-                                    fontSize: '30px'
+                                    fontSize: '28px'
                                 }}
                             >
                                 CONSULTATION CALL
