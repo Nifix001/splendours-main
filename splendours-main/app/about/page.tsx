@@ -331,7 +331,7 @@ const AboutPage = () => {
                         }}
                     >
                         <Box className="flex w-full">
-                            <Box className="flex flex-col w-full items-center justify-center">
+                            <Box className="flex flex-col w-full items-center ">
                                 <Typography variant="h2" className="mb-8 -mt-4 font-light text-center" color='#283C28' sx={{
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
@@ -520,9 +520,9 @@ const AboutPage = () => {
 
                             <Box className="flex w-full flex-col justify-center gap-y-3">
                                 <Typography
-                                    variant="h6"
+                                    variant="h3"
                                     color='#283C28'
-                                    className='font-normal text-center'
+                                    className=' text-center'
                                     sx={{
                                         // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
@@ -901,7 +901,7 @@ const AboutPage = () => {
                                     variant="h4"
                                     color='#DBC6BC'
                                     sx={{
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontStyle: 'italic',
                                         fontSize: '38px',
@@ -915,7 +915,7 @@ const AboutPage = () => {
                                     variant="h4"
                                     color='#DBC6BC'
                                     sx={{
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontStyle: 'italic',
                                         fontSize: '38px',
@@ -1118,7 +1118,7 @@ const AboutPage = () => {
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
-                                    fontSize: '50px',
+                                    fontSize: '44px',
                                     fontWeight: 400,
                                 }}>
                                     NOTABLE
@@ -1805,7 +1805,7 @@ const AboutPage = () => {
                             <Box className="flex flex-col">
                                 <Box className="flex flex-col w-full">
                                     <Typography
-                                        variant="h4"
+                                        variant="h3"
                                         color="white"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
@@ -1819,13 +1819,13 @@ const AboutPage = () => {
                                         MORE THAN
                                     </Typography>
                                     <Typography
-                                        variant="h4"
+                                        variant="h3"
                                         color="white"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
-                                            fontSize: '42px',
+                                            fontSize: '40px',
                                             fontWeight: 400,
                                             textAlign: 'start',
                                         }}
@@ -1833,6 +1833,7 @@ const AboutPage = () => {
                                         JUST PRODUCTS:
                                     </Typography>
                                     <Typography
+                                        variant="h3"
                                         component="span"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
@@ -1847,6 +1848,7 @@ const AboutPage = () => {
                                         CRAFTED WITH
                                     </Typography>
                                     <Typography
+                                        variant="h3"
                                         component="span"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
@@ -2002,7 +2004,7 @@ const AboutPage = () => {
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
-                                    fontSize: '44px',
+                                    fontSize: '40px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -2016,7 +2018,7 @@ const AboutPage = () => {
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
-                                    fontSize: '44px',
+                                    fontSize: '40px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -2030,7 +2032,7 @@ const AboutPage = () => {
                                     // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
-                                    fontSize: '44px',
+                                    fontSize: '40px',
                                     fontWeight: 400,
                                     textAlign: 'center',
                                 }}
@@ -2177,11 +2179,12 @@ const AboutPage = () => {
                             <Box className="flex flex-col w-full gap-y-5">
                                 <Box className="flex flex-col pt-9">
                                     <Typography
+                                        variant="h3"
                                         component="span"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
-                                            fontSize: '42px',
+                                            fontSize: '40px',
                                             lineHeight: '1',
                                             fontWeight: 300,
                                             color: 'white', // Set text color
@@ -2191,11 +2194,12 @@ const AboutPage = () => {
                                         A GALLERY OF
                                     </Typography>
                                     <Typography
+                                        variant="h3"
                                         component="span"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
-                                            fontSize: '42px',
+                                            fontSize: '40px',
                                             lineHeight: '1',
                                             fontWeight: 300,
                                             color: 'white', // Set text color
@@ -2205,6 +2209,7 @@ const AboutPage = () => {
                                         SUCCESS: YOUR
                                     </Typography>
                                     <Typography
+                                        variant="h3"
                                         component="span"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
@@ -2219,6 +2224,7 @@ const AboutPage = () => {
                                         INSPIRATION
                                     </Typography>
                                     <Typography
+                                        variant="h3"
                                         component="span"
                                         sx={{
                                             // fontFamily: 'Chronicle Display',
