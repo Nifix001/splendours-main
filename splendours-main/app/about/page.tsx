@@ -167,7 +167,7 @@ const AboutPage = () => {
                                     color="#DBC6BC"
                                     className="text-center"
                                     sx={{
-                                        fontFamily: "Chronicle Display",
+                                        // fontFamily: "Chronicle Display",
                                         fontSize: "38px",
                                         fontstyle: "italic",
                                         lineHeight: 1.2,
@@ -333,7 +333,7 @@ const AboutPage = () => {
                         <Box className="flex w-full">
                             <Box className="flex flex-col w-full items-center justify-center">
                                 <Typography variant="h2" className="mb-8 -mt-4 font-light text-center" color='#283C28' sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '42px',
@@ -442,7 +442,7 @@ const AboutPage = () => {
                         <Box className="absolute z-10 text-center p-8 w-full flex flex-col gap-x-3 mb-24">
                             {isMobile ? <Box style={{ height: "5px", marginTop: "100px" }}></Box> : <></>}
                             <Typography variant="h2" className="font-normal" color="#DBC6BC" sx={{
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontWeight: 300,
@@ -524,7 +524,7 @@ const AboutPage = () => {
                                     color='#283C28'
                                     className='font-normal text-center'
                                     sx={{
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontSize: '40px',
                                         fontWeight: 400,
@@ -539,7 +539,7 @@ const AboutPage = () => {
                                         sx={{
                                             width: '85%',
                                             fontFamily: 'var(--font-montserrat)',
-                                            fontSize: '12px',
+                                            fontSize: '13px',
                                             fontWeight: 400,
                                             lineHeight: '1.2',
                                             textAlign: 'center',
@@ -583,7 +583,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -596,7 +596,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -609,7 +609,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -622,7 +622,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -635,7 +635,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -648,7 +648,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -661,7 +661,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -674,7 +674,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color='#283C28'
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             lineHeight: '1',
                                             fontSize: '40px',
                                             fontWeight: 400,
@@ -873,7 +873,7 @@ const AboutPage = () => {
                                     variant="h4"
                                     color='#DBC6BC'
                                     sx={{
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontStyle: 'italic',
                                         fontSize: '38px',
@@ -887,7 +887,7 @@ const AboutPage = () => {
                                     variant="h4"
                                     color='#DBC6BC'
                                     sx={{
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         lineHeight: '1',
                                         fontStyle: 'italic',
                                         fontSize: '38px',
@@ -1115,7 +1115,7 @@ const AboutPage = () => {
                         <Box className="flex w-full">
                             <Box className="flex flex-col w-full items-center justify-center">
                                 <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '50px',
@@ -1215,7 +1215,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1229,7 +1229,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1243,7 +1243,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1258,7 +1258,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1272,7 +1272,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1286,7 +1286,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1300,7 +1300,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1314,7 +1314,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1328,7 +1328,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color="#DBC6BC"
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
                                     lineHeight: '1',
@@ -1808,7 +1808,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color="white"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '40px',
@@ -1822,7 +1822,7 @@ const AboutPage = () => {
                                         variant="h4"
                                         color="white"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '42px',
@@ -1835,7 +1835,7 @@ const AboutPage = () => {
                                     <Typography
                                         component="span"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '40px',
@@ -1849,7 +1849,7 @@ const AboutPage = () => {
                                     <Typography
                                         component="span"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             lineHeight: '1.2',
                                             fontSize: '40px',
@@ -1999,7 +1999,7 @@ const AboutPage = () => {
                                 variant="h4"
                                 color='#DBC6BC'
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
@@ -2013,11 +2013,11 @@ const AboutPage = () => {
                                 variant="h4"
                                 color='#DBC6BC'
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                     textAlign: 'center',
                                 }}
                             >
@@ -2027,11 +2027,11 @@ const AboutPage = () => {
                                 variant="h4"
                                 color='#DBC6BC'
                                 sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '1',
                                     fontStyle: 'italic',
                                     fontSize: '44px',
-                                    fontWeight: 300,
+                                    fontWeight: 400,
                                     textAlign: 'center',
                                 }}
                             >
@@ -2179,7 +2179,7 @@ const AboutPage = () => {
                                     <Typography
                                         component="span"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             fontSize: '42px',
                                             lineHeight: '1',
@@ -2193,7 +2193,7 @@ const AboutPage = () => {
                                     <Typography
                                         component="span"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             fontSize: '42px',
                                             lineHeight: '1',
@@ -2207,7 +2207,7 @@ const AboutPage = () => {
                                     <Typography
                                         component="span"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             fontSize: '42px',
                                             lineHeight: '1',
@@ -2221,7 +2221,7 @@ const AboutPage = () => {
                                     <Typography
                                         component="span"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontStyle: 'italic',
                                             fontSize: '42px',
                                             lineHeight: '1',
@@ -2427,7 +2427,7 @@ const AboutPage = () => {
                         </Box>
                         <Box className="absolute z-10 text-center p-8 w-full flex flex-col">
                             <Typography variant="h2"  color="#DBC6BC" sx={{
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '36px',
                                 fontWeight: 400,
@@ -2435,7 +2435,7 @@ const AboutPage = () => {
                                 IF YOU FALL
                             </Typography>
                             <Typography variant="h2"  color="#DBC6BC" sx={{
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '36px',
                                 fontWeight: 400,
@@ -2443,7 +2443,7 @@ const AboutPage = () => {
                                 VICTIM TO THEIR
                             </Typography>
                             <Typography variant="h2"  color="#DBC6BC" sx={{
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '36px',
                                 fontWeight: 400,
@@ -2451,7 +2451,7 @@ const AboutPage = () => {
                                 BREATHTAKING
                             </Typography>
                             <Typography variant="h2"  color="#DBC6BC" sx={{
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '36px',
                                 fontWeight: 400,
@@ -2521,7 +2521,7 @@ const AboutPage = () => {
                         <Box className="flex flex-col w-full">
                             <Typography variant="h1" className="mb-8 font-normal text-center" sx={{
                                 color: '#DBC6BC',
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 lineHeight: '1',
                                 fontSize: '40px',
                                 fontWeight: 400,

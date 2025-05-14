@@ -76,7 +76,7 @@ export const PrevButton: React.FC<PropType> = (props) => {
         color="#FFFFFF"
         sx={{
           fontWeight: 500,
-          fontFamily: 'var(--font-montserrat)',
+          // fontFamily: 'var(--font-montserrat)',
           fontSize: '13px',
           letterSpacing: '5px'
         }}
@@ -102,7 +102,7 @@ export const NextButton: React.FC<PropType> = (props) => {
         color="#FFFFFF"
         sx={{
           fontWeight: 500,
-          fontFamily: 'var(--font-montserrat)',
+          // fontFamily: 'var(--font-montserrat)',
           fontSize: '13px',
           letterSpacing: '5px'
         }}
