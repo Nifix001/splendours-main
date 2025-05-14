@@ -1,67 +1,15 @@
-import React, {
-  ComponentPropsWithRef,
-  useCallback,
-  useEffect,
-  useState
-} from 'react'
-import { EmblaCarouselType } from 'embla-carousel'
-import { Typography } from '@mui/material'
+import React, { ComponentPropsWithRef } from 'react';
 
-type UsePrevNextButtonsType = {
-  prevBtnDisabled: boolean
-  nextBtnDisabled: boolean
-  onPrevButtonClick: () => void
-  onNextButtonClick: () => void
-}
-
-export const usePrevNextButtons = (
-  emblaApi: EmblaCarouselType | undefined,
-  onButtonClick?: (emblaApi: EmblaCarouselType) => void
-): UsePrevNextButtonsType => {
-  const [prevBtnDisabled, setPrevBtnDisabled] = useState(true)
-  const [nextBtnDisabled, setNextBtnDisabled] = useState(true)
-
-  const onPrevButtonClick = useCallback(() => {
-    if (!emblaApi) return
-    emblaApi.scrollPrev()
-    if (onButtonClick) onButtonClick(emblaApi)
-  }, [emblaApi, onButtonClick])
-
-  const onNextButtonClick = useCallback(() => {
-    if (!emblaApi) return
-    emblaApi.scrollNext()
-    if (onButtonClick) onButtonClick(emblaApi)
-  }, [emblaApi, onButtonClick])
-
-  const onSelect = useCallback((emblaApi: EmblaCarouselType) => {
-    setPrevBtnDisabled(!emblaApi.canScrollPrev())
-    setNextBtnDisabled(!emblaApi.canScrollNext())
-  }, [])
-
-  useEffect(() => {
-    if (!emblaApi) return
-
-    onSelect(emblaApi)
-    emblaApi.on('reInit', onSelect).on('select', onSelect)
-  }, [emblaApi, onSelect])
-
-  return {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick
-  }
-}
-
-type PropType = ComponentPropsWithRef<'button'>
+type PropType = ComponentPropsWithRef<'button'>;
 
 export const PrevButton: React.FC<PropType> = (props) => {
-  const { ...restProps } = props
+  const { disabled, ...restProps } = props;
 
   return (
     <button
-      className="embla__button_wall embla__button--prev_wall"
+      className={`embla__button_wall embla__button--prev_wall`}
       type="button"
+      disabled={disabled}
       {...restProps}
     >
       <svg className="embla__button__svg_wall" viewBox="0 0 532 532">
@@ -70,45 +18,22 @@ export const PrevButton: React.FC<PropType> = (props) => {
           d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
         />
       </svg>
-      <Typography
-        className="ml-[3px]"
-        variant="h3"
-        color="#FFFFFF"
-        sx={{
-          fontWeight: 500,
-          // fontFamily: 'var(--font-montserrat)',
-          fontSize: '13px',
-          letterSpacing: '5px'
-        }}
-      >
-        PREV
-      </Typography>
+      <span className="ml-1 text-white text-xs tracking-[0.25rem] font-medium">PREV</span>
     </button>
-  )
-}
+  );
+};
 
 export const NextButton: React.FC<PropType> = (props) => {
-  const { ...restProps } = props
+  const { disabled, ...restProps } = props;
 
   return (
     <button
-      className="embla__button_wall embla__button--next_wall"
+      className={`embla__button_wall embla__button--next_wall`}
       type="button"
+      disabled={disabled}
       {...restProps}
     >
-      <Typography
-        // className="font-semibold text-center"
-        variant="h3"
-        color="#FFFFFF"
-        sx={{
-          fontWeight: 500,
-          // fontFamily: 'var(--font-montserrat)',
-          fontSize: '13px',
-          letterSpacing: '5px'
-        }}
-      >
-        NEXT
-      </Typography>
+      <span className="mr-1 text-white text-xs  tracking-[0.25rem] font-medium">NEXT</span>
       <svg className="embla__button__svg_wall" viewBox="0 0 532 532">
         <path
           fill="currentColor"
@@ -116,5 +41,5 @@ export const NextButton: React.FC<PropType> = (props) => {
         />
       </svg>
     </button>
-  )
-}
+  );
+};
