@@ -188,7 +188,7 @@ const SplenderoursProductsCarousel: React.FC = () => {
                                         className="text-start"
                                         sx={{
                                             fontWeight: 375,
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             // fontStyle: 'italic',
                                             lineHeight: '0.9',
                                             padding: "30px",

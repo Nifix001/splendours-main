@@ -96,7 +96,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
                             sx={{
                                 fontWeight: 400,
                                 alignContent: 'flex-start',
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: 'Chronicle Display',
                                 fontSize: '20px'
                             }}
                         >
@@ -158,7 +158,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
                         sx={{
                             lineHeight: 0.8,
                             fontWeight: 500,
-                            fontFamily: 'Chronicle Display',
+                            // fontFamily: 'Chronicle Display',
                             fontSize: '23px'
                         }}
                     >

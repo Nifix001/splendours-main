@@ -231,9 +231,9 @@ const HomePage = () => {
 
             {isMobile ?
                 <Box className="flex flex-col w-full items-center justify-center">
-                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>STATE OF</Typography>
-                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>THE ART</Typography>
-                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>SHOWROOM</Typography>
+                    <Typography variant="h3" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>STATE OF</Typography>
+                    <Typography variant="h3" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>THE ART</Typography>
+                    <Typography variant="h3" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>SHOWROOM</Typography>
                 </Box> :
                 <Box className="flex flex-col px-2">
                     <AnimatePresence>
@@ -287,7 +287,7 @@ const HomePage = () => {
                                 sx={{
                                     fontWeight: 400,
                                     lineHeight: 1,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                 }}
                             >
@@ -527,7 +527,7 @@ const HomePage = () => {
                                             sx={{
                                                 textAlign: 'center',
                                                 fontWeight: 560,
-                                                fontFamily: 'Chronicle Display',
+                                                // fontFamily: 'Chronicle Display',
                                                 fontSize: isMobile ? '45px' : '70px',
                                             }}
                                         >
@@ -766,7 +766,7 @@ const HomePage = () => {
                                 sx={{
                                     fontWeight: 400,
                                     lineHeight: 0.9,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontSize: isTablet ? '50px' : '40px', // Adjust for tablets
                                 }}
                             >
