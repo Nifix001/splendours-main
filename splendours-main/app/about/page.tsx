@@ -171,7 +171,7 @@ const AboutPage = () => {
                                         fontSize: "38px",
                                         fontstyle: "italic",
                                         lineHeight: 1.2,
-                                        fontWeight: 400,
+                                        fontWeight: 300,
                                     }}
                                 >
                                     Unearth the <br /> Enduring Beauty of <br /> Stone with Splendour <br /> in Stone,{" "}
