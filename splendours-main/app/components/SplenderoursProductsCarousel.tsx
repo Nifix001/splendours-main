@@ -244,7 +244,7 @@ const SplenderoursProductsCarousel: React.FC = () => {
                                         className="text-start"
                                         sx={{
                                             fontWeight: 375,
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontSize: {
                                                 xs: "20px",
                                                 sm: "24px",
@@ -263,7 +263,7 @@ const SplenderoursProductsCarousel: React.FC = () => {
                                             sx={{
                                                 fontWeight: 400,
                                                 lineHeight: '1.2',
-                                                fontFamily: 'var(--font-montserrat)',
+                                                // fontFamily: 'var(--font-montserrat)',
                                                 fontSize: {
                                                     xs: "14px",
                                                     sm: "20px",

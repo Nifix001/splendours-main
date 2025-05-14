@@ -231,9 +231,9 @@ const HomePage = () => {
 
             {isMobile ?
                 <Box className="flex flex-col w-full items-center justify-center">
-                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%", fontFamily: "Chronicle Display", fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>STATE OF</Typography>
-                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%", fontFamily: "Chronicle Display", fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>THE ART</Typography>
-                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%", fontFamily: "Chronicle Display", fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>SHOWROOM</Typography>
+                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>STATE OF</Typography>
+                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>THE ART</Typography>
+                    <Typography variant="body1" color="#DBC6BC" className="text-center" sx={{ width: "70%",  fontSize: '30px', fontWeight: 700, lineHeight: 0.9 }}>SHOWROOM</Typography>
                 </Box> :
                 <Box className="flex flex-col px-2">
                     <AnimatePresence>
