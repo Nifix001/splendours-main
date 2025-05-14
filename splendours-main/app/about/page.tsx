@@ -163,12 +163,12 @@ const AboutPage = () => {
                             </Box>
                             <Box className="flex flex-col w-full gap-y-4 items-center">
                                 <Typography
-                                    variant="h4"
+                                    variant="h3"
                                     color="#DBC6BC"
                                     className="text-center"
                                     sx={{
                                         // fontFamily: "Chronicle Display",
-                                        // fontstyle: "italic", 
+                                        fontStyle: "normal", 
                                         fontSize: "38px",
                                         lineHeight: 1.2,
                                         fontWeight: 300,
