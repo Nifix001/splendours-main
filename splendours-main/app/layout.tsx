@@ -120,6 +120,7 @@ const chronicleDisplay = localFont({
     },
   ],
   variable: "--font-chronicle-display",
+  display: "swap",
 });
 
 export default function RootLayout({
