@@ -203,7 +203,7 @@ const HomePage = () => {
                             sx={{
                                 lineHeight: 0.8,
                                 fontWeight: isMobile ? 700 : 500,
-                                fontFamily: 'Chronicle Display',
+                                // fontFamily: isMobile ? '' : 'Chronicle Display',
                                 // fontStyle: isMobile ? 'italic' : '',
                                 textAlign: isMobile ? 'center' : 'start',
                                 fontSize: isMobile ? '40px' : {
