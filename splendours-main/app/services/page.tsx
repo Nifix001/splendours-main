@@ -187,7 +187,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 400,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -200,7 +200,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 400,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -213,7 +213,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 700,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -226,7 +226,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 700,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -239,7 +239,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 700,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -252,7 +252,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 700,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -265,7 +265,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 700,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -278,7 +278,7 @@ const ServicesPage = () => {
                                 sx={{
                                     fontWeight: 700,
                                     textAlign: 'center',
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '40px'
                                 }}
@@ -434,7 +434,7 @@ const ServicesPage = () => {
                         <Box className="flex w-full justify-center">
                             <Box className="flex w-2/3 justify-center">
                                 <Typography variant="h2" className="mb-4 font-light text-center" color='#283C28' sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     lineHeight: '0.9',
                                     fontSize: '48px',
                                     fontWeight: 300,
@@ -501,7 +501,7 @@ const ServicesPage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 300,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontStyle: 'italic',
                                     fontSize: '38px',
                                     lineHeight: '0.9'
@@ -595,7 +595,7 @@ const ServicesPage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 400,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
                                     fontSize: '30px'
                                 }}
@@ -715,7 +715,7 @@ const ServicesPage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 400,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
                                     fontSize: '30px'
                                 }}
@@ -839,7 +839,7 @@ const ServicesPage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 400,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
                                     fontSize: '30px'
                                 }}
@@ -955,7 +955,7 @@ const ServicesPage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 400,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
                                     fontSize: '30px'
                                 }}
@@ -1075,7 +1075,7 @@ const ServicesPage = () => {
                                 className="text-center"
                                 sx={{
                                     fontWeight: 400,
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     letterSpacing: '0.1em',
                                     fontSize: '30px'
                                 }}
@@ -1209,11 +1209,11 @@ const ServicesPage = () => {
                                         variant="h4"
                                         color="white"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontSize: '40px',
                                             fontStyle: 'italic',
                                             lineHeight: '1',
-                                            fontWeight: 200,
+                                            fontWeight: 300,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1223,7 +1223,7 @@ const ServicesPage = () => {
                                         variant="h4"
                                         color="white"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontSize: '40px',
                                             fontStyle: 'italic',
                                             lineHeight: '1',
@@ -1237,11 +1237,11 @@ const ServicesPage = () => {
                                         variant="h4"
                                         color="white"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontSize: '40px',
                                             lineHeight: '1',
                                             fontStyle: 'italic',
-                                            fontWeight: 200,
+                                            fontWeight: 300,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1251,11 +1251,11 @@ const ServicesPage = () => {
                                         variant="h4"
                                         color="white"
                                         sx={{
-                                            fontFamily: 'Chronicle Display',
+                                            // fontFamily: 'Chronicle Display',
                                             fontSize: '40px',
                                             lineHeight: '1',
                                             fontStyle: 'italic',
-                                            fontWeight: 200,
+                                            fontWeight: 300,
                                             textAlign: 'start',
                                         }}
                                     >
@@ -1306,10 +1306,10 @@ const ServicesPage = () => {
                                     variant="h3"
                                     color="#283C28"
                                     sx={{
-                                        fontWeight: 200,
+                                        fontWeight: 300,
                                         fontStyle: 'italic',
                                         lineHeight: '0.8',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         fontSize: '40px'
                                     }}
                                 >
@@ -1320,10 +1320,10 @@ const ServicesPage = () => {
                                     variant="h3"
                                     color="#283C28"
                                     sx={{
-                                        fontWeight: 200,
+                                        fontWeight: 300,
                                         fontStyle: 'italic',
                                         lineHeight: '0.8',
-                                        fontFamily: 'Chronicle Display',
+                                        // fontFamily: 'Chronicle Display',
                                         fontSize: '40px'
                                     }}
                                 >
@@ -1782,7 +1782,7 @@ const ServicesPage = () => {
                         <Box className="absolute z-10 text-center w-full flex flex-col items-center justify-center gap-y-8 mt-[-100px]">
                             <Box className="w-full">
                                 <Typography variant="h2"  color='#DCC5BD' sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                     lineHeight: 0.9,
                                     fontWeight: 400,
@@ -1790,7 +1790,7 @@ const ServicesPage = () => {
                                     READY TO CRAFT
                                 </Typography>
                                 <Typography variant="h2" color='#DCC5BD' sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                     lineHeight: 0.9,
                                     fontWeight: 400,
@@ -1798,7 +1798,7 @@ const ServicesPage = () => {
                                     YOUR STONE
                                 </Typography>
                                 <Typography variant="h2" color='#DCC5BD' sx={{
-                                    fontFamily: 'Chronicle Display',
+                                    // fontFamily: 'Chronicle Display',
                                     fontSize: '40px',
                                     lineHeight: 0.9,
                                     fontWeight: 400,

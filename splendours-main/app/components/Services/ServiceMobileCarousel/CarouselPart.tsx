@@ -72,7 +72,7 @@ const Carousel: React.FC<CarouselProps> = ({ items, options }) => {
                     width: '80%',
                     textAlign: 'start',
                     lineHeight: '0.9',
-                    fontFamily: 'Chronicle Display',
+                    // fontFamily: 'Chronicle Display',
                     fontSize: '30px'
                   }}
                 >
@@ -86,7 +86,7 @@ const Carousel: React.FC<CarouselProps> = ({ items, options }) => {
                     width: '80%',
                     lineHeight: '0.9',
                     textAlign: 'start',
-                    fontFamily: 'Chronicle Display',
+                    // fontFamily: 'Chronicle Display',
                     fontSize: '30px'
                   }}
                 >
