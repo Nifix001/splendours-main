@@ -168,8 +168,8 @@ const AboutPage = () => {
                                     className="text-center"
                                     sx={{
                                         // fontFamily: "Chronicle Display",
+                                        // fontstyle: "italic", 
                                         fontSize: "38px",
-                                        fontstyle: "italic",
                                         lineHeight: 1.2,
                                         fontWeight: 300,
                                     }}
