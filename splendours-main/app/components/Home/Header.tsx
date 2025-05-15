@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { useMediaQuery } from '@mui/material';
 import SplendoursOldHeader from './SplendoursOldHeader';
 import { FaMoneyBill } from 'react-icons/fa';
-import { Menu, Search } from 'lucide-react';
+import { Menu, Phone, Search } from 'lucide-react';
 const Header: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const isMobile = useMediaQuery('(max-width: 768px)'); // Media query for mobile
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                             }
                             <Box className="flex items-center justify-center gap-x-2" sx={{ marginRight: '2vw' }}>
                                 <Box className="flex items-end w-1/7">
-                                    <Link href="/visualizer">
+                                    <Link href="/">
                                         <Box className="flex items-center justify-center">
                                             <Box
                                                 className="relative"
@@ -103,6 +103,38 @@ const Header: React.FC = () => {
                                                         height={16} // Adjust height as needed
                                                     /> */}
                                                     <Search />
+                                                </Box>
+                                            </Box>
+                                        </Box>
+                                    </Link>
+                                </Box>
+                                <Box className="flex items-end w-1/7">
+                                    <Link href="/contact">
+                                        <Box className="flex items-center justify-center">
+                                            <Box
+                                                className="relative"
+                                                sx={{
+                                                    width: 30,
+                                                    height: 30,
+                                                }}
+                                            >
+                                                <Box
+                                                    className="absolute text-customColor rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                                    sx={{
+                                                        width: 18,
+                                                        height: 18,
+                                                        display: 'flex',
+                                                        justifyContent: 'center',
+                                                        alignItems: 'center',
+                                                    }}
+                                                >
+                                                    {/* <Image
+                                                        src="/images/Header/search.svg"
+                                                        alt="Hamburger Menu"
+                                                        width={16} // Adjust width as needed
+                                                        height={16} // Adjust height as needed
+                                                    /> */}
+                                                    <Phone />
                                                 </Box>
                                             </Box>
                                         </Box>
