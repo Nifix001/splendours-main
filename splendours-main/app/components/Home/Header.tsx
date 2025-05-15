@@ -751,7 +751,7 @@ const Header: React.FC = () => {
                                         fontFamily: 'var(--font-montserrat)',
                                         fontSize: "13px",
                                         marginBottom: '20px',
-                                        padding: '10px 0',
+                                        padding: '10px',
                                         // borderBottom: '2px solid #FFD700', // Gold underline
                                         // '&:hover': {
                                         //     color: '#FFD700',
