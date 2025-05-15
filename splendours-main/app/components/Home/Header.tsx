@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                 <Box className={`flex justify-center w-full h-[100%] lg:flex`}>
                     <header className={`fixed left-0 w-screen z-50 top-0`}>
                         <Box className={"bg-color h-[65px] flex flex-col pt-2 justify-center items-center w-full "}>
-                                <h3 className="text-[11px]/3 pt-2 px-2 text-customColor font-bold text-center">
+                                <h3 className="text-[10.5px]/3 pt-2 px-2 text-customColor font-bold text-center">
                                   REGISTER YOUR INFORMATION FOR FREE STONE SAMPLES SENT <br /> EXPRESS TO YOU!
                                 </h3>
                                 <Box className="flex items-center text-[9px] mt-1 justify-center gap-2">
@@ -745,7 +745,7 @@ const Header: React.FC = () => {
                             <Link href="https://staging.splendourinstone.com.au/quote/">
                                 <Typography
                                     variant="h3"
-                                    color="#DBC6BC"
+                                    // color="#DBC6BC"
                                     sx={{
                                         fontWeight: 500,
                                         fontFamily: 'var(--font-montserrat)',
