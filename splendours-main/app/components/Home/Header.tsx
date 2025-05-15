@@ -25,20 +25,20 @@ const Header: React.FC = () => {
                 <Box className={`flex justify-center w-full h-[100%] lg:flex`}>
                     <header className={`fixed left-0 w-screen z-50 top-0`}>
                         <Box className={"bg-color h-[65px] flex flex-col pt-2 justify-center items-center w-full "}>
-                                <h3 className="text-[10px] pt-2 text-customColor font-bold text-center">
+                                <h3 className="text-[11px]/3 pt-2 px-2 text-customColor font-bold text-center">
                                   REGISTER YOUR INFORMATION FOR FREE STONE SAMPLES SENT <br /> EXPRESS TO YOU!
                                 </h3>
                                 <Box className="flex items-center text-[9px] mt-1 justify-center gap-2">
 
                                 <Link
                                   href={"https://staging.splendourinstone.com.au/walling/#free-stone-samples"}
-                                  className="bg-customColor border border-customColor text-[#283c28] w-[90px] h-[29px] rounded-full text-xs-custom leading-tight-custom font-medium flex items-center justify-center hover:bg-white"
+                                  className="bg-customColor border border-customColor text-[#283c28] w-[90px] h-[29px] rounded-full text-[11px] leading-tight-custom font-semibold flex items-center justify-center hover:bg-white"
                                 >
                                   Click here
                                 </Link>
                                 <Link
                                   href={"https://www.splendourinstone.com.au/trade-credit/"}
-                                  className="border border-customColor h-[29px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-xs leading-tight-custom font-normal transition duration-300 hover:text-color hover:bg-customColor">
+                                  className="border border-customColor h-[29px] px-5 text-customColor flex items-center justify-center gap-2 rounded-full text-[11px] leading-tight-custom font-normal transition duration-300 hover:text-color hover:bg-customColor">
                                   <FaMoneyBill className="w-4 h-4" /> Trade Credit
                                 </Link>
                                 </Box>
@@ -758,7 +758,7 @@ const Header: React.FC = () => {
                                         //     transform: 'translateX(10px)', // Slide effect on hover
                                         // }
                                     }}
-                                    className=' p-3 rounded-3xl bg-customColor border border-customColor text-color'
+                                    className=' p-3 rounded-3xl bg-customColor border border-customColor text-[#283c28]'
                                 >
                                     FREE MEASURE & QUOTE!
                                 </Typography>
