@@ -2,9 +2,9 @@
 import * as THREE from 'three';
 import { Camera } from 'three'
 import React, { useState, useEffect, useRef } from 'react';
-import { Canvas, useLoader, useThree, useFrame } from '@react-three/fiber';
+import { Canvas, useLoader, useThree } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
-import { OrbitControls, SpotLight } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { TextureLoader } from 'three';
 import { createColorTexture } from '@/lib/createColorTexture';
@@ -13,7 +13,7 @@ import { createColorTexture } from '@/lib/createColorTexture';
 const WindowLights = ({ 
   windowPositions, 
   intensity = 2,
-  color = '#FFF9E5', // Warm window light color
+  color = '#FFFFFF', // Warm window light color
   visible = true 
 }: {
   windowPositions: Array<[number, number, number]>;
@@ -84,7 +84,7 @@ const House = ({
   const [maxPolarAngle, setMaxPolarAngle] = useState<number>(Math.PI / 1.5);
   const [intensity, setIntensity] = useState<number>(2.5);
   const [lightPoses, setLightPoses] = useState<[number, number, number]>([1, 1, 1]);
-  const colorTexture = createColorTexture('#FFFF00');
+  const colorTexture = createColorTexture('#FFFFFF');
   const sceneRef = useRef<THREE.Group>(new THREE.Group());
   
   // Window positions (adjust these based on your model)
@@ -95,6 +95,8 @@ const House = ({
     [-0.8, 0, -0.2], // Other side window
     [0, 0, -0.8]     // Back window
   ]);
+
+  console.log(intensity)
 
   // Environment lighting settings based on time of day
   const [environmentSettings, setEnvironmentSettings] = useState({
@@ -416,7 +418,7 @@ const House = ({
               windowPositions={windowPositions} 
               intensity={windowLightIntensity} 
               color={environmentSettings.windowLightColor}
-              visible={timeOfDay !== 'day'}
+              visible={timeOfDay !== 'night'}
             />
           )}
           
