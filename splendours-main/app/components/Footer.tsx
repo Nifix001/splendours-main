@@ -21,7 +21,7 @@ const Footer = () => {
                 <Box className="flex w-1/4  ">
                     <Box>
                         <Image
-                            src="/images/FooterIcon/footer-logo.svg"
+                            src="/images/Footer/splendour logo rounded.svg"
                             alt="Logo"
                             width={182}
                             height={182}
@@ -106,6 +106,32 @@ const Footer = () => {
                                             }}
                                         >
                                             WALLING
+                                        </Typography>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/portfolio">
+                                        <Typography
+                                            variant="h4"
+                                            color="#283C28"
+                                            className="font-semibold"
+                                            sx={{
+                                                fontFamily: 'var(--font-montserrat)',
+                                                fontSize: {
+                                                    xs: '14px',
+                                                    sm: '14px',
+                                                    md: '14px',
+                                                    lg: '15px',
+                                                },
+                                                fontWeight: 300,
+                                                textAlign: 'start',
+                                                transition: "transform 0.3s ease", // Smooth transition for the hover effect
+                                                "&:hover": {
+                                                    transform: "translateX(10px)", // Move 10px to the right on hover
+                                                },
+                                            }}
+                                        >
+                                            PORTFOLIO
                                         </Typography>
                                     </Link>
                                 </li>
@@ -275,6 +301,32 @@ const Footer = () => {
                                         </Typography>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link href="/faq">
+                                        <Typography
+                                            variant="h4"
+                                            color="#283C28"
+                                            className="font-semibold"
+                                            sx={{
+                                                fontFamily: 'var(--font-montserrat)',
+                                                fontSize: {
+                                                    xs: '14px',
+                                                    sm: '14px',
+                                                    md: '14px',
+                                                    lg: '15px',
+                                                },
+                                                fontWeight: 300,
+                                                textAlign: 'start',
+                                                transition: "transform 0.3s ease", // Smooth transition for the hover effect
+                                                "&:hover": {
+                                                    transform: "translateX(10px)", // Move 10px to the right on hover
+                                                },
+                                            }}
+                                        >
+                                            FAQ
+                                        </Typography>
+                                    </Link>
+                                </li>
                                 {/* <li>
                                     <Link href="https://www.splendourinstone.com.au/consultation/ ">
                                         <Typography
@@ -331,6 +383,32 @@ const Footer = () => {
                                         </Typography>
                                     </Link>
                                 </li> */}
+                                <li>
+                                    <Link href="/services">
+                                        <Typography
+                                            variant="h4"
+                                            color="#283C28"
+                                            className="font-semibold"
+                                            sx={{
+                                                fontFamily: 'var(--font-montserrat)',
+                                                fontSize: {
+                                                    xs: '14px',
+                                                    sm: '14px',
+                                                    md: '14px',
+                                                    lg: '15px',
+                                                },
+                                                fontWeight: 300,
+                                                textAlign: 'start',
+                                                transition: "transform 0.3s ease", // Smooth transition for the hover effect
+                                                "&:hover": {
+                                                    transform: "translateX(10px)", // Move 10px to the right on hover
+                                                },
+                                            }}
+                                        >
+                                            SERVICES
+                                        </Typography>
+                                    </Link>
+                                </li>
                                 <li>
                                     <Link href="/contact">
                                         <Typography

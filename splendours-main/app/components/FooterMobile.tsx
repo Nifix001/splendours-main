@@ -19,7 +19,7 @@ const FooterMobile = () => {
         >
             <Box className="flex w-full justify-center mt-6 mb-6">
                 <Image
-                    src="/images/Footer/Footer-logo-mobile.svg"
+                    src="/images/Footer/splendour logo rounded.svg"
                     alt="Logo"
                     width={182}
                     height={166}
@@ -90,6 +90,18 @@ const FooterMobile = () => {
                             }}
                         >BLOG</Typography>
                     </Link>
+                    <Link href={'/portfolio'} className="flex w-full justify-center">
+                        <Typography
+                            variant="h4"
+                            color="#283C28"
+                            className="text-center"
+                            sx={{
+                                fontFamily: 'var(--font-montserrat)',
+                                fontSize: '20px',
+                                fontWeight: 500,
+                            }}
+                        >PORTFOLIO</Typography>
+                    </Link>
                 </Box>
 
 
@@ -136,6 +148,18 @@ const FooterMobile = () => {
                             }}
                         >GALLERY</Typography>
                     </Link>
+                    <Link href={'/services'} className="flex w-full justify-center">
+                        <Typography
+                            variant="h4"
+                            color="#283C28"
+                            className="text-center"
+                            sx={{
+                                fontFamily: 'var(--font-montserrat)',
+                                fontSize: '20px',
+                                fontWeight: 500,
+                            }}
+                        >SERVICES</Typography>
+                    </Link>
                     <Link href={'/contact'} className="flex w-full justify-center">
                         <Typography
                             variant="h4"
@@ -147,6 +171,18 @@ const FooterMobile = () => {
                                 fontWeight: 500,
                             }}
                         >CONTACT</Typography>
+                    </Link>
+                    <Link href={'/faq'} className="flex w-full justify-center">
+                        <Typography
+                            variant="h4"
+                            color="#283C28"
+                            className="text-center"
+                            sx={{
+                                fontFamily: 'var(--font-montserrat)',
+                                fontSize: '20px',
+                                fontWeight: 500,
+                            }}
+                        >FAQ</Typography>
                     </Link>
                     <Link href={'https://staging.splendourinstone.com.au/consultation/'} className="flex w-full justify-center">
                         <Typography

@@ -275,7 +275,7 @@ const Home = () => {
                             </Box>
                             <Link href={'/contact'} className="ml-[2.5vw]" style={{ position: "relative" }}>
 
-                                <AboutWhiteBtn label={'Contact us'} icon={'images/Vectorn.svg'} />
+                                <AboutWhiteBtn label={'Contact Us'} icon={'images/Vectorn.svg'} />
 
                             </Link>
                         </Box>

@@ -49,7 +49,7 @@ const Header: React.FC = () => {
                             }}>
                                 <img
                                     className='px-3'
-                                    src={'/images/Header/mobile-main-logo.png'}
+                                    src={'/images/splendour logo.svg'}
                                     alt="Logo"
                                     style={{
                                         "width": '150px',

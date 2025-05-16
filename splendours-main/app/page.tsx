@@ -309,7 +309,7 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex justify-center items-center ml-8">
                             <Link href={'https://www.splendourinstone.com.au/walling/'}>
-                                <GreenAnimationButton label={'View all'} className="" icon="/images/icons/Vector.svg"></GreenAnimationButton>
+                                <GreenAnimationButton label={'View All'} className="" icon="/images/icons/Vector.svg"></GreenAnimationButton>
                             </Link>
                         </Box>
                     </Box>
@@ -364,7 +364,7 @@ const HomePage = () => {
                         </Typography>
                         <Box className="flex justify-center mt-6">
                             <Link href={'https://www.splendourinstone.com.au/walling/'} passHref>
-                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vectorn.svg'} />
+                                <GreenCustomButton label={'View All'} iconSrc={'/images/icons/Vectorn.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -448,7 +448,7 @@ const HomePage = () => {
                             <Box className="flex justify-center ml-5 mr-8 mb-5">
                                 <Link href={'https://www.splendourinstone.com.au/walling/'} passHref>
 
-                                    <GreenAnimationButton label={'View all'} icon={'/images/icons/Vector.svg'} className="" />
+                                    <GreenAnimationButton label={'View All'} icon={'/images/icons/Vector.svg'} className="" />
                                 </Link>
                             </Box>
                         </Box>
@@ -610,7 +610,7 @@ const HomePage = () => {
                             </Box>
                             <Box className="flex w-full justify-center items-center gap-2">
                                 {[
-                                    { label: 'View all', href: '/allvisualizers' },
+                                    { label: 'View All', href: '/allvisualizers' },
                                     { label: 'Try Now!', href: '/visualizer/Chimney' },
                                 ].map(({ label, href }, index) => (
                                     <Box key={index} className="flex">
@@ -642,7 +642,7 @@ const HomePage = () => {
                                 connect with something pure
                             <Box className="flex w-full justify-start ml-48 mt-4">
                                 <Link href={'/allvisualizers'}>
-                                    <AnimatedModalDemo label={'View all'} icon={'/images/Vectorn.svg'} ></AnimatedModalDemo>
+                                    <AnimatedModalDemo label={'View All'} icon={'/images/Vectorn.svg'} ></AnimatedModalDemo>
                                 </Link>
                             </Box>
                             </Typography>
@@ -789,7 +789,7 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex justify-center w-full">
                             <Link href={'https://www.splendourinstone.com.au/paving/'} passHref>
-                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
+                                <GreenCustomButton label={'View All'} iconSrc={'/images/icons/Vector.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -833,7 +833,7 @@ const HomePage = () => {
                             <Box className=" ml-20 flex items-start justify-start">
                                 <Link href={'https://www.splendourinstone.com.au/paving/'} passHref>
 
-                                    <GreenAnimationButton label={'View all'} className="px-2" icon={'/images/icons/Vector.svg'} />
+                                    <GreenAnimationButton label={'View All'} className="px-2" icon={'/images/icons/Vector.svg'} />
 
                                 </Link>
                             </Box>

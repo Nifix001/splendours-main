@@ -458,7 +458,7 @@ const AboutPage = () => {
                                     lineHeight: '1.4',
                                     fontWeight: 300,
                                 }}>
-                                    we&apos;re stone enthusiasts dedicated <br /> to crafting exceptional experiences for our clients.
+                                    We&apos;re stone enthusiasts dedicated <br /> to crafting exceptional experiences for our clients.
                                 </Typography>
                             </Box>
                         </Box>
@@ -500,7 +500,7 @@ const AboutPage = () => {
                                     },
                                     fontWeight: 100,
                                 }}>
-                                    we&apos;re stone enthusiasts dedicated to crafting exceptional experiences for our clients.
+                                    We&apos;re stone enthusiasts dedicated to crafting exceptional experiences for our clients.
                                 </Typography>
                             </Box>
                         </Box>
@@ -545,7 +545,7 @@ const AboutPage = () => {
                                             textAlign: 'center',
                                         }}
                                     >
-                                        he came across the immense beauty of <br /> limestone as displayed in the Pyramids of Giza. <br /> But this was just the beginning of his discovery <br /> of natural stone’s beauty.
+                                        He came across the immense beauty of <br /> limestone as displayed in the Pyramids of Giza. <br /> But this was just the beginning of his discovery <br /> of natural stone’s beauty.
                                     </Typography>
                                 </Box>
 
@@ -781,7 +781,7 @@ const AboutPage = () => {
                                             fontWeight: 400,
                                         }}
                                     >
-                                        he came across the immense beauty of limestone as displayed in the Pyramids of Giza. But this was just the beginning of his discovery of natural stone’s beauty.
+                                        He came across the immense beauty of limestone as displayed in the Pyramids of Giza. But this was just the beginning of his discovery of natural stone’s beauty.
                                     </Typography>
                                 </Box>
 
@@ -940,7 +940,7 @@ const AboutPage = () => {
                                         textAlign: 'center',
                                     }}
                                 >
-                                    that pushed Jordan to explore the craftsmanship and assembly of natural stone. Other notable features included:
+                                    That pushed Jordan to explore the craftsmanship and assembly of natural stone. Other notable features included:
                                 </Typography>
                                 <Typography
                                     variant="h4"
@@ -1012,7 +1012,7 @@ const AboutPage = () => {
                                         textAlign: 'start',
                                     }}
                                 >
-                                    that pushed Jordan to explore the craftsmanship and assembly of natural stone. Other notable features included:
+                                    That pushed Jordan to explore the craftsmanship and assembly of natural stone. Other notable features included:
                                 </Typography>
                                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px', color: 'white' }}>
                                     <li>
@@ -1130,7 +1130,7 @@ const AboutPage = () => {
                                     fontSize: '13px',
                                     fontWeight: 400,
                                 }}>
-                                    before his founding of Splendour in Stone include his <br /> apprenticeship in landscape construction and his <br /> work on fireplaces and feature walls using stone.<br />
+                                    Before his founding of Splendour in Stone include his <br /> apprenticeship in landscape construction and his <br /> work on fireplaces and feature walls using stone.<br />
                                     However, his passion remained in supplying stone <br /> after much-needed research, travel, and testing, <br /> leading to the birth of Slendour in Stone Pty Ltd.<br />
                                     Our journey was also fueled by a desire to bridge the <br /> gap between premium stone and accessible design <br /> solutions. Over the years, we've fostered a team of <br /> passionate professionals with a wealth of knowledge <br /> about natural stone and its applications.
                                 </Typography>
@@ -1185,7 +1185,7 @@ const AboutPage = () => {
                                     lineHeight: '1.4',
                                     fontWeight: 400,
                                 }}>
-                                    before his founding of Splendour in Stone include his apprenticeship in landscape construction and his work on fireplaces and feature walls using stone.<br />
+                                    Before his founding of Splendour in Stone include his apprenticeship in landscape construction and his work on fireplaces and feature walls using stone.<br />
                                     However, his passion remained in supplying stone after much-needed research, travel, and testing, leading to the birth of Slendour in Stone Pty Ltd.<br />
                                     Our journey was also fueled by a desire to bridge the gap between premium stone and accessible design solutions. Over the years, we&apos;ve fostered a team of passionate professionals with a wealth of knowledge about natural stone and its applications.
                                 </Typography>
@@ -2470,7 +2470,7 @@ const AboutPage = () => {
                                 fontSize: '12px',
                                 fontWeight: 400,
                             }}>
-                                as we do, we will be there to hold your <br /> hand as you make life-changing decisions<br /> about your living space.                        
+                                We will be there to hold your <br /> hand as you make life-changing decisions<br /> about your living space.                        
                             </Typography>
                         </Box>
                     </Box> : <Box className="flex w-full flex-col relative items-center justify-center text-white">
@@ -2512,7 +2512,7 @@ const AboutPage = () => {
                                 },
                                 fontWeight: 100,
                             }}>
-                                as we do, we will be there to hold your hand as you make life-changing decisions about your living space.
+                                We will be there to hold your hand as you make life-changing decisions about your living space.
                             </Typography>
                         </Box>
                     </Box>
