@@ -122,7 +122,7 @@ const Home = () => {
                     height: '100vh',
                     '@media (max-width: 768px)': {
                         backgroundImage: 'url(/images/Home/background-mobile.png)', // Mobile background
-                        height: '95vh',
+                        height: '90vh',
                     },
                     '@media (min-width: 769px) and (max-width: 1024px)': {
                         backgroundImage: 'url(/images/Home/background-mobile.png)', // Tablet-specific background
@@ -196,7 +196,7 @@ const Home = () => {
 
                 {isMobile ? (<Box className="flex flex-col w-full" sx={{ paddingX: '4vw', height: '30vh' }}>
 
-                    <Box className="flex items-center justify-start mb-4">
+                    <Box className="flex items-center justify-start mb-2">
                         <Box
 
                         >

@@ -34,7 +34,7 @@ export function GreenBtn({
           onClick={onClick} // Pass onClick to ModalTrigger
         >
           {/* Label */}
-          <span className="group-hover/modal-btn:translate-x-40 flex font-thin text-[14px] text-[#DCC5BD] justify-between gap-8 text-center transition duration-500">
+          <span className="group-hover/modal-btn:translate-x-40 flex font-light text-[14px] text-[#DCC5BD] justify-between gap-8 text-center transition duration-500">
             {label} {icon && (
               <Image
                 src={icon}
