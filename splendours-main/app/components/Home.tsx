@@ -188,7 +188,7 @@ const Home = () => {
                                 alt="Logo"
                                 width={18}
                                 height={600}
-                                className="h-[50vh] max-sm:h-full"
+                                className="h-[50vh] max-sm:h-[70vh]"
                             />
                         </Box>
                     </Box>
