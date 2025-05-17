@@ -122,7 +122,7 @@ const Home = () => {
                     height: '100vh',
                     '@media (max-width: 768px)': {
                         backgroundImage: 'url(/images/Home/background-mobile.png)', // Mobile background
-                        height: '90vh',
+                        height: '100vh',
                     },
                     '@media (min-width: 769px) and (max-width: 1024px)': {
                         backgroundImage: 'url(/images/Home/background-mobile.png)', // Tablet-specific background
