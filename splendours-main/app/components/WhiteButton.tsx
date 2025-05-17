@@ -21,7 +21,7 @@ const WhiteCustomButton: React.FC<CustomButtonProps> = ({ label, isMobile, iconS
                     sx={isMobile ?
                         {
                             width: { xs: "35px", md: '1vw' },
-                            height: { xs: "30px", md: '1vw' },
+                            height: { xs: "35px", md: '1vw' },
                             paddingRight: "2px",
                             backgroundSize: "cover",
                             backgroundImage: `url(${iconSrc})`,
