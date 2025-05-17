@@ -122,7 +122,7 @@ const Home = () => {
                     height: '100vh',
                     '@media (max-width: 768px)': {
                         backgroundImage: 'url(/images/Home/background-mobile.png)', // Mobile background
-                        height: '100vh',
+                        height: '95vh',
                     },
                     '@media (min-width: 769px) and (max-width: 1024px)': {
                         backgroundImage: 'url(/images/Home/background-mobile.png)', // Tablet-specific background
@@ -226,7 +226,7 @@ const Home = () => {
                     </Box>
 
                     <Box className="flex items-center justify-between gap-x-[10px] w-full">
-                        <WhiteCustomButton isMobile={isMobile} label={'Enquiry Now!'} iconSrc={'images/Vector.svg'} onClick={handleOpenEnquiryForm} />
+                        <WhiteCustomButton isMobile={isMobile} label={'Enquire Now!'} iconSrc={'images/Vector.svg'} onClick={handleOpenEnquiryForm} />
                         <Link href="/contact"><WhiteCustomButton isMobile={isMobile} label={'Contact Us'} iconSrc={'images/Vector.svg'} /></Link>
                     </Box>
                 </Box>) : isTablet ? (

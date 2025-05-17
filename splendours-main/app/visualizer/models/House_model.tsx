@@ -84,7 +84,7 @@ const House = ({
   const [maxPolarAngle, setMaxPolarAngle] = useState<number>(Math.PI / 1.5);
   const [intensity, setIntensity] = useState<number>(2.5);
   const [lightPoses, setLightPoses] = useState<[number, number, number]>([1, 1, 1]);
-  const colorTexture = createColorTexture('#FFFFFF');
+  const colorTexture = createColorTexture('#FFFF00');
   const sceneRef = useRef<THREE.Group>(new THREE.Group());
   
   // Window positions (adjust these based on your model)
@@ -418,7 +418,7 @@ const House = ({
               windowPositions={windowPositions} 
               intensity={windowLightIntensity} 
               color={environmentSettings.windowLightColor}
-              visible={timeOfDay !== 'night'}
+              visible={timeOfDay !== 'day'}
             />
           )}
           
